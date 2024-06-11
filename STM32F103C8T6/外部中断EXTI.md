@@ -54,7 +54,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 
 # 多个外部中断线
 
-![[../ASLant_Images/2024-06-01-20-51-07.png]]
+![[ASLant_Images/d0d36dd74936f9b7369dada269bc9874_MD5.jpg]]
 
 ```c
 /*****************************************************************

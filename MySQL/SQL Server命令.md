@@ -502,8 +502,6 @@ select * -- 查询视图
 from testView
 ```
 
-
-
 ## 存储过程
 
 > 创建不带参数存储过程
@@ -521,7 +519,6 @@ exec proc_get_student;
 ```
 
 
-
 > 带参存储过程
 
 ```sql
@@ -536,8 +533,6 @@ go
 exec proc_find_stu 2, 4;
 ```
 
-
-
 ## Datediff
 
 DATEDIFF () 函数返回两个日期之间的时间。
@@ -547,8 +542,6 @@ SELECT DATEDIFF(day,'2008-12-30','2008-12-29') AS DiffDate
 -- -1
 ```
 
-
-
 ## Isnull
 
 Isnull (参数 1，参数 2)，判断参数 1 是否为 NULL，如果是，返回参数 2，否则返回参数 1。
@@ -557,8 +550,6 @@ Isnull (参数 1，参数 2)，判断参数 1 是否为 NULL，如果是，返�
 select ISNULL(null,'helloword') -- 返回helloword字符串
 select ISNULL('','helloword') -- 返回 空串
 ```
-
-
 
 # 判断是否为 null
 

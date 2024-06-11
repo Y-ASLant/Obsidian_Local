@@ -1,6 +1,5 @@
 ### 在线数学公式编辑 
 - ### [`Latex`](https://www.latexlive.com/home)  
-
 ## 1. 关于 LaTeX 公式编辑 Introduce
 
 **LaTeX**（常被读作/ˈlɑːtɛk/或/ˈleɪtɛk/，正确读音:/ˈlɑːtɛx/音译：拉泰赫，写作 $\LaTeX$），是一种基于 TeX 的排版系统，由美国计算机科学家[莱斯利·兰伯特](https://zh.wikipedia.org/wiki/莱斯利·兰波特)在 20 世纪 80 年代初期开发。 **MathJax**是一个跨浏览器的 JavaScript 库，它使用 MathML、LaTeX 和 ASCIIMathML 标记在 Web 浏览器中显示数学符号。本页面是基于 [MathJax](https://www.mathjax.org/) 实现的便捷 LaTeX 公式编辑器，支持导出 SVG 矢量图、高清 PNG 位图、MathML 代码以及 SVGCode，并且可根据需要自定义加载 TeX 扩展包，实现功能拓展。
@@ -21,14 +20,12 @@
 
 ```
 # % ^ & _ { } ~ \
-        
 ```
 
 如您因其他原因需要直接显示它们，请在其前面加入 `\` 反斜杠或其它转义符。
 
 ```
 \# \% ^\wedge \& \_ \{ \} \sim \backslash
-        
 ```
 
 $$ \# \% ^\wedge \& \_ \{ \} \sim \backslash $$
@@ -185,8 +182,6 @@ SVGCode 是矢量图数据编码，用 svg 标签表示，可以直接粘贴在 
 |  18  |     $\wedge$     | \wedge                           |  37  |     $\dagger$      | \dagger          |
 |  19  |     $\circ$      | \circ                            |  38  |     $\ddagger$     | \ddagger         |
 
-
-
 ##### 2.1.4 二元关系符 Binary relations
 
 | 序号 |                   图标                   | LaTeX                                  | 序号 |      图标      | LaTeX        |
@@ -240,8 +235,6 @@ SVGCode 是矢量图数据编码，用 svg 标签表示，可以直接粘贴在 
 |  47  |                  $\ge$                   | \ge                                    |  95  | $\succapprox$  | \succapprox  |
 |  48  |                  $\geq$                  | \geq                                   |  96  | $\succnapprox$ | \succnapprox |
 
-
-
 ##### 2.1.5 几何符号 Geometric symbols
 
 | 序号 |       图标        | LaTeX             | 序号 |         图标          | LaTeX               |
@@ -259,8 +252,6 @@ SVGCode 是矢量图数据编码，用 svg 标签表示，可以直接粘贴在 
 |  11  |  $\blacksquare$   | \blacksquare      |  24  | $\blacktriangledown$  | \blacktriangledown  |
 |  12  |    $\diamond$     | \diamond          |  25  | $\blacktriangleleft$  | \blacktriangleleft  |
 |  13  |    $\Diamond$     | \Diamond \lozenge |  26  | $\blacktriangleright$ | \blacktriangleright |
-
-
 
 ##### 2.1.6 逻辑符号 Logic symbols
 
@@ -315,8 +306,6 @@ SVGCode 是矢量图数据编码，用 svg 标签表示，可以直接粘贴在 
 |  21  |    $\subset$     | \subset        |  43  |  $\supsetneqq$   | \supsetneqq    |
 |  22  |    $\Subset$     | \Subset        |  44  | $\varsupsetneqq$ | \varsupsetneqq |
 
-
-
 ##### 2.1.8 箭头 Arrows
 
 | 序号 |         图标          | LaTeX               | 序号 |          图标          | LaTeX                |
@@ -357,8 +346,6 @@ SVGCode 是矢量图数据编码，用 svg 标签表示，可以直接粘贴在 
 |  34  |      $\searrow$       | \searrow            |  69  |  $\twoheadleftarrow$   | \twoheadleftarrow    |
 |  35  |       $\mapsto$       | \mapsto             |      |                        |                      |
 
-
-
 ##### 2.1.9 特殊 Special
 
 | 序号 |       图标       | LaTeX          | 序号 |        图标         | LaTeX             |
@@ -395,8 +382,6 @@ SVGCode 是矢量图数据编码，用 svg 标签表示，可以直接粘贴在 
 |  30  |   $\clubsuit$    | \clubsuit      |  62  | $\ntrianglelefteq$  | \ntrianglelefteq  |
 |  31  |   $\spadesuit$   | \spadesuit     |  63  | $\trianglerighteq$  | \trianglerighteq  |
 |  32  |     $\Game$      | \Game          |  64  | $\ntrianglerighteq$ | \ntrianglerighteq |
-
-
 
 #### 2.2 运算与函数 Operations & Functions
 
@@ -435,12 +420,9 @@ SVGCode 是矢量图数据编码，用 svg 标签表示，可以直接粘贴在 
 
 ```
 \operatorname{mydefine}x
-        
 ```
 
 $$ \operatorname{mydefine}x $$
-
-
 
 ##### 2.2.3 根式 Radicals
 
@@ -451,8 +433,6 @@ $$ \operatorname{mydefine}x $$
 | $\sqrt[n]{\pi}$               | \sqrt[n]{\pi}               |
 | $\sqrt[3]{\frac{x^3+y^3}{2}}$ | \sqrt[3]{\frac{x^3+y^3}{2}} |
 
-
-
 ##### 2.2.4 微分与导数 Differentials and derivatives
 
 | 样式                                                         | LaTeX                                                        |
@@ -460,8 +440,6 @@ $$ \operatorname{mydefine}x $$
 | $dt, \mathrm{d}t, \partial t, \nabla\psi$                    | dt, \mathrm{d}t, \partial t, \nabla\psi                      |
 | $dy/dx, \mathrm{d}y/\mathrm{d}x, \frac{dy}{dx}, \frac{\mathrm{d}y}{\mathrm{d}x}, \frac{\partial^2}{\partial x_1\partial x_2}y$ | dy/dx, \mathrm{d}y/\mathrm{d}x, \frac{dy}{dx}, \frac{\mathrm{d}y}{\mathrm{d}x}, \frac{\partial^2}{\partial x_1\partial x_2}y |
 | $\prime, \backprime, f^\prime, f', f'', f^{(3)}, \dot y, \ddot y$ | \prime, \backprime, f^\prime, f', f'', f^{(3)}, \dot y, \ddot y |
-
-
 
 ##### 2.2.5 同余与模算术 Modular arithmetic
 
@@ -472,16 +450,12 @@ $$ \operatorname{mydefine}x $$
 | $\gcd (m, n), \operatorname{lcm}(m, n)$ | \gcd (m, n), \operatorname{lcm}(m, n) |
 | $\mid, \nmid, \shortmid, \nshortmid$   | \mid, \nmid, \shortmid, \nshortmid   |
 
-
-
 ##### 2.2.6 极限 Limits
 
 | 样式                                | LaTeX                             |
 | :---------------------------------- | :-------------------------------- |
 | $\lim_{n \to \infty}x_n$            | \lim_{n \to \infty}x_n            |
 | $\textstyle \lim_{n \to \infty}x_n$ | \textstyle \lim_{n \to \infty}x_n |
-
-
 
 ##### 2.2.7 界限与投影 Bounds and Projections
 
@@ -491,8 +465,6 @@ $$ \operatorname{mydefine}x $$
 | $\lim u, \liminf v, \limsup w$           | \lim u, \liminf v, \limsup w           |
 | $\dim p, \deg q, \det m, \ker\phi$       | \dim p, \deg q, \det m, \ker\phi       |
 | $\Pr j, \hom l, \lVert z \rVert, \arg z$ | \Pr j, \hom l, \lVert z \rVert, \arg z |
-
-
 
 ##### 2.2.8 积分 Integral
 
@@ -512,7 +484,6 @@ $$ \operatorname{mydefine}x $$
 
 ```
 \unicode{8751} \unicode{x 222 F}_C %曲面积分符号的 Unicode 码十进制为 8751, 十六进制为 x 222 F (注意 x 标识符)
-        
 ```
 
 $\Large\unicode{8751} \quad \unicode{x 222 F}_C %曲面积分符号的 Unicode 码十进制为 8751, 十六进制为 x 222 F (注意 x 标识符)$
@@ -530,13 +501,9 @@ $\Large\unicode{8752} \quad \unicode{x 2230}_C %三维曲面积分符号的 Unic
 \unicode{8753} \unicode{x 2231}_c
           \unicode{8754} \unicode{x 2232}_c
           \unicode{8755} \unicode{x 2233}_c
-        
 ```
 
 $\Large\unicode{8753} \qquad \unicode{x 2231}_c \qquad \unicode{8754} \qquad \unicode{x 2232}_c \qquad \unicode{8755} \qquad \unicode{x 2233}_c $
-
- 
-
 
 
 ##### 2.2.9 其他大型运算 Large operators
@@ -557,10 +524,6 @@ $\Large\unicode{8753} \qquad \unicode{x 2231}_c \qquad \unicode{8754} \qquad \un
 | 析取 Disjunction  | $$\textstyle \bigvee_{a}^{b}$$   | \textstyle \bigvee_{a}^{b}   |
 | 合取 Conjunction  | $$\bigwedge_{a}^{b}$$            | \bigwedge_{a}^{b}            |
 | 合取 Conjunction  | $$\textstyle \bigwedge_{a}^{b}$$ | \textstyle \bigwedge_{a}^{b} |
-
- 
-
-
 
 #### 2.3 上下标 Sub & Super
 
@@ -612,10 +575,6 @@ $\Large\unicode{8753} \qquad \unicode{x 2231}_c \qquad \unicode{8754} \qquad \un
 | 交集 Intersections                                           | $$\bigcap_{i=1}^n E_i$$                                      | \bigcap_{i=1}^n E_i                                  |
 | 并集 Unions                                                  | $$\bigcup_{i=1}^n E_i$$                                      | \bigcup_{i=1}^n E_i                                  |
 
- 
-
-
-
 #### 2.4 矩阵与多行列式 Matrices & Multilines
 
 | 类型                                                         | 样式                                                         | LaTeX                                                        |
@@ -638,15 +597,12 @@ $\Large\unicode{8753} \qquad \unicode{x 2231}_c \qquad \unicode{8754} \qquad \un
 | 方程组 Simultaneous equations                                | $\begin{cases} 3 x + 5 y + z \\ 7 x - 2 y + 4 z \\ -6 x + 3 y + 2 z \end{cases}$ | \begin{cases} 3 x + 5 y + z \\ 7 x - 2 y + 4 z \\ -6 x + 3 y + 2 z \end{cases} |
 | 数组 Arrays                                                  | $\begin{array}{ \| c \| c \| c \| } a & b & S \\ \hline 0&0&1\\ 0&1&1\\ 1&0&1\\ 1&1&0 \end{array}$ | \begin{array}{ \| c \| c \| c \| } a & b & S \\ \hline 0 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 0 & 1 \\ 1 & 1 & 0 \end{array} |
 
-
-
 #### 2.5 括号 Brackets
 
 常用的括号符号例如`( )[ ]{ }……`这些也可以在输入环境中直接使用：
 
 ```
 2 (x+y)=z
-        
 ```
 
 $$ 2 (x+y)=z $$
@@ -655,7 +611,6 @@ $$ 2 (x+y)=z $$
 
 ```
 ( \frac{\pi}{2} )^n
-        
 ```
 
 $$ ( \frac{\pi}{2} )^n $$
@@ -664,7 +619,6 @@ $$ ( \frac{\pi}{2} )^n $$
 
 ```
 \left ( \frac{\pi}{2} \right )^n
-        
 ```
 
 $$ \left ( \frac{\pi}{2} \right )^n $$
@@ -690,14 +644,7 @@ $$ \left ( \frac{\pi}{2} \right )^n $$
 | $\uparrow \big\uparrow \Big\uparrow \bigg\uparrow \Bigg\uparrow \dots \Bigg\Downarrow \bigg\Downarrow \Big\Downarrow \big\Downarrow \Downarrow$ | \uparrow \big\uparrow \Big\uparrow \bigg\uparrow \Bigg\uparrow \dots \Bigg\Downarrow \bigg\Downarrow \Big\Downarrow \big\Downarrow \Downarrow |                                                              |
 | $\updownarrow \big\updownarrow \Big\updownarrow \bigg\updownarrow \Bigg\updownarrow \dots \Bigg\Updownarrow \bigg\Updownarrow \Big\Updownarrow \big\Updownarrow \Updownarrow$ | \updownarrow \big\updownarrow \Big\updownarrow \bigg\updownarrow \Bigg\updownarrow \dots \Bigg\Updownarrow \bigg\Updownarrow \Big\Updownarrow \big\Updownarrow \Updownarrow |                                                              |
 | $/ \big/ \Big/ \bigg/ \Bigg/ \dots \Bigg\backslash \bigg\backslash \Big\backslash \big\backslash \backslash$ | / \big/ \Big/ \bigg/ \Bigg/ \dots \Bigg\backslash \bigg\backslash \Big\backslash \big\backslash \backslash |                                                              |
-
- 
-
-
-
 #### 2.6 空格与换行 Spacing & Line breaking
-
-
 
 ##### 2.6.1 空格 Spacing
 
@@ -716,8 +663,6 @@ MathJax 能够自动处理大多数空格间距的大小，但如果您需要自
 |  9   | $\mathit{ab}$  | \mathit{ab}  | 没有空格 (用于多字母变量)   |
 |  10  |     $a\! B$     | a! B          | 负空格                     |
 
-
-
 ##### 2.6.2 换行 Line breaking
 
 在 MathJax 3.0 中取消了使用`\\`进行强制换行的功能，因此本页面也采取同样的逻辑，默认为单行公式环境。`\\`强制换行命令只在支持多行编辑的数学环境中才起作用，如`eqnarray`环境、`align`环境、`array`环境、`matrix`环境等等。如您需要显示多行公式，建议在此类环境中输入公式，具体用法参见章节 [2.10](https://www.latexlive.com/help#d50)。
@@ -726,15 +671,12 @@ MathJax 能够自动处理大多数空格间距的大小，但如果您需要自
 
 ```
 \displaylines{y=1729 x \\ y=1729-x}
-        
 ```
 
 $$ \displaylines{y=1729 x \\ y=1729-x} $$
 
 
-
 #### 2.7 颜色 Colors
-
 
 
 ##### 2.7.1 字体颜色 Font colors
@@ -743,20 +685,17 @@ $$ \displaylines{y=1729 x \\ y=1729-x} $$
 
 ```
 {\color{Blue}x^2}+{\color{Orange}2 x}-{\color{LimeGreen}1}
-        
 ```
 
 $$ {\color{Blue}x^2}+{\color{Orange}2 x}-{\color{LimeGreen}1} $$
 
 ```
 x_{1,2}=\frac {{\color{Blue}-b}\pm\sqrt{\color{Red}b^2-4ac}} {\color{Green}2 a }
-        
 ```
 
 $$ x_{1,2}=\frac {{\color{Blue}-b}\pm\sqrt{\color{Red}b^2-4ac}} {\color{Green}2 a } $$
 
 **注意：** 使用`\color`命令时，请将需要设置颜色的部分用`{ }`整体扩住，以表明`\color`函数作用范围。
-
 
 
 ##### 2.7.2 背景颜色 Background color
@@ -765,7 +704,6 @@ $$ x_{1,2}=\frac {{\color{Blue}-b}\pm\sqrt{\color{Red}b^2-4ac}} {\color{Green}2 
 
 ```
 \colorbox{yellow}{Thistext}
-        
 ```
 
 $$ \colorbox{yellow}{Thistext} $$
@@ -774,14 +712,11 @@ $$ \colorbox{yellow}{Thistext} $$
 
 ```
 \colorbox{yellow}{$\displaystyle \frac{a}{b}$}
-        
 ```
 
 $$ \colorbox{yellow}{$\displaystyle \frac{a}{b}$} $$
 
 或者您可以使用 **Bbox 扩展** 来替换`\colorbox`命令，详见下条 2.7.3。
-
-
 
 ##### 2.7.3 用 Bbox 扩展设置背景颜色 Setting background color with Bbox
 
@@ -793,7 +728,6 @@ Bbox 扩展是一款自定义宏包，如需使用请在公式页面右上角【
 
 ```
 \bbox[red]{x+y}
-        
 ```
 
 $\bbox[red]{x+y}$
@@ -804,7 +738,6 @@ $\bbox[red]{x+y}$
 
 ```
 \bbox[2 pt]{x+y} %设置透明背景，并增加 2 pt 额外距离
-        
 ```
 
 $\bbox[2 pt]{x+y} %设置透明背景，并增加 2 pt 额外距离$
@@ -815,8 +748,6 @@ $\bbox[2 pt]{x+y} %设置透明背景，并增加 2 pt 额外距离$
 ```
 
 $\bbox[red, 5 pt]{x+y} %设置红色背景，并增加 5 pt 额外距离$
-
-
 
 ##### 2.7.4 默认支持颜色 Colors supported
 
@@ -840,20 +771,15 @@ $\bbox[red, 5 pt]{x+y} %设置红色背景，并增加 5 pt 额外距离$
 |      ${\color{Dandelion}Dandelion}$      | ${\color{Mulberry}Mulberry}$         | ${\color{RoyalBlue}RoyalBlue}$     | ${\color{YellowGreen}YellowGreen}$       |
 |     ${\color{DarkOrchid}DarkOrchid}$     | ${\color{NavyBlue}NavyBlue}$         | ${\color{RoyalPurple}RoyalPurple}$ | ${\color{YellowOrange}YellowOrange}$     |
 
-
-
 ##### 2.7.5 使用 RGB 颜色 Use RGB color
 
 如需在`\color`命令中使用自选 RGB 颜色，可使用`{\color[RGB]{0,0,0} }`命令，例如：
 
 ```
 {\color[RGB]{0,200,0} e^{i \pi} + 1 = 0}
-        
 ```
 
 $$ {\color[RGB]{0,200,0} e^{i \pi} + 1 = 0} $$
-
-
 
 ##### 2.7.6 自定义颜色 Custom colors
 
@@ -861,85 +787,78 @@ $$ {\color[RGB]{0,200,0} e^{i \pi} + 1 = 0} $$
 
 ```
 \definecolor{mygreen}{RGB}{0,200,0} {\color{mygreen}e^{i \pi} + 1 = 0 }
-        
 ```
 
 $$ \definecolor{mygreen}{RGB}{0,200,0} {\color{mygreen}e^{i \pi} + 1 = 0 } $$
 
-
-
 #### 2.8 字体字号 Fonts & Size
-
-
 
 ##### 2.8.1 字体 Fonts
 
 如您需要替换公式内容的字体，可以点击工具栏下方的**【字体】**按钮进行相关操作。因有一些特定代码 Mathjax 3.0 并没有相关支持，所以下表仅做参考。
 
-| 样式                                                         | LaTeX                                                        |
-| :----------------------------------------------------------- | :----------------------------------------------------------- |
-| 希腊字母 Greek alphabet                                      |                                                              |
-| $\mathrm{A} \mathrm{B} \Gamma \Delta \mathrm{E} \mathrm{Z} \mathrm{H} \Theta$ | \mathrm{A} \mathrm{B} \Gamma \Delta \mathrm{E} \mathrm{Z} \mathrm{H} \Theta |
-| $\mathrm{I} \mathrm{K} \Lambda \mathrm{M} \mathrm{N} \Xi \mathrm{O} \Pi$ | \mathrm{I} \mathrm{K} \Lambda \mathrm{M} \mathrm{N} \Xi \mathrm{O} \Pi |
-| $\mathrm{R} \Sigma \mathrm{T} \Upsilon \Phi \mathrm{X} \Psi \Omega$ | \mathrm{R} \Sigma \mathrm{T} \Upsilon \Phi \mathrm{X} \Psi \Omega |
-| $\alpha \beta \gamma \delta \epsilon \zeta \eta \theta$      | \alpha \beta \gamma \delta \epsilon \zeta \eta \theta        |
-| $\iota \kappa \lambda \mu \nu \xi \omicron \pi$              | \iota \kappa \lambda \mu \nu \xi \omicron \pi                |
-| $\rho \sigma \tau \upsilon \phi \chi \psi \omega$            | \rho \sigma \tau \upsilon \phi \chi \psi \omega              |
+| 样式                                                                                               | LaTeX                                                                                          |
+| :----------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
+| 希腊字母 Greek alphabet                                                                              |                                                                                                |
+| $\mathrm{A} \mathrm{B} \Gamma \Delta \mathrm{E} \mathrm{Z} \mathrm{H} \Theta$                    | \mathrm{A} \mathrm{B} \Gamma \Delta \mathrm{E} \mathrm{Z} \mathrm{H} \Theta                    |
+| $\mathrm{I} \mathrm{K} \Lambda \mathrm{M} \mathrm{N} \Xi \mathrm{O} \Pi$                         | \mathrm{I} \mathrm{K} \Lambda \mathrm{M} \mathrm{N} \Xi \mathrm{O} \Pi                         |
+| $\mathrm{R} \Sigma \mathrm{T} \Upsilon \Phi \mathrm{X} \Psi \Omega$                              | \mathrm{R} \Sigma \mathrm{T} \Upsilon \Phi \mathrm{X} \Psi \Omega                              |
+| $\alpha \beta \gamma \delta \epsilon \zeta \eta \theta$                                          | \alpha \beta \gamma \delta \epsilon \zeta \eta \theta                                          |
+| $\iota \kappa \lambda \mu \nu \xi \omicron \pi$                                                  | \iota \kappa \lambda \mu \nu \xi \omicron \pi                                                  |
+| $\rho \sigma \tau \upsilon \phi \chi \psi \omega$                                                | \rho \sigma \tau \upsilon \phi \chi \psi \omega                                                |
 | $\varGamma \varDelta \varTheta \varLambda \varXi \varPi \varSigma \varPhi \varUpsilon \varOmega$ | \varGamma \varDelta \varTheta \varLambda \varXi \varPi \varSigma \varPhi \varUpsilon \varOmega |
-| $\varepsilon \digamma \varkappa \varpi \varrho \varsigma \vartheta \varphi$ | \varepsilon \digamma \varkappa \varpi \varrho \varsigma \vartheta \varphi |
-| 希伯来字母 Hebrew symbols                                    |                                                              |
-| $\aleph \beth \gimel \daleth$                                | \aleph \beth \gimel \daleth                                  |
-| 黑板报体 Blackboard bold/scripts                             |                                                              |
-| $\mathbb{ABCDEFGHI}$                                         | \mathbb{ABCDEFGHI}                                           |
-| $\mathbb{JKLMNOPQR}$                                         | \mathbb{JKLMNOPQR}                                           |
-| $\mathbb{STUVWXYZ}$                                          | \mathbb{STUVWXYZ}                                            |
-| 粗体 Boldface                                                |                                                              |
-| $\mathbf{ABCDEFGHI}$                                         | \mathbf{ABCDEFGHI}                                           |
-| $\mathbf{JKLMNOPQR}$                                         | \mathbf{JKLMNOPQR}                                           |
-| $\mathbf{STUVWXYZ}$                                          | \mathbf{STUVWXYZ}                                            |
-| $\mathbf{abcdefghijklm}$                                     | \mathbf{abcdefghijklm}                                       |
-| $\mathbf{nopqrstuvwxyz}$                                     | \mathbf{nopqrstuvwxyz}                                       |
-| $\mathbf{0123456789}$                                        | \mathbf{0123456789}                                          |
-| 粗体希腊字母 Boldface (Greek)                                |                                                              |
-| $\boldsymbol{\mathrm{A} \mathrm{B} \Gamma \Delta \mathrm{E} \mathrm{Z} \mathrm{H} \Theta}$ | \boldsymbol{\mathrm{A} \mathrm{B} \Gamma \Delta \mathrm{E} \mathrm{Z} \mathrm{H} \Theta} |
-| $\boldsymbol{\mathrm{I} \mathrm{K} \Lambda \mathrm{M} \mathrm{N} \Xi \mathrm{O} \Pi}$ | \boldsymbol{\mathrm{I} \mathrm{K} \Lambda \mathrm{M} \mathrm{N} \Xi \mathrm{O} \Pi} |
-| $\boldsymbol{\mathrm{R} \Sigma \mathrm{T} \Upsilon \Phi \mathrm{X} \Psi \Omega}$ | \boldsymbol{\mathrm{R} \Sigma \mathrm{T} \Upsilon \Phi \mathrm{X} \Psi \Omega} |
-| $\boldsymbol{\alpha \beta \gamma \delta \epsilon \zeta \eta \theta}$ | \boldsymbol{\alpha \beta \gamma \delta \epsilon \zeta \eta \theta} |
-| $\boldsymbol{\iota \kappa \lambda \mu \nu \xi \omicron \pi}$ | \boldsymbol{\iota \kappa \lambda \mu \nu \xi \omicron \pi}   |
-| $\boldsymbol{\rho \sigma \tau \upsilon \phi \chi \psi \omega}$ | \boldsymbol{\rho \sigma \tau \upsilon \phi \chi \psi \omega} |
-| $\boldsymbol{\varepsilon\digamma\varkappa\varpi}$            | \boldsymbol{\varepsilon\digamma\varkappa\varpi}              |
-| $\boldsymbol{\varrho\varsigma\vartheta\varphi}$              | \boldsymbol{\varrho\varsigma\vartheta\varphi}                |
-| 斜体 Italics (拉丁字母默认 default for Latin alphabet)        |                                                              |
-| $\mathit{0123456789}$                                        | \mathit{0123456789}                                          |
-| 罗马体 Roman typeface                                        |                                                              |
-| $\mathrm{ABCDEFGHI}$                                         | \mathrm{ABCDEFGHI}                                           |
-| $\mathrm{JKLMNOPQR}$                                         | \mathrm{JKLMNOPQR}                                           |
-| $\mathrm{STUVWXYZ}$                                          | \mathrm{STUVWXYZ}                                            |
-| $\mathrm{abcdefghijklm}$                                     | \mathrm{abcdefghijklm}                                       |
-| $\mathrm{nopqrstuvwxyz}$                                     | \mathrm{nopqrstuvwxyz}                                       |
-| $\mathrm{0123456789}$                                        | \mathrm{0123456789}                                          |
-| 无衬线体 Sans serif                                          |                                                              |
-| $\mathsf{ABCDEFGHI}$                                         | \mathsf{ABCDEFGHI}                                           |
-| $\mathsf{JKLMNOPQR}$                                         | \mathsf{JKLMNOPQR}                                           |
-| $\mathsf{STUVWXYZ}$                                          | \mathsf{STUVWXYZ}                                            |
-| $\mathsf{abcdefghijklm}$                                     | \mathsf{abcdefghijklm}                                       |
-| $\mathsf{nopqrstuvwxyz}$                                     | \mathsf{nopqrstuvwxyz}                                       |
-| $\mathsf{0123456789}$                                        | \mathsf{0123456789}                                          |
-| 手写体 Calligraphy/花体 script                               |                                                              |
-| $\mathcal{ABCDEFGHI}$                                        | \mathcal{ABCDEFGHI}                                          |
-| $\mathcal{JKLMNOPQR}$                                        | \mathcal{JKLMNOPQR}                                          |
-| $\mathcal{STUVWXYZ}$                                         | \mathcal{STUVWXYZ}                                           |
-| 德文尖角体 Fraktur typeface                                  |                                                              |
-| $\mathfrak{ABCDEFGHI}$                                       | \mathfrak{ABCDEFGHI}                                         |
-| $\mathfrak{JKLMNOPQR}$                                       | \mathfrak{JKLMNOPQR}                                         |
-| $\mathfrak{STUVWXYZ}$                                        | \mathfrak{STUVWXYZ}                                          |
-| $\mathfrak{abcdefghijklm}$                                   | \mathfrak{abcdefghijklm}                                     |
-| $\mathfrak{nopqrstuvwxyz}$                                   | \mathfrak{nopqrstuvwxyz}                                     |
-| $\mathfrak{0123456789}$                                      | \mathfrak{0123456789}                                        |
-| 小型手写体 Small scriptstyle text                            |                                                              |
-| ${\scriptstyle\text{abcdefghijklm}}$                         | {\scriptstyle\text{abcdefghijklm}}                           |
-
-
+| $\varepsilon \digamma \varkappa \varpi \varrho \varsigma \vartheta \varphi$                      | \varepsilon \digamma \varkappa \varpi \varrho \varsigma \vartheta \varphi                      |
+| 希伯来字母 Hebrew symbols                                                                             |                                                                                                |
+| $\aleph \beth \gimel \daleth$                                                                    | \aleph \beth \gimel \daleth                                                                    |
+| 黑板报体 Blackboard bold/scripts                                                                     |                                                                                                |
+| $\mathbb{ABCDEFGHI}$                                                                             | \mathbb{ABCDEFGHI}                                                                             |
+| $\mathbb{JKLMNOPQR}$                                                                             | \mathbb{JKLMNOPQR}                                                                             |
+| $\mathbb{STUVWXYZ}$                                                                              | \mathbb{STUVWXYZ}                                                                              |
+| 粗体 Boldface                                                                                      |                                                                                                |
+| $\mathbf{ABCDEFGHI}$                                                                             | \mathbf{ABCDEFGHI}                                                                             |
+| $\mathbf{JKLMNOPQR}$                                                                             | \mathbf{JKLMNOPQR}                                                                             |
+| $\mathbf{STUVWXYZ}$                                                                              | \mathbf{STUVWXYZ}                                                                              |
+| $\mathbf{abcdefghijklm}$                                                                         | \mathbf{abcdefghijklm}                                                                         |
+| $\mathbf{nopqrstuvwxyz}$                                                                         | \mathbf{nopqrstuvwxyz}                                                                         |
+| $\mathbf{0123456789}$                                                                            | \mathbf{0123456789}                                                                            |
+| 粗体希腊字母 Boldface (Greek)                                                                          |                                                                                                |
+| $\boldsymbol{\mathrm{A} \mathrm{B} \Gamma \Delta \mathrm{E} \mathrm{Z} \mathrm{H} \Theta}$       | \boldsymbol{\mathrm{A} \mathrm{B} \Gamma \Delta \mathrm{E} \mathrm{Z} \mathrm{H} \Theta}       |
+| $\boldsymbol{\mathrm{I} \mathrm{K} \Lambda \mathrm{M} \mathrm{N} \Xi \mathrm{O} \Pi}$            | \boldsymbol{\mathrm{I} \mathrm{K} \Lambda \mathrm{M} \mathrm{N} \Xi \mathrm{O} \Pi}            |
+| $\boldsymbol{\mathrm{R} \Sigma \mathrm{T} \Upsilon \Phi \mathrm{X} \Psi \Omega}$                 | \boldsymbol{\mathrm{R} \Sigma \mathrm{T} \Upsilon \Phi \mathrm{X} \Psi \Omega}                 |
+| $\boldsymbol{\alpha \beta \gamma \delta \epsilon \zeta \eta \theta}$                             | \boldsymbol{\alpha \beta \gamma \delta \epsilon \zeta \eta \theta}                             |
+| $\boldsymbol{\iota \kappa \lambda \mu \nu \xi \omicron \pi}$                                     | \boldsymbol{\iota \kappa \lambda \mu \nu \xi \omicron \pi}                                     |
+| $\boldsymbol{\rho \sigma \tau \upsilon \phi \chi \psi \omega}$                                   | \boldsymbol{\rho \sigma \tau \upsilon \phi \chi \psi \omega}                                   |
+| $\boldsymbol{\varepsilon\digamma\varkappa\varpi}$                                                | \boldsymbol{\varepsilon\digamma\varkappa\varpi}                                                |
+| $\boldsymbol{\varrho\varsigma\vartheta\varphi}$                                                  | \boldsymbol{\varrho\varsigma\vartheta\varphi}                                                  |
+| 斜体 Italics (拉丁字母默认 default for Latin alphabet)                                                   |                                                                                                |
+| $\mathit{0123456789}$                                                                            | \mathit{0123456789}                                                                            |
+| 罗马体 Roman typeface                                                                               |                                                                                                |
+| $\mathrm{ABCDEFGHI}$                                                                             | \mathrm{ABCDEFGHI}                                                                             |
+| $\mathrm{JKLMNOPQR}$                                                                             | \mathrm{JKLMNOPQR}                                                                             |
+| $\mathrm{STUVWXYZ}$                                                                              | \mathrm{STUVWXYZ}                                                                              |
+| $\mathrm{abcdefghijklm}$                                                                         | \mathrm{abcdefghijklm}                                                                         |
+| $\mathrm{nopqrstuvwxyz}$                                                                         | \mathrm{nopqrstuvwxyz}                                                                         |
+| $\mathrm{0123456789}$                                                                            | \mathrm{0123456789}                                                                            |
+| 无衬线体 Sans serif                                                                                  |                                                                                                |
+| $\mathsf{ABCDEFGHI}$                                                                             | \mathsf{ABCDEFGHI}                                                                             |
+| $\mathsf{JKLMNOPQR}$                                                                             | \mathsf{JKLMNOPQR}                                                                             |
+| $\mathsf{STUVWXYZ}$                                                                              | \mathsf{STUVWXYZ}                                                                              |
+| $\mathsf{abcdefghijklm}$                                                                         | \mathsf{abcdefghijklm}                                                                         |
+| $\mathsf{nopqrstuvwxyz}$                                                                         | \mathsf{nopqrstuvwxyz}                                                                         |
+| $\mathsf{0123456789}$                                                                            | \mathsf{0123456789}                                                                            |
+| 手写体 Calligraphy/花体 script                                                                        |                                                                                                |
+| $\mathcal{ABCDEFGHI}$                                                                            | \mathcal{ABCDEFGHI}                                                                            |
+| $\mathcal{JKLMNOPQR}$                                                                            | \mathcal{JKLMNOPQR}                                                                            |
+| $\mathcal{STUVWXYZ}$                                                                             | \mathcal{STUVWXYZ}                                                                             |
+| 德文尖角体 Fraktur typeface                                                                           |                                                                                                |
+| $\mathfrak{ABCDEFGHI}$                                                                           | \mathfrak{ABCDEFGHI}                                                                           |
+| $\mathfrak{JKLMNOPQR}$                                                                           | \mathfrak{JKLMNOPQR}                                                                           |
+| $\mathfrak{STUVWXYZ}$                                                                            | \mathfrak{STUVWXYZ}                                                                            |
+| $\mathfrak{abcdefghijklm}$                                                                       | \mathfrak{abcdefghijklm}                                                                       |
+| $\mathfrak{nopqrstuvwxyz}$                                                                       | \mathfrak{nopqrstuvwxyz}                                                                       |
+| $\mathfrak{0123456789}$                                                                          | \mathfrak{0123456789}                                                                          |
+| 小型手写体 Small scriptstyle text                                                                     |                                                                                                |
+| ${\scriptstyle\text{abcdefghijklm}}$                                                             | {\scriptstyle\text{abcdefghijklm}}                                                             |
 
 ##### 2.8.2 字号 Size
 
@@ -959,11 +878,9 @@ $$ \definecolor{mygreen}{RGB}{0,200,0} {\color{mygreen}e^{i \pi} + 1 = 0 } $$
 
 ```
 {\tiny x+y=z}x+y=z{\Huge x+y=z}
-        
 ```
 
 $$ {\tiny x+y=z}x+y=z{\Huge x+y=z} $$
-
  
 
 
@@ -981,7 +898,6 @@ $$ {\tiny x+y=z}x+y=z{\Huge x+y=z} $$
           E = mc^2 \\
           E^{i\pi}+1=0
           \end{eqnarray}
-        
 ```
 
 $$ \begin{eqnarray} E = mc^2 \tag{1}\\ e^{i\pi}+1=0 \tag{2} \end{eqnarray} $$
@@ -993,7 +909,6 @@ $$ \begin{eqnarray} E = mc^2 \tag{1}\\ e^{i\pi}+1=0 \tag{2} \end{eqnarray} $$
           E = mc^2 \\
           E^{i\pi}+1=0
           \end{eqnarray*}
-        
 ```
 
 $$ \begin{eqnarray*} E = mc^2 \\ e^{i\pi}+1=0 \end{eqnarray*} $$
@@ -1003,7 +918,6 @@ $$ \begin{eqnarray*} E = mc^2 \\ e^{i\pi}+1=0 \end{eqnarray*} $$
           E = mc^2 \\
           E^{i\pi}+1=0 \nonumber
           \end{eqnarray}
-        
 ```
 
 $$ \begin{eqnarray} E = mc^2 \tag{1} \\ e^{i\pi}+1=0 \nonumber \end{eqnarray} $$
@@ -1015,15 +929,9 @@ $$ \begin{eqnarray} E = mc^2 \tag{1} \\ e^{i\pi}+1=0 \nonumber \end{eqnarray} $$
           E = mc^2 \notag\\
           E^{i\pi}+1=0 \tag{b}
           \end{eqnarray}
-        
 ```
 
 $$ \begin{eqnarray} E = mc^2 \notag\\ e^{i\pi}+1=0 \tag{b} \end{eqnarray} $$
-
- 
-
-
-
 #### 2.10 LaTeX 环境 LaTeX environments
 
 环境通常是对代码段的整体描述，用于表达此段代码的角色，如，是矩阵？单行公式？多行公式？还是对齐公式等（本页面不支持文档环境），不同的环境起到的作用不同。以`\begin{environments}`开始，`\end{environments}`结束。如最常用的矩阵命令，也是环境的一种，用法如下：
@@ -1033,14 +941,11 @@ $$ \begin{eqnarray} E = mc^2 \notag\\ e^{i\pi}+1=0 \tag{b} \end{eqnarray} $$
           1 & 0 \\
           0 & 1
           \end{bmatrix}
-        
 ```
 
 $$ \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} $$
 
 具体矩阵用法可参考章节 [2.4](https://www.latexlive.com/help#d34)，下面给出几种其它常用环境的具体用法：
-
-
 
 ##### 2.10.1 equation 环境
 
@@ -1054,7 +959,6 @@ $$ \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} $$
           & - \infty < x < \infty
           \end{split}
           \end{equation}
-        
 ```
 
 $$ \begin{equation*} \begin{split} e ^ { x } = & 1 + \frac { x } { 1 ! } + \frac { x ^ { 2 } } { 2 ! } + \frac { x ^ { 3 } } { 3 ! } + \cdots \\ & - \infty < x < \infty \end{split} \end{equation*} $$
@@ -1063,16 +967,9 @@ $$ \begin{equation*} \begin{split} e ^ { x } = & 1 + \frac { x } { 1 ! } + \frac
 \begin{equation}`环境在排版时可能会出现重影错误，可通过对整体添加`{ }`解决，如`{\begin{equation}……\end{equation}}.
 ```
 
- 
-
-
-
 ##### 2.10.2 eqnarray 环境
 
 `\begin{eqnarray}`是多行公式环境，环境内的所有公式默认右对齐，由 LaTeX 内核提供。
-
-
-
 ##### 2.10.3 align 环境
 
 `\begin{align}`是多行公式环境，环境内的所有公式默认右对齐，由 amsmath 提供，排版较为灵活，如需表示多行公式推荐使用此环境。
@@ -1082,7 +979,6 @@ $$ \begin{equation*} \begin{split} e ^ { x } = & 1 + \frac { x } { 1 ! } + \frac
           Y = x \\
           Y = 3 x^2 + 5 x + 2
           \end{align}
-        
 ```
 
 $$ \begin{align*} y = x \\ y = 3 x^2 + 5 x + 2 \end{align*} $$
@@ -1094,7 +990,6 @@ $$ \begin{align*} y = x \\ y = 3 x^2 + 5 x + 2 \end{align*} $$
           Y & = x \\
           Y & = 3 x^2 + 5 x + 2
           \end{align}
-        
 ```
 
 $$ \begin{align*} y & = x \\ y & = 3 x^2 + 5 x + 2 \end{align*} $$
@@ -1116,7 +1011,6 @@ $$ \begin{align*} y & = x \\ y & = 3 x^2 + 5 x + 2 \end{align*} $$
           1 & 0 & 1 \\
           1 & 1 & 0 \\
           \end{array}
-        
 ```
 
 $$ \begin{array}{|c|l|r|} a & b & S \\ \hline 00 & 00 & 10 \\ 0 & 1 & 1 \\ 1 & 0 & 1 \\ 1 & 1 & 0 \\ \end{array} $$
@@ -1124,14 +1018,7 @@ $$ \begin{array}{|c|l|r|} a & b & S \\ \hline 00 & 00 & 10 \\ 0 & 1 & 1 \\ 1 & 0
 对齐参数使用`c l r`分别表示居中、居左和居右，如需竖线边框可直接在对齐参数区域输入`|`即可，如需横线边框可使用`\hline`命令。
 
 更多环境使用可参考章节 [2.4](https://www.latexlive.com/help#d31)。
-
- 
-
-
-
 #### 2.11 TeX 扩展包使用 TeX and LaTeX extensions
-
-
 
 ##### 2.11.1 physics 扩展包
 
@@ -1311,8 +1198,6 @@ LaTeX 默认除号命令`\div`在 physics 包中有新的含义，表示。但�
 
 其它具体用法可参考 [physics扩展官方文档](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/physics/physics.pdf)。
 
-
-
 ##### 2.11.2 mhchem 扩展包
 
 Mhchem 是一款便捷输入化学方程式的扩展包，使用前需要在设置中手动勾选。其具体用法如下：
@@ -1327,7 +1212,6 @@ Mhchem 是一款便捷输入化学方程式的扩展包，使用前需要在设�
 
 ```
 \ce{H 2 O} \ce{Sb 2 O 3} \ce{H+} \ce{CrO 4^2-} \ce{[AgCl 2]-} \ce{Y^99+} \ce{Y^{99+}}
-        
 ```
 
 $\ce{H 2 O} \quad \ce{Sb 2 O 3} \quad \ce{H+} \quad \ce{CrO 4^2-} \quad \ce{[AgCl 2]-} \quad \ce{Y^99+} \quad \ce{Y^{99+}}$
@@ -1338,7 +1222,6 @@ $\ce{H 2 O} \quad \ce{Sb 2 O 3} \quad \ce{H+} \quad \ce{CrO 4^2-} \quad \ce{[AgC
 
 ```
 \ce{2 H 2 O} \ce{0.5 H 2 O} \ce{1/2 H 2 O} \ce{(1/2) H 2 O} \ce{$n$ H 2 O}
-        
 ```
 
 $\ce{2 H 2 O} \quad \ce{0.5 H 2 O} \quad \ce{1/2 H 2 O} \quad \ce{(1/2) H 2 O} \quad \ce{n H 2 O}$
@@ -1347,7 +1230,6 @@ $\ce{2 H 2 O} \quad \ce{0.5 H 2 O} \quad \ce{1/2 H 2 O} \quad \ce{(1/2) H 2 O} \
 
 ```
 \ce{^{227}_{90}Th+} \ce{^227_90 Th+} \ce{^{0}_{-1}n^{-}} \ce{^0_-1 n-}
-        
 ```
 
 $\ce{^{227}_{90}Th+} \quad \ce{^227_90 Th+} \quad \ce{^{0}_{-1}n^{-}} \quad \ce{^0_-1 n-}$
@@ -1356,7 +1238,6 @@ $\ce{^{227}_{90}Th+} \quad \ce{^227_90 Th+} \quad \ce{^{0}_{-1}n^{-}} \quad \ce{
 
 ```
 \ce{H{}^3 HO} \ce{H^3 HO}
-        
 ```
 
 $\ce{H{}^3 HO} \quad \ce{H^3 HO}$
@@ -1367,14 +1248,12 @@ Mhchem 提供了方便的反应箭头输入模式
 
 ```
 \ce{A -> B} \ce{A <- B} \ce{A <-> B}
-        
 ```
 
 $\ce{A -> B} \ce{A <- B} \ce{A <-> B} $
 
 ```
 \ce{A <--> B} \ce{A <=> B} \ce{A <=>> B} \ce{A <<=> B}
-        
 ```
 
 $\ce{A <--> B} \ce{A <=> B} \ce{A <=>> B} \ce{A <<=> B}$
@@ -1383,7 +1262,6 @@ $\ce{A <--> B} \ce{A <=> B} \ce{A <=>> B} \ce{A <<=> B}$
 
 ```
 \ce{A ->[H 2 O] B} \ce{A ->[{上方文字}][{下方文字}] B}
-        
 ```
 
 $\ce{A ->[H 2 O] B} \ce{A ->[{上方文字}][{下方文字}] B}$
@@ -1394,14 +1272,12 @@ $\ce{A ->[H 2 O] B} \ce{A ->[{上方文字}][{下方文字}] B}$
 
 ```
 \ce{SO 4^2- + Ba^2+ -> BaSO 4 v}
-        
 ```
 
 $\ce{SO 4^2- + Ba^2+ -> BaSO 4 v}$
 
 ```
 \ce{A v B (v) -> B ^ B (^)}
-        
 ```
 
 $\ce{A v B (v) -> B ^ B (^)}$
@@ -1411,21 +1287,18 @@ $\ce{A v B (v) -> B ^ B (^)}$
 ```
 \ce{Zn^2+ <=>[+ 2 OH-][+ 2 H+] $\underset{\text{amphoteres Hydroxid}}{\ce{Zn (OH) 2 v}}$ <=>[+
           2 OH-][+ 2 H+] $\underset{\text{Hydroxozikat}}{\ce{[Zn (OH) 4]^2-}}$}
-        
 ```
 
 $\ce{Zn^2+ <=>[+ 2 OH-][+ 2 H+] $\underset{\text{amphoteres Hydroxid}}{\ce{Zn (OH) 2 v}}$ <=>[+ 2 OH-][+ 2 H+] $\underset{\text{Hydroxozikat}}{\ce{[Zn (OH) 4]^2-}}$}$
 
 ```
 \ce{$K = \frac{[\ce{Hg^2+}][\ce{Hg}]}{[\ce{Hg 2^2+}]}$}
-        
 ```
 
 $\ce{$K = \frac{[\ce{Hg^2+}][\ce{Hg}]}{[\ce{Hg 2^2+}]}$}$
 
 ```
 \ce{$K = \ce{\frac{[Hg^2+][Hg]}{[Hg 2^2+]}}$}
-        
 ```
 
 $\ce{$K = \ce{\frac{[Hg^2+][Hg]}{[Hg 2^2+]}}$}$
@@ -1433,7 +1306,6 @@ $\ce{$K = \ce{\frac{[Hg^2+][Hg]}{[Hg 2^2+]}}$}$
 ```
 \ce{Hg^2+ ->[I-] $\underset{\mathrm{red}}{\ce{HgI 2}}$ ->[I-]
           $\underset{\mathrm{red}}{\ce{[Hg^{II}I 4]^2-}}$}
-        
 ```
 
 $\ce{Hg^2+ ->[I-] $\underset{\mathrm{red}}{\ce{HgI 2}}$ ->[I-] $\underset{\mathrm{red}}{\ce{[Hg^{II}I 4]^2-}}$}$
@@ -1448,21 +1320,15 @@ Cancel 扩展包为显示分数中**约分线**的 TeX 宏包，或显示其他�
 
 ```
 \cfrac{x}{1 + \cfrac{\cancel{y}}{\cancel{y}}} = \cfrac{x}{2}
-        
 ```
 
 $\cfrac{x}{1 + \cfrac{\cancel{y}}{\cancel{y}}} = \cfrac{x}{2}$
 
 ```
 \cancel{e^{i \pi} + 1 =0}
-        
 ```
 
 $\cancel{e^{i \pi} + 1 =0}$
-
- 
-
-
 
 ##### 2.11.4 Ams 扩展包
 
