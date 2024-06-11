@@ -31,7 +31,7 @@
     
 2. 方法 1：重命名为 **apktool.jar**，覆盖 `bin/apktool/apktool/` 目录下的旧版即可
     
-3. 方法 2：放置在 `bin/apktool/apktool/` 目录下，打开 **Android Killer** 首页的 **Android** 菜单并打开 **APKTOOL 管理器**，添加新版并选择为默认 !![[ASLant_Images/214e6b6bc54192653201c78ffc0e8171_MD5.jpg]] ![展示](file:///F:/APK/pictures/image2.png?lastModify=1716629405)
+3. 方法 2：放置在 `bin/apktool/apktool/` 目录下，打开 **Android Killer** 首页的 **Android** 菜单并打开 **APKTOOL 管理器**，添加新版并选择为默认 !![[ASLant_Images/214e6b6bc54192653201c78ffc0e8171_MD5.jpg]]
 ### dex2jar 更新方法
 
 1. 从 [dex2jar 下载页面](https://github.com/pxb1988/dex2jar/releases) 下载最新版的 **dex-tools-xxx.zip**（旧版名为 **dex2jar-xxx.zip**）

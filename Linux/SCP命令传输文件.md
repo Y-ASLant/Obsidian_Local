@@ -1,4 +1,4 @@
-> [!ERROR] [[Windows 下几种SSH连接|使用该命令前提 : 已经通过SSH连接服务器]]
+> [!ERROR] [[SSH连接|使用该命令前提 : 已经通过SSH连接服务器]]
 
 ## 什么是 Linux SCP 命令
 

@@ -2,7 +2,6 @@
 ```bash
 # 使用 wget 静默下载文件，显示下载进度，并忽略 SSL 证书检查
 wget -q --show-progress --no-check-certificate https://aslant.top/Cloud/OneDrive/Linux/ccat_install.sh
-
 ```
 
 命令的解释：

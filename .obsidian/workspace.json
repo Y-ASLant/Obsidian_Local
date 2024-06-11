@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fd0bcd87ba8990ac",
+            "id": "307817807b005272",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024.05.14 硬件清单.md",
+                "file": "Android/Android Killer.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024.05.14 硬件清单.md",
+                "file": "Android/Android Killer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024.05.14 硬件清单.md",
+                "file": "Android/Android Killer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024.05.14 硬件清单.md"
+                "file": "Android/Android Killer.md"
               }
             }
           }
@@ -178,8 +178,26 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "fd0bcd87ba8990ac",
+  "active": "307817807b005272",
   "lastOpenFiles": [
+    "Android/Android Code.md",
+    "Android/基础学习路线.md",
+    "Linux/Docker.md",
+    "Linux/Make 工具.md",
+    "Linux/SSH连接.md",
+    "Linux/Linux 小实验.md",
+    "STM32F103C8T6/未命名.md",
+    "Linux/WSL.md",
+    "Linux/WSL 2 使用串口.md",
+    "编程语言/解释型语言/Shell/Wget.md",
+    "编程语言/解释型语言/Shell/CentOS 8 一键换源.md",
+    "编程语言/解释型语言/Shell/清理.md",
+    "Linux/CentOS 8 一键换源.md",
+    "Linux/在 Linux 中删除文件或目录的几种方式.md",
+    "2024华清远见实训/机械臂_0x06.md",
+    "2024华清远见实训/机械臂_0x05.md",
+    "2024华清远见实训/机械臂_第一周总结.md",
+    "2024.05.14 硬件清单.md",
     "索引.md",
     "AAA.md",
     "IOT/OneNet.md",
@@ -188,8 +206,6 @@
     "编程语言/编译型语言/C语言/C语言 指针总结.md",
     "编程语言/编译型语言/C语言/C语言 内存.md",
     "编程语言/编译型语言/C语言/C语言 基础.md",
-    "编程语言/编译型语言/C++/C++ 基础.md",
-    "README.md",
     "ASLant_Images/75362c067e70149b39530d8df236731c_MD5.jpg",
     "ASLant_Images/3c086bcfed257564f4f25e441fd1d7f6_MD5.jpg",
     "ASLant_Images/11584a22b127ec49292f20eeb11f4d6f_MD5.jpg",
@@ -200,23 +216,7 @@
     "ASLant_Images/39a773bf0d8cd066f7fc437a24aca66d_MD5.jpg",
     "ASLant_Images/d48361d2903f37a260ca67b4e0128fc7_MD5.jpg",
     "ASLant_Images/075489761b6353c4a69ab847f3579a65_MD5.jpg",
-    "Test.md",
     "ASLant_Images",
-    "Win/索引.md",
-    "编程语言/编译型语言/JavaSE/Java 基础.md",
-    "编程语言/编译型语言/JavaSE/Java 常用类.md",
-    "编程语言/编译型语言/JavaSE/Java 补充.md",
-    "编程语言/编译型语言/JavaSE/导入MQTT SDK.md",
-    "编程语言/编译型语言/JavaEE/JavaEE标准.md",
-    "2024华清远见实训/机械臂_第一周总结.md",
-    "2024华清远见实训/机械臂_0x06.md",
-    "2024华清远见实训/机械臂_0x05.md",
-    "2024华清远见实训/机械臂_0x04.md",
-    "2024华清远见实训/机械臂_0x03.md",
-    "2024华清远见实训/机械臂_0x02.md",
-    "2024华清远见实训/机械臂_0x01.md",
-    "CET4.md",
-    "视频课程/MATLAB 官方教程.md",
     "编程语言/编译型语言/JavaEE",
     "大学课程/习近平新时代中国特色社会主义思想",
     "大学课程",

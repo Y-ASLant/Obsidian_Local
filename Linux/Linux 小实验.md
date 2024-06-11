@@ -1,38 +1,6 @@
-<center>Centos 8</center>
+### 实验_1
 
-### 开放 22 端口
------
-```sh
-# 以root身份执行！否则是空白文件
-su
-# 打开配置文件
-vi /etc/ssh/sshd_config
-# 进入编辑模式
-i
-# 手动将#Port 22中的#去掉
-
-# 保存并退出（按Esc后输入）
-:wq
-
-```
-
-### 安装 neofetch
-----
-```zsh
-# 1. 安装 epel-release
-sudo yum install epel-release
-
-# 2.添加第三方软件源
-curl -o /etc/yum.repos.d/konimex-neofetch-epel-7.repo https://copr.fedorainfracloud.org/coprs/konimex/neofetch/repo/epel-7/konimex-neofetch-epel-7.repo
-
-# 3.使用包管理器安装 neofetch
-sudo yum install neofetch
-```
-
-### 小练习_1
------
-> 有一个非常重要的文件（sources. List）但是你忘了它在哪了，你依稀记得它在 /etc/ 目录下，现在要你把这个文件找出来，然后设置成自己（shiyanlou 用户）可以访问，但是其他用户并不能访问。
->
+> [!ERROR] 有一个非常重要的文件（sources. List）但是你忘了它在哪了，你依稀记得它在 /etc/ 目录下，现在要你把这个文件找出来，然后设置成自己（shiyanlou 用户）可以访问，但是其他用户并不能访问。
 
 ```sh
 sudo find /etc -name sources.list
