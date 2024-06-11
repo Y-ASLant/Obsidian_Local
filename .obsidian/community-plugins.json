@@ -1,6 +1,5 @@
 [
   "remotely-save",
-  "webpage-html-export",
   "obsidian-kanban",
   "cmdr",
   "file-explorer-note-count",
@@ -22,7 +21,6 @@
   "nldates-obsidian",
   "table-editor-obsidian",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-image-auto-upload-plugin",
   "widgets",
   "share-my-plugin-list",
   "dataview",

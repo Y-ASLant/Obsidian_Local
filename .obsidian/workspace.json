@@ -170,13 +170,9 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "canvas:新建白板": false,
-      "obsidian-kanban:创建新看板": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "widgets:Add widget": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
+      "obsidian-kanban:创建新看板": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "fd0bcd87ba8990ac",
