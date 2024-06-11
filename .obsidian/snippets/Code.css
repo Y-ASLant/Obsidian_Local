@@ -1,0 +1,43 @@
+/*实时编辑*/
+.markdown-source-view span.cm-inline-code {
+  padding: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.theme-light .markdown-source-view span.cm-inline-code {
+  color: black;
+  background-color: #f6f1c6;
+  border-color: #a7a2a2;
+}
+
+.theme-dark .markdown-source-view span.cm-inline-code {
+  color: black;
+  background-color: #f6f1c6;
+  border-color: #7c7575
+}
+
+/*阅读模式*/
+div p code {
+  padding: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.theme-light div p code {
+  color: black;
+  background-color: #f6f1c6;
+  border-color: #a7a2a2;
+}
+
+.theme-dark div p code {
+  color: black;
+  background-color: #f6f1c6;
+  border-color: #7c7575
+}

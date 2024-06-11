@@ -1,0 +1,146 @@
+{
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "obsidian-excalidraw-plugin:save": [],
+  "obsidian-image-auto-upload-plugin:Upload all images": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "obsidian-outliner:fold": [],
+  "obsidian-outliner:unfold": [],
+  "obsidian-image-auto-upload-plugin:Download all images": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "markdown-importer:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "M"
+    }
+  ],
+  "workspace:close-others": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
+  ],
+  "editor:set-heading-1": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "editor:set-heading-2": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
+  ],
+  "editor:set-heading-3": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "3"
+    }
+  ],
+  "editor:set-heading-4": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "4"
+    }
+  ],
+  "editor:set-heading-5": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "5"
+    }
+  ],
+  "editor:set-heading-6": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "6"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-insert-codeblock": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": [],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "easy-typing-obsidian:easy-typing-format-switch": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
+  ],
+  "workspace:toggle-stacked-tabs": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "graph:animate": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-format-article": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ]
+}

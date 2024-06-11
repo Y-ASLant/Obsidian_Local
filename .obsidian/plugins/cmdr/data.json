@@ -1,0 +1,42 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "editor:toggle-code",
+      "icon": "lucide-code-2",
+      "name": "代码块",
+      "mode": "any"
+    },
+    {
+      "id": "editor:toggle-inline-math",
+      "icon": "lucide-sigma",
+      "name": "行内数学",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

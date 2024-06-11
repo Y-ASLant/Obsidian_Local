@@ -1,0 +1,18 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "interfaceFontFamily": "犬神志-达利M",
+  "monospaceFontFamily": "JetBrains Mono,犬神志-达利M",
+  "textFontFamily": "犬神志-达利M",
+  "baseFontSize": 19,
+  "baseFontSizeAction": true,
+  "cssTheme": "Border",
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "custom-rainbow-colors",
+    "extended-colorschemes",
+    "Code",
+    "Timeline-Snippet"
+  ],
+  "translucency": false
+}

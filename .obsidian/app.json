@@ -1,0 +1,21 @@
+{
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "vimMode": false,
+  "promptDelete": false,
+  "attachmentFolderPath": "ASLant_Images",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A3",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  },
+  "showInlineTitle": true,
+  "newLinkFormat": "relative",
+  "trashOption": "system",
+  "showUnsupportedFiles": false,
+  "useMarkdownLinks": false
+}
