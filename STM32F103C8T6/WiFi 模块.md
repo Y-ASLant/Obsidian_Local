@@ -1,6 +1,5 @@
 > [!BUG] ESP_01s 隶属于 ESP8266 系列
 > ![[ASLant_Images/b96447f3f544a9a8fbb49452ea474cb9_MD5.jpg]]
-[[ASLant_Images/b96447f3f544a9a8fbb49452ea474cb9_MD5.jpg|Open: b96447f3f544a9a8fbb49452ea474cb9_MD5.jpg]]
 ### ESP_01s工作模式
 
 ESP_01s 支持 STA、AP、AP+STA **三种**工作模式。

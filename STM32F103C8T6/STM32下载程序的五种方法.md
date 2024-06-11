@@ -77,18 +77,14 @@
 - Need： CH 340 USB 转 TTL 模块
     
     这种设备主要作用是用来调试或下载程序。价格也很便宜，普遍 5~8 元。常见的有以下两种：
-    P
-    ![[ASLant_Images/70f88eba70a13a2b8ac231106c723fbe_MD5.jpg]]
-    
-    ![[ASLant_Images/27836164a047abb3dac3adbc5a37e53b_MD5.jpg]]
+    ![[ASLant_Images/70f88eba70a13a2b8ac231106c723fbe_MD5.jpg|504]]
+    ![[ASLant_Images/27836164a047abb3dac3adbc5a37e53b_MD5.jpg|500]]
     
     个人更推荐下面一款，因为它可以切换 VCC 输出电压，在对一些传感器进行独立测试的时候会比较方便。不过反正也不贵，多买几个想怎么用就怎么用。
     
-
 ### 2.1 CH 340 驱动安装
 
 ![[ASLant_Images/d1e02718c367e7f2ef45aeebbcdf6486_MD5.jpg]]
-
 ![[ASLant_Images/9a62350e777fc68941f31e525bea9a3e_MD5.jpg]] ![[ASLant_Images/d3b036f847704ff8aa57c990af959b46_MD5.jpg]]
 ### 2.2 FlyMcu 安装
 

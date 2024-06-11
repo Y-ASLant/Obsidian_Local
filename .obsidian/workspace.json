@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "索引.md",
+                "file": "杂/CET4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49d3c5d430ee97d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STM32F103C8T6/问题汇总.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cet",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "索引.md",
+                "file": "STM32F103C8T6/问题汇总.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "索引.md",
+                "file": "STM32F103C8T6/问题汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "索引.md"
+                "file": "STM32F103C8T6/问题汇总.md"
               }
             }
           }
@@ -178,15 +191,35 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "2ea3ecafef9a2848",
+  "active": "49d3c5d430ee97d4",
   "lastOpenFiles": [
-    "杂/Test.md",
+    "ASLant_Images/e1b764dedc14be8f01614c8a58ef5424_MD5.jpg",
+    "ASLant_Images/5a12765dfdfbfe2ab17a4d8e7796cc58_MD5.jpg",
+    "ASLant_Images/3da61a1061e2dc2b4889d7e1f6e27668_MD5.jpg",
+    "ASLant_Images/a9c0c6cd36ccfc8c34da64966734e467_MD5.jpg",
+    "STM32F103C8T6/BLE 蓝牙模块.md",
+    "STM32F103C8T6/Delay延时函数.md",
+    "STM32F103C8T6/FreeRTOS创建.md",
+    "STM32F103C8T6/NVIC.md",
+    "STM32F103C8T6/Printf() 串口重定向.md",
+    "STM32F103C8T6/PWM.md",
+    "STM32F103C8T6/SG90舵机控制.md",
+    "STM32F103C8T6/STM32下载程序的五种方法.md",
+    "STM32F103C8T6/Systick滴答定时器.md",
+    "STM32F103C8T6/TB6612FNG电机驱动模块.md",
+    "STM32F103C8T6/WiFi 模块.md",
+    "ASLant_Images/b96447f3f544a9a8fbb49452ea474cb9_MD5.jpg",
+    "STM32F103C8T6/屏幕驱动.md",
+    "STM32F103C8T6/未命名.md",
+    "杂/CET4.md",
+    "Obsidian/Obsidian.md",
+    "Obsidian/笔记样式.md",
+    "Other/打包EXE文件.md",
     "索引.md",
+    "杂/Test.md",
     "README.md",
     "杂/AAA.md",
     "杂",
-    "Obsidian/Obsidian.md",
-    "Obsidian/笔记样式.md",
     "ASLant_Images/video/test.mp4",
     "ASLant_Images/video/te.mp4",
     "ASLant_Images/video/十行代码，就能让你理解看门狗！经常见但不知道看门狗是什么，看了这个视频你就知道了！.mp4",
@@ -194,36 +227,16 @@
     "C51/0x10_循环左移流水灯.md",
     "C51/0x09_不同周期LED闪烁.md",
     "C51/0x07_INT0改变LED状态.md",
-    "C51/0x05_定时器设计门铃.md",
-    "C51/0x03_do...while循环点灯.md",
-    "C51/0x02_4x4矩阵键盘.md",
-    "C51/0x00_最小系统.md",
-    "C51/0x04_左右来回流水灯.md",
-    "C51/0x01_8LED同时闪烁.md",
-    "视频课程/电路原理.md",
     "ASLant_Images/video/机场8k测试.mp4",
     "ASLant_Images/video",
     "ASLant_Images/新建文件夹",
     "Obsidian",
-    "Android/Android Killer.md",
-    "Android/Android Code.md",
-    "Android/基础学习路线.md",
-    "Linux/Docker.md",
-    "Linux/Make 工具.md",
-    "Linux/SSH连接.md",
-    "Linux/Linux 小实验.md",
-    "STM32F103C8T6/未命名.md",
-    "Linux/WSL.md",
     "ASLant_Images/75362c067e70149b39530d8df236731c_MD5.jpg",
     "ASLant_Images/3c086bcfed257564f4f25e441fd1d7f6_MD5.jpg",
     "ASLant_Images/11584a22b127ec49292f20eeb11f4d6f_MD5.jpg",
     "ASLant_Images/0a42c950895f96f6476ff7716cef937f_MD5.jpg",
     "ASLant_Images/264641746a99ea2e1294e41eb244f975_MD5.jpg",
     "ASLant_Images/5ecf98aa3fd783c703c2d47d6d569be8_MD5.jpg",
-    "ASLant_Images/f376267dc10c5079fb4c5500b22ab687_MD5.jpg",
-    "ASLant_Images/39a773bf0d8cd066f7fc437a24aca66d_MD5.jpg",
-    "ASLant_Images/d48361d2903f37a260ca67b4e0128fc7_MD5.jpg",
-    "ASLant_Images/075489761b6353c4a69ab847f3579a65_MD5.jpg",
     "ASLant_Images",
     "编程语言/编译型语言/JavaEE",
     "STM32F103C8T6/未命名 1.canvas",

@@ -3,15 +3,11 @@
 ### 创建基本项目
 ![[ASLant_Images/c753f49035c8e5295917dce4fc2cfb0e_MD5.jpg]]
 
-
 ![[ASLant_Images/0abdde44f1b050cd6ca127ddc6b09f9f_MD5.jpg]]
-
 
 ![[ASLant_Images/8d4259efe3b0abe539cf7a39ada7f6d2_MD5.jpg]]
 
-
 ![[ASLant_Images/11680523fa74ef41e6b588c8ae246bd4_MD5.jpg]]
-
 
 ![[ASLant_Images/d6989cafd0557e5d7bdac18f98b25c5f_MD5.jpg]]
 
@@ -120,7 +116,7 @@ void StartTask03(void *argument)
 ```
 
 # 最终效果
-<div style="text-align: center;"><video src="https://s138.ananas.chaoxing.com/sv-w8/video/9d/9e/5b/29a123f1fbc3f2a60bf5af12eccf6c8f/sd.mp4" width="60%" height="100%" controls="controls" class="rounded-video"></video></div>
+<div style="text-align: center;"><video src="https://s138.ananas.chaoxing.com/sv-w8/video/9d/9e/5b/29a123f1fbc3f2a60bf5af12eccf6c8f/sd.mp4" width="45%" height="100%" controls="controls" class="rounded-video"></video></div>
 
 #  方式二、手动创建 FreeRTOS 项目
 > [!BUG] [FreeRTOS](https://www.freertos.org/zh-cn-cmn-s/index.html)

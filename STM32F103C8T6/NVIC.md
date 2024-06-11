@@ -23,7 +23,8 @@
     
 
 ![[ASLant_Images/79fe996da09dc1e4c82d4307d023a5c5_MD5.gif]]
-![[ASLant_Images/b8928ac89943ea66fb1e7a302b85f122_MD5.jpg]]
+
+![[ASLant_Images/b8928ac89943ea66fb1e7a302b85f122_MD5.jpg|506]]
 
 ### STM32G431中断源
 
@@ -146,9 +147,41 @@ STM32 的每一个GPIO都能配置成一个外部中断触发源，这点也是 
 
 中断处理函数在stm32g4xx_it.c中，其中又调用了 __weak void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)，此函数可以在其它地方，如main.c 中去掉__weak，重新定义并生效，原来的__weak函数自动失效
 参考代码：
-`void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)   //函数中不能使用HAL_Delay {     switch(GPIO_Pin)     {         case GPIO_PIN_0:         {             HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, GPIO_PIN_RESET);             HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11|GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15, GPIO_PIN_SET);             HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_SET);             HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_RESET);             break;         }         case GPIO_PIN_1:         {             HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9, GPIO_PIN_RESET);             HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8|GPIO_PIN_10|GPIO_PIN_11|GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15, GPIO_PIN_SET);             HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_SET);             HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_RESET);             break;         }         case GPIO_PIN_2:         {             HAL_GPIO_WritePin(GPIOC, GPIO_PIN_10, GPIO_PIN_RESET);             HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_11|GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15, GPIO_PIN_SET);             HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_SET);             HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_RESET);             break;         }     } }`
-考试时如果需要使用4个铵键，那么不要用中断方式，还是用之前的扫描方式（即轮询，查看电平是否为低）
+```c
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) // 函数中不能使用
+    HAL_Delay(10);
+{
+    switch (GPIO_Pin)
+    {
+    case GPIO_PIN_0:
+    {
+        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, GPIO_PIN_RESET);
+        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9 | GPIO_PIN_10 | GPIO_PIN_11 | GPIO_PIN_12 | GPIO_PIN_13 | GPIO_PIN_14 | GPIO_PIN_15, GPIO_PIN_SET);
+        HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_SET);
+        HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_RESET);
+        break;
+    }
+    case GPIO_PIN_1:
+    {
+        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9, GPIO_PIN_RESET);
+        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8 | GPIO_PIN_10 | GPIO_PIN_11 | GPIO_PIN_12 | GPIO_PIN_13 | GPIO_PIN_14 | GPIO_PIN_15, GPIO_PIN_SET);
+        HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_SET);
+        HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_RESET);
+        break;
+    }
+    case GPIO_PIN_2:
+    {
+        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_10, GPIO_PIN_RESET);
+        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8 | GPIO_PIN_9 | GPIO_PIN_11 | GPIO_PIN_12 | GPIO_PIN_13 | GPIO_PIN_14 | GPIO_PIN_15, GPIO_PIN_SET);
+        HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_SET);
+        HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_RESET);
+        break;
+    }
+    }
+}
+```
 
+考试时如果需要使用4个铵键，那么不要用中断方式，还是用之前的扫描方式（即轮询，查看电平是否为低）
 ### 实践作业
 
 _按键，LCD，LED，蜂鸣器联合实验_
