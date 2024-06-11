@@ -11,8 +11,12 @@
             "id": "2ea3ecafef9a2848",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "索引.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -101,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/Obsidian.md",
+                "file": "索引.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/Obsidian.md",
+                "file": "索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/Obsidian.md"
+                "file": "索引.md"
               }
             }
           }
@@ -174,8 +178,14 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "48474868f5e85949",
+  "active": "2ea3ecafef9a2848",
   "lastOpenFiles": [
+    "杂/Test.md",
+    "索引.md",
+    "README.md",
+    "杂/AAA.md",
+    "杂",
+    "Obsidian/Obsidian.md",
     "Obsidian/笔记样式.md",
     "ASLant_Images/video/test.mp4",
     "ASLant_Images/video/te.mp4",
@@ -195,8 +205,6 @@
     "ASLant_Images/video",
     "ASLant_Images/新建文件夹",
     "Obsidian",
-    "索引.md",
-    "README.md",
     "Android/Android Killer.md",
     "Android/Android Code.md",
     "Android/基础学习路线.md",
@@ -206,8 +214,6 @@
     "Linux/Linux 小实验.md",
     "STM32F103C8T6/未命名.md",
     "Linux/WSL.md",
-    "Linux/WSL 2 使用串口.md",
-    "编程语言/解释型语言/Shell/Wget.md",
     "ASLant_Images/75362c067e70149b39530d8df236731c_MD5.jpg",
     "ASLant_Images/3c086bcfed257564f4f25e441fd1d7f6_MD5.jpg",
     "ASLant_Images/11584a22b127ec49292f20eeb11f4d6f_MD5.jpg",
@@ -220,7 +226,6 @@
     "ASLant_Images/075489761b6353c4a69ab847f3579a65_MD5.jpg",
     "ASLant_Images",
     "编程语言/编译型语言/JavaEE",
-    "大学课程/习近平新时代中国特色社会主义思想",
     "STM32F103C8T6/未命名 1.canvas",
     "STM32F103C8T6/未命名.canvas",
     "Win/未命名.canvas",
