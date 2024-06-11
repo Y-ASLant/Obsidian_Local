@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/Android Killer.md",
+                "file": "视频课程/8K HDR.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Killer.md",
+                "file": "视频课程/8K HDR.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Android Killer.md",
+                "file": "视频课程/8K HDR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Android Killer.md"
+                "file": "视频课程/8K HDR.md"
               }
             }
           }
@@ -180,6 +180,9 @@
   },
   "active": "307817807b005272",
   "lastOpenFiles": [
+    "索引.md",
+    "README.md",
+    "Android/Android Killer.md",
     "Android/Android Code.md",
     "Android/基础学习路线.md",
     "Linux/Docker.md",
@@ -198,14 +201,11 @@
     "2024华清远见实训/机械臂_0x05.md",
     "2024华清远见实训/机械臂_第一周总结.md",
     "2024.05.14 硬件清单.md",
-    "索引.md",
     "AAA.md",
     "IOT/OneNet.md",
     "IOT/MQTT.md",
     "IOT/ESP数据上云.md",
     "编程语言/编译型语言/C语言/C语言 指针总结.md",
-    "编程语言/编译型语言/C语言/C语言 内存.md",
-    "编程语言/编译型语言/C语言/C语言 基础.md",
     "ASLant_Images/75362c067e70149b39530d8df236731c_MD5.jpg",
     "ASLant_Images/3c086bcfed257564f4f25e441fd1d7f6_MD5.jpg",
     "ASLant_Images/11584a22b127ec49292f20eeb11f4d6f_MD5.jpg",
