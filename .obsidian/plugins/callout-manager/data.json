@@ -1,0 +1,51 @@
+{
+  "callouts": {
+    "custom": [
+      "title"
+    ],
+    "settings": {
+      "cite": [
+        {
+          "changes": {
+            "color": "208, 181, 48"
+          }
+        }
+      ],
+      "success": [
+        {
+          "changes": {
+            "color": "0, 0, 0"
+          }
+        }
+      ],
+      "title": [
+        {
+          "changes": {
+            "icon": "lucide-atom"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "42, 187, 132"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "37, 136, 98"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

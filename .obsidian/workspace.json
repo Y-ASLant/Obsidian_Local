@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Docker.md",
+                "file": "Encryption/Other.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Docker.md",
+                "file": "Encryption/Other.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Docker.md",
+                "file": "Encryption/Other.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Docker.md"
+                "file": "Encryption/Other.md"
               }
             }
           }
@@ -188,11 +188,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "widgets:Add widget": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
+      "callout-manager:Insert Callout": false
     }
   },
   "active": "49d3c5d430ee97d4",
   "lastOpenFiles": [
+    "Encryption/Clash Meta Node.md",
+    "Encryption/Other.md",
+    "PVE/安装PVE.md",
+    "Linux/Docker.md",
+    "PVE",
     "Linux/GCC编译.md",
     "Linux/CentOS 8 一键换源.md",
     "Linux/在 Linux 中删除文件或目录的几种方式.md",
@@ -216,10 +222,6 @@
     "Other/API.md",
     "Other/Android 分区 未整理.md",
     "Other/正则表达式.md",
-    "Other/小米妙享.md",
-    "Other/打包EXE文件.md",
-    "Other/雷池WAF.md",
-    "PHP/雪花 API.md",
     "ASLant_Images/d0d36dd74936f9b7369dada269bc9874_MD5.jpg",
     "ASLant_Images/e1b764dedc14be8f01614c8a58ef5424_MD5.jpg",
     "ASLant_Images/5a12765dfdfbfe2ab17a4d8e7796cc58_MD5.jpg",
@@ -238,7 +240,6 @@
     "ASLant_Images/3c086bcfed257564f4f25e441fd1d7f6_MD5.jpg",
     "ASLant_Images/11584a22b127ec49292f20eeb11f4d6f_MD5.jpg",
     "ASLant_Images",
-    "编程语言/编译型语言/JavaEE",
     "STM32F103C8T6/未命名 1.canvas",
     "STM32F103C8T6/未命名.canvas",
     "Win/未命名.canvas",
