@@ -78,7 +78,7 @@ For another, it is self-evident that a healthy society requires the inner beauty
 ```
 
 # Write
-![[ASLant_Images/2024-06-10-17-04-11.png]]
+![[ASLant_Images/4ca72a5433c2ba5e7967831d983420ed_MD5.jpg]]
 
 ```js
 # 第一段开头：
@@ -91,5 +91,5 @@ For another, it is self-evident that a healthy society requires the inner beauty
   In the light of what has been said above, I think no one deny the fact that AI is necessary for us and if you rational make use of AI, you will get a shining future.
 ```
 
-![[ASLant_Images/2024-06-10-18-19-00.png]]
+![[ASLant_Images/2aa20676ef7779bb2923fa4066c5a858_MD5.jpg]]
 
