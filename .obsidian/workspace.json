@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂/CET4.md",
+                "file": "Encryption/Other.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂/CET4.md",
+                "file": "Encryption/Other.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂/CET4.md"
+                "file": "Encryption/Other.md"
               }
             }
           }
@@ -191,12 +192,12 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "2ea3ecafef9a2848",
+  "active": "49d3c5d430ee97d4",
   "lastOpenFiles": [
-    "ASLant_Images/2aa20676ef7779bb2923fa4066c5a858_MD5.jpg",
     "杂/CET4.md",
-    "ASLant_Images/4ca72a5433c2ba5e7967831d983420ed_MD5.jpg",
     "Encryption/Other.md",
+    "ASLant_Images/2aa20676ef7779bb2923fa4066c5a858_MD5.jpg",
+    "ASLant_Images/4ca72a5433c2ba5e7967831d983420ed_MD5.jpg",
     "Encryption/Clash Meta Node.md",
     "PVE/安装PVE.md",
     "Linux/Docker.md",
