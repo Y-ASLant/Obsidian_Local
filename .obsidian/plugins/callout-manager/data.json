@@ -1,7 +1,9 @@
 {
   "callouts": {
     "custom": [
-      "title"
+      "title",
+      "download",
+      "box"
     ],
     "settings": {
       "cite": [
@@ -38,6 +40,36 @@
           },
           "changes": {
             "color": "37, 136, 98"
+          }
+        }
+      ],
+      "check": [
+        {
+          "changes": {
+            "icon": "lucide-shield-check"
+          }
+        }
+      ],
+      "download": [
+        {
+          "changes": {
+            "icon": "lucide-download-cloud",
+            "color": "39, 196, 99"
+          }
+        }
+      ],
+      "note": [
+        {
+          "changes": {
+            "icon": "lucide-book-open"
+          }
+        }
+      ],
+      "box": [
+        {
+          "changes": {
+            "icon": "lucide-box",
+            "color": "33, 20, 215"
           }
         }
       ]
