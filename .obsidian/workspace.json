@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encryption/Other.md",
+                "file": "Encryption/索引.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encryption/Other.md",
+                "file": "Encryption/索引.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Encryption/Other.md",
+                "file": "Encryption/索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Encryption/Other.md"
+                "file": "Encryption/索引.md"
               }
             }
           }
@@ -195,7 +195,7 @@
   "active": "49d3c5d430ee97d4",
   "lastOpenFiles": [
     "杂/CET4.md",
-    "Encryption/Other.md",
+    "Encryption/索引.md",
     "ASLant_Images/2aa20676ef7779bb2923fa4066c5a858_MD5.jpg",
     "ASLant_Images/4ca72a5433c2ba5e7967831d983420ed_MD5.jpg",
     "Encryption/Clash Meta Node.md",
