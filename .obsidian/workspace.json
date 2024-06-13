@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂/CET4.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d997ccccbe4e97bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLE新大陆/NLE 物联网.md",
+                "file": "编程语言/编译型语言/C语言/C语言 指针总结.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLE新大陆/NLE 物联网.md",
+                "file": "编程语言/编译型语言/C语言/C语言 指针总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLE新大陆/NLE 物联网.md",
+                "file": "编程语言/编译型语言/C语言/C语言 指针总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLE新大陆/NLE 物联网.md"
+                "file": "编程语言/编译型语言/C语言/C语言 指针总结.md"
               }
             }
           }
@@ -190,16 +177,29 @@
       "widgets:Add widget": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d997ccccbe4e97bd",
+  "active": "526ef0f59fb2e8f3",
   "lastOpenFiles": [
-    "ASLant_Files/我的19岁-电子设计大赛  1 .pdf",
+    "编程语言/编译型语言/C语言/C语言 内存.md",
+    "编程语言/编译型语言/C语言/C语言 指针总结.md",
+    "ASLant_Files/3e7791109ba33d6a94a056e687176fcb_MD5.jpg",
+    "ASLant_Files/f871426c3f90597011a430f8e62d024f_MD5.jpg",
+    "ASLant_Files/f1108f0b060eebc8299b75d2a32a834f_MD5.jpg",
+    "ASLant_Files/f8c975cfb1f7198f265a649146511509_MD5.jpg",
+    "ASLant_Files/e39758898d545aa1280baaf28177914f_MD5.jpg",
+    "ASLant_Files/e7f2000394f2974db7f233ad82b57681_MD5.jpg",
+    "ASLant_Files/dfcf61679f46e015133958fd919e44cf_MD5.jpg",
+    "ASLant_Files/de5f094d76ae659cbb9adc4f683f0f5c_MD5.jpg",
+    "ASLant_Files/ddc8ee6dc30b22a1f80de124ddc4395d_MD5.jpg",
+    "ASLant_Files/dcd69f97d9f16ab51041c916fd554ac9_MD5.jpg",
     "杂/CET4.md",
     "NLE新大陆/NLE 物联网.md",
-    "ASLant_Files/video/test.mp4",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
+    "ASLant_Files/我的19岁-电子设计大赛  1 .pdf",
+    "ASLant_Files/video/test.mp4",
     "PVE虚拟化/安装PVE.md",
     "PVE虚拟化/PVE 下安装黑群晖.md",
     "杂/AAA.md",
@@ -207,8 +207,6 @@
     "ASLant_Files/1718272640593.mp3",
     "Win/索引.md",
     "Encryption/索引.md",
-    "ASLant_Files/2aa20676ef7779bb2923fa4066c5a858_MD5.jpg",
-    "ASLant_Files/4ca72a5433c2ba5e7967831d983420ed_MD5.jpg",
     "Encryption/Clash Meta Node.md",
     "Linux/Docker.md",
     "PVE虚拟化",
@@ -222,25 +220,15 @@
     "Other/WSL_GCC_Q.md",
     "Other/Windows 桌面图标缓存清理.md",
     "Other/wewe-RSS.md",
-    "ASLant_Files/71f85d5cfbee1319073529cd3bc9b257_MD5.jpg",
     "Other/VMware 安装 MAC OS.md",
     "Other/Powershell.md",
     "Other/Markdown 基本语法.md",
     "Other/Git 版本控制器.md",
-    "Other/Hexo.md",
-    "ASLant_Files/d0d36dd74936f9b7369dada269bc9874_MD5.jpg",
-    "ASLant_Files/e1b764dedc14be8f01614c8a58ef5424_MD5.jpg",
-    "ASLant_Files/5a12765dfdfbfe2ab17a4d8e7796cc58_MD5.jpg",
-    "ASLant_Files/3da61a1061e2dc2b4889d7e1f6e27668_MD5.jpg",
-    "ASLant_Files/a9c0c6cd36ccfc8c34da64966734e467_MD5.jpg",
-    "ASLant_Files/b96447f3f544a9a8fbb49452ea474cb9_MD5.jpg",
     "杂",
     "ASLant_Images/video/te.mp4",
     "ASLant_Images/video/十行代码，就能让你理解看门狗！经常见但不知道看门狗是什么，看了这个视频你就知道了！.mp4",
     "ASLant_Images/video/机场8k测试.mp4",
     "ASLant_Files/video",
-    "ASLant_Images/新建文件夹",
-    "ASLant_Files/75362c067e70149b39530d8df236731c_MD5.jpg",
     "STM32F103C8T6/未命名 1.canvas",
     "STM32F103C8T6/未命名.canvas",
     "Win/未命名.canvas",
