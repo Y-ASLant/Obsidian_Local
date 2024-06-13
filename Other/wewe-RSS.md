@@ -46,7 +46,7 @@ docker run -d \
 ### 访问地址 `ip:4000`
 
 > [!ERROR] 默认端口 4000
-![[ASLant_Images/71f85d5cfbee1319073529cd3bc9b257_MD5.jpg]]
+![[ASLant_Files/71f85d5cfbee1319073529cd3bc9b257_MD5.jpg]]
 [](../ASLant_Files/71f85d5cfbee1319073529cd3bc9b257_MD5.jpg)[[ASLant_Images/71f85d5cfbee1319073529cd3bc9b257_MD5.jpg|Open: 71f85d5cfbee1319073529cd3bc9b257_MD5.jpg]]
 # 公众号以 RSS 形式订阅
 
@@ -95,4 +95,4 @@ docker run -d \
 ### 访问地址 `ip:4000`
 
 > [!ERROR] 默认端口 4000
-![[ASLant_Images/71f85d5cfbee1319073529cd3bc9b257_MD5.jpg]]
+![[ASLant_Files/71f85d5cfbee1319073529cd3bc9b257_MD5.jpg]]

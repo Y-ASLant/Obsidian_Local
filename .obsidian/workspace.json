@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/编译型语言/C语言/C语言 指针总结.md",
+                "file": "2024华清远见实训/机械臂_0x05.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言/编译型语言/C语言/C语言 指针总结.md",
+                "file": "2024华清远见实训/机械臂_0x05.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编程语言/编译型语言/C语言/C语言 指针总结.md",
+                "file": "2024华清远见实训/机械臂_0x05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/编译型语言/C语言/C语言 指针总结.md"
+                "file": "2024华清远见实训/机械臂_0x05.md"
               }
             }
           }
@@ -183,8 +183,11 @@
   },
   "active": "526ef0f59fb2e8f3",
   "lastOpenFiles": [
-    "编程语言/编译型语言/C语言/C语言 内存.md",
+    "2024华清远见实训/机械臂_0x03.md",
+    "2024华清远见实训/机械臂_0x01.md",
+    "编程语言/解释型语言/Python/安装Python环境.md",
     "编程语言/编译型语言/C语言/C语言 指针总结.md",
+    "编程语言/编译型语言/C语言/C语言 内存.md",
     "ASLant_Files/3e7791109ba33d6a94a056e687176fcb_MD5.jpg",
     "ASLant_Files/f871426c3f90597011a430f8e62d024f_MD5.jpg",
     "ASLant_Files/f1108f0b060eebc8299b75d2a32a834f_MD5.jpg",
@@ -221,9 +224,6 @@
     "Other/Windows 桌面图标缓存清理.md",
     "Other/wewe-RSS.md",
     "Other/VMware 安装 MAC OS.md",
-    "Other/Powershell.md",
-    "Other/Markdown 基本语法.md",
-    "Other/Git 版本控制器.md",
     "杂",
     "ASLant_Images/video/te.mp4",
     "ASLant_Images/video/十行代码，就能让你理解看门狗！经常见但不知道看门狗是什么，看了这个视频你就知道了！.mp4",

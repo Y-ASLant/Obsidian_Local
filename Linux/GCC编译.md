@@ -22,7 +22,7 @@ dnf -y install gcc
 ```
 
 > [!BUG]- 可能遇到的问题
-![[ASLant_Images/80e37f956d4923d54c77200f3279e84c_MD5.jpg]]
+![[ASLant_Files/80e37f956d4923d54c77200f3279e84c_MD5.jpg]]
 [](../ASLant_Files/80e37f956d4923d54c77200f3279e84c_MD5.jpg)en: 80e37f956d4923d54c77200f3279e84c_MD5.jpg]]
 [](../ASLant_Files/80e37f956d4923d54c77200f3279e84c_MD5.jpg)
 ```

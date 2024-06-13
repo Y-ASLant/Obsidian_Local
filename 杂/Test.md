@@ -11,7 +11,7 @@
 >[!Note]
 >  这是一个测试。
 
-![[ASLant_Images/2024-05-26-16-10-52.png]]
+![[ASLant_Files/2024-05-26-16-10-52.png]]
 ```widgets
 type: clock
 format: "12hr" | "24hr"

@@ -1,7 +1,7 @@
 # TheFuck 安装
 
 > [!ERROR] 自动修正命令
-![[ASLant_Images/1c927c17ce3650176f37c746d0e7786e_MD5.gif]]
+![[ASLant_Files/1c927c17ce3650176f37c746d0e7786e_MD5.gif]]
 > [](../ASLant_Files/1c927c17ce3650176f37c746d0e7786e_MD5.gif)en: 1c927c17ce3650176f37c746d0e7786e_MD5.gif]]
 [](../ASLant_Files/1c927c17ce3650176f37c746d0e7786e_MD5.gif)``
 
