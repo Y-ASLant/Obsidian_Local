@@ -3,7 +3,8 @@
     "custom": [
       "title",
       "download",
-      "box"
+      "box",
+      "text"
     ],
     "settings": {
       "cite": [
@@ -16,7 +17,7 @@
       "success": [
         {
           "changes": {
-            "color": "0, 0, 0"
+            "color": "83, 223, 221"
           }
         }
       ],
@@ -70,6 +71,14 @@
           "changes": {
             "icon": "lucide-box",
             "color": "33, 20, 215"
+          }
+        }
+      ],
+      "text": [
+        {
+          "changes": {
+            "icon": "lucide-text-selection",
+            "color": "46, 45, 45"
           }
         }
       ]

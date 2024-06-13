@@ -80,7 +80,7 @@ For another, it is self-evident that a healthy society requires the inner beauty
 # Write
 ![[ASLant_Images/4ca72a5433c2ba5e7967831d983420ed_MD5.jpg]]
 
-```js
+```text
 # 第一段开头：
   In this day and age, the topic "How AI (Artificial Intelligence) is changing our life" become one of the most searched words on the internet. Plenty of people issue messages online expressing their opinions. From where I stand, I take the view that it is mainly reflected/showed in two ways/aspects.
 # 第二段论述点（内）：
@@ -91,13 +91,28 @@ For another, it is self-evident that a healthy society requires the inner beauty
   In the light of what has been said above, I think no one deny the fact that AI is necessary for us and if you rational make use of AI, you will get a shining future.
 ```
 
-![[ASLant_Images/2aa20676ef7779bb2923fa4066c5a858_MD5.jpg]]
+**![[ASLant_Images/2aa20676ef7779bb2923fa4066c5a858_MD5.jpg]]**
+
+> [!text] 模板
+> # 第一段开头：
+>   In this day and age, the topic "**How AI (Artificial Intelligence) is changing our life**" become one of the most searched words on the internet. Plenty of people issue messages online expressing their opinions. From where I stand, I take the view that **it is mainly reflected/showed in two ways/aspects**.
+> # 第二段论述点（内）：
+>   For one thing, it is beyond all doubt that **AI (Artificial Intelligence)** can not only improve the work or study efficiency, but also broaden the way we communicate with the world, **like AI robots or machines**. According to the latest figures published by a survey, it is said that over 80% people **have the experiences of using AI products**.
+> # 论述点（外）：
+>   For another, it is evident/clear that **AI** has reshaoed/changed many industries, from shopping to movie, from education to medial system. It can be said without exaggeration that **AI** can lay a solid foundation for our society.
+> # 第三段：
+>   In the light of what has been said above, I think no one deny the fact that **AI** is necessary for us and if you rational make use of **AI**, you will get a shining future.
+>   
+![[../ASLant_Images/1718272640593.mp3]]
 
 # Translation
 
+```text
+在当今时代，“人工智能如何改变我们的生活”成为了互联网上最热门的搜索词之一。很多人在网上表达了他们的看法。从我的角度来看，我认为主要体现在两个方面。
 
+首先，毫无疑问，人工智能不仅能提高工作或学习效率，还能拓宽我们与世界沟通的方式，比如通过AI机器人或机器设备。据最新调查数据显示，超过80%的人有使用过AI产品的经验。
 
-```ENGLISH
+其次，很明显，人工智能已经改变了许多行业，从购物到电影，从教育到医疗系统。毫不夸张地说，人工智能为我们的社会奠定了坚实的基础。
 
+综上所述，我认为没有人能否认人工智能对我们的重要性。如果你合理地利用人工智能，你将拥有一个光明的未来。
 ```
-
