@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024华清远见实训/机械臂_0x03.md",
-                "mode": "preview",
+                "file": "2024华清远见实训/机械臂_0x05.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024华清远见实训/机械臂_0x03.md",
+                "file": "2024华清远见实训/机械臂_0x05.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024华清远见实训/机械臂_0x03.md",
+                "file": "2024华清远见实训/机械臂_0x05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024华清远见实训/机械臂_0x03.md"
+                "file": "2024华清远见实训/机械臂_0x05.md"
               }
             }
           }
@@ -183,6 +183,7 @@
   },
   "active": "526ef0f59fb2e8f3",
   "lastOpenFiles": [
+    "2024华清远见实训/机械臂_0x03.md",
     "2024华清远见实训/机械臂_0x02.md",
     "2024华清远见实训/机械臂_0x05.md",
     "ASLant_Files/ec50817c33f41e66d72becfe46edce4e_MD5.jpg",
@@ -196,7 +197,6 @@
     "ASLant_Files/ac7da7ec4e62bdd6ebe19e6f2b9e9ba8_MD5.jpg",
     "ASLant_Files/3259a2212af6318bfc646e11a810cba8_MD5.jpg",
     "2024华清远见实训/机械臂_0x04.md",
-    "2024华清远见实训/机械臂_0x03.md",
     "2024华清远见实训/机械臂_0x01.md",
     "编程语言/解释型语言/Python/安装Python环境.md",
     "编程语言/编译型语言/C语言/C语言 指针总结.md",
