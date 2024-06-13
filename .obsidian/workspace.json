@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024华清远见实训/机械臂_0x05.md",
+                "file": "杂/CET4.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024华清远见实训/机械臂_0x05.md",
+                "file": "杂/CET4.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024华清远见实训/机械臂_0x05.md",
+                "file": "杂/CET4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024华清远见实训/机械臂_0x05.md"
+                "file": "杂/CET4.md"
               }
             }
           }
@@ -183,9 +183,10 @@
   },
   "active": "526ef0f59fb2e8f3",
   "lastOpenFiles": [
+    "ASLant_Files/2024-06-13-20-23-44.png",
+    "2024华清远见实训/机械臂_0x05.md",
     "2024华清远见实训/机械臂_0x03.md",
     "2024华清远见实训/机械臂_0x02.md",
-    "2024华清远见实训/机械臂_0x05.md",
     "ASLant_Files/ec50817c33f41e66d72becfe46edce4e_MD5.jpg",
     "ASLant_Files/d5497dd0746975350385325f22001573_MD5.jpg",
     "ASLant_Files/c922af00f8a26666040720f534b714e0_MD5.jpg",
@@ -223,7 +224,6 @@
     "MySQL/MySQL.md",
     "Obsidian/Obsidian.md",
     "Obsidian/笔记样式.md",
-    "Other/WSL_GCC_Q.md",
     "杂",
     "ASLant_Images/video/te.mp4",
     "ASLant_Images/video/十行代码，就能让你理解看门狗！经常见但不知道看门狗是什么，看了这个视频你就知道了！.mp4",
