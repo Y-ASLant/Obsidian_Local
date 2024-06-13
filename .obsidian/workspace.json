@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024华清远见实训/机械臂_0x05.md",
-                "mode": "source",
+                "file": "2024华清远见实训/机械臂_0x03.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024华清远见实训/机械臂_0x05.md",
+                "file": "2024华清远见实训/机械臂_0x03.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024华清远见实训/机械臂_0x05.md",
+                "file": "2024华清远见实训/机械臂_0x03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024华清远见实训/机械臂_0x05.md"
+                "file": "2024华清远见实训/机械臂_0x03.md"
               }
             }
           }
@@ -183,21 +183,24 @@
   },
   "active": "526ef0f59fb2e8f3",
   "lastOpenFiles": [
+    "2024华清远见实训/机械臂_0x02.md",
+    "2024华清远见实训/机械臂_0x05.md",
+    "ASLant_Files/ec50817c33f41e66d72becfe46edce4e_MD5.jpg",
+    "ASLant_Files/d5497dd0746975350385325f22001573_MD5.jpg",
+    "ASLant_Files/c922af00f8a26666040720f534b714e0_MD5.jpg",
+    "ASLant_Files/bf1efdb1efb60ec3e074a2df252f662a_MD5.jpg",
+    "ASLant_Files/a61f0f5fde13294192f76f8e7165abdc_MD5.jpg",
+    "ASLant_Files/a7c9d67ac7f13b5d963c4ecb577a87a1_MD5.jpg",
+    "ASLant_Files/0706d83dc5a9ad12cff9ac1d8eded0ae_MD5.jpg",
+    "ASLant_Files/4ed46f8d5ed75f4d68b4982a0deddb21_MD5.jpg",
+    "ASLant_Files/ac7da7ec4e62bdd6ebe19e6f2b9e9ba8_MD5.jpg",
+    "ASLant_Files/3259a2212af6318bfc646e11a810cba8_MD5.jpg",
+    "2024华清远见实训/机械臂_0x04.md",
     "2024华清远见实训/机械臂_0x03.md",
     "2024华清远见实训/机械臂_0x01.md",
     "编程语言/解释型语言/Python/安装Python环境.md",
     "编程语言/编译型语言/C语言/C语言 指针总结.md",
     "编程语言/编译型语言/C语言/C语言 内存.md",
-    "ASLant_Files/3e7791109ba33d6a94a056e687176fcb_MD5.jpg",
-    "ASLant_Files/f871426c3f90597011a430f8e62d024f_MD5.jpg",
-    "ASLant_Files/f1108f0b060eebc8299b75d2a32a834f_MD5.jpg",
-    "ASLant_Files/f8c975cfb1f7198f265a649146511509_MD5.jpg",
-    "ASLant_Files/e39758898d545aa1280baaf28177914f_MD5.jpg",
-    "ASLant_Files/e7f2000394f2974db7f233ad82b57681_MD5.jpg",
-    "ASLant_Files/dfcf61679f46e015133958fd919e44cf_MD5.jpg",
-    "ASLant_Files/de5f094d76ae659cbb9adc4f683f0f5c_MD5.jpg",
-    "ASLant_Files/ddc8ee6dc30b22a1f80de124ddc4395d_MD5.jpg",
-    "ASLant_Files/dcd69f97d9f16ab51041c916fd554ac9_MD5.jpg",
     "杂/CET4.md",
     "NLE新大陆/NLE 物联网.md",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
@@ -221,9 +224,6 @@
     "Obsidian/Obsidian.md",
     "Obsidian/笔记样式.md",
     "Other/WSL_GCC_Q.md",
-    "Other/Windows 桌面图标缓存清理.md",
-    "Other/wewe-RSS.md",
-    "Other/VMware 安装 MAC OS.md",
     "杂",
     "ASLant_Images/video/te.mp4",
     "ASLant_Images/video/十行代码，就能让你理解看门狗！经常见但不知道看门狗是什么，看了这个视频你就知道了！.mp4",
