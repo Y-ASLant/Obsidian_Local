@@ -1,4 +1,4 @@
-![[ASLant_Images/9afed5702b0bbc7043b7a3cc29555384_MD5.jpg]]
+![[../ASLant_Files/9afed5702b0bbc7043b7a3cc29555384_MD5.jpg]]
 
 ## 下载
 

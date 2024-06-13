@@ -2781,11 +2781,11 @@ drwxr-xr-x. 2 root root    6 Dec 14 08:37 Videos
 
   
 
-![[ASLant_Images/a0563078b1a4006e9f235c725fa5d991_MD5.jpg]]
+![[../ASLant_Files/a0563078b1a4006e9f235c725fa5d991_MD5.jpg]]
 
   
 
-![[ASLant_Images/6296485a883dec2810b30a8c7cbc9f05_MD5.jpg]]
+![[../ASLant_Files/6296485a883dec2810b30a8c7cbc9f05_MD5.jpg]]
 
   
 

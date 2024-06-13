@@ -1,6 +1,6 @@
 # Kotlin 简介
 
-![[ASLant_Images/265e74639a14dcd6c1387b2e82b23a5b_MD5.jpg]]
+![[../ASLant_Files/265e74639a14dcd6c1387b2e82b23a5b_MD5.jpg]]
 
 - Kotlin 是一种在 Java 虚拟机上运行的静态类型编程语言，被称之为 Android 世界的Swift，由 JetBrains 设计开发并开源。
 - Kotlin 可以编译成Java字节码，也可以编译成 JavaScript，方便在没有 JVM 的设备上运行。

@@ -399,7 +399,7 @@ ___
 
   
 
-![[ASLant_Images/6c74ef2f9930111e05fdcd9c8507b96a_MD5.webp]]    
+![[../ASLant_Files/6c74ef2f9930111e05fdcd9c8507b96a_MD5.webp]]    
 
   
 
@@ -565,4 +565,4 @@ Tip: 如果您使用的是静态网站生成器，请确保将HTML页面编码�
 
 效果:  
 
-![[ASLant_Images/1eb6657d3d7c744c0af99349b86a9301_MD5.jpg]]
+![[../ASLant_Files/1eb6657d3d7c744c0af99349b86a9301_MD5.jpg]]

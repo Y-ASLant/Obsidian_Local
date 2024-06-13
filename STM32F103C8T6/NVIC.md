@@ -22,9 +22,9 @@
 5. 中断向量就是中断服务函数的入口地址
     
 
-![[ASLant_Images/79fe996da09dc1e4c82d4307d023a5c5_MD5.gif]]
+![[../ASLant_Files/79fe996da09dc1e4c82d4307d023a5c5_MD5.gif]]
 
-![[ASLant_Images/b8928ac89943ea66fb1e7a302b85f122_MD5.jpg|506]]
+![[../ASLant_Files/b8928ac89943ea66fb1e7a302b85f122_MD5.jpg|506]]
 
 ### STM32G431中断源
 
@@ -50,10 +50,10 @@
 分为两步：
 
 1. 组优先级设置，先选择一个组，每个组代码对应一个优先级方案
-    ![[ASLant_Images/20c61b92f3e30be6fe9d6b8d4a2e9387_MD5.jpg]]
+    ![[../ASLant_Files/20c61b92f3e30be6fe9d6b8d4a2e9387_MD5.jpg]]
     
 2. 组确定后，再确定抢占优先级和子优先级
-    ![[ASLant_Images/f8f194bf0e173696f701eb5200dabc9d_MD5.jpg]]
+    ![[../ASLant_Files/f8f194bf0e173696f701eb5200dabc9d_MD5.jpg]]
 
 ### 抢占优先级和响应优先级
 
@@ -100,7 +100,7 @@ STM32 的每一个GPIO都能配置成一个外部中断触发源，这点也是 
 ### EXTI
 
 外部中断/事件控制器包含多达23个用于产生事件/中断请求的边沿检测器。每根输入线都可以单独进行配置，以选择类型和相应的触发事件（上升沿，下降沿或边沿触发）。每根输入线还可以单独屏蔽。挂起寄存器用于保持中断请求的状态线。
-![[ASLant_Images/ac63aafbe918ddb4440295beb5290717_MD5.gif]]
+![[../ASLant_Files/ac63aafbe918ddb4440295beb5290717_MD5.gif]]
 
 #### 引脚分组
 

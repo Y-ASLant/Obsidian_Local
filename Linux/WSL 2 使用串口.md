@@ -17,7 +17,7 @@ usbipd list
 usbipd attach --busid x-x --wsl
 ```
 
-![[ASLant_Images/8f4640fd697d4df036f7c15143161ac4_MD5.jpg]]
+![[../ASLant_Files/8f4640fd697d4df036f7c15143161ac4_MD5.jpg]]
 ### 断开
 ```sh
  usbipd detach --all

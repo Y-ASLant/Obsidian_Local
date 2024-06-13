@@ -7,7 +7,7 @@
 - GitHub
 - OneDrive
 
-| ![[ASLant_Images/1dca809a744c234efe7735a8c4017ea0_MD5.jpg]] | ![[ASLant_Images/f74ce3fae3700f43e4eaf7eede404c9f_MD5.jpg]] |
+| ![[ASLant_Files/1dca809a744c234efe7735a8c4017ea0_MD5.jpg]] | ![[ASLant_Files/f74ce3fae3700f43e4eaf7eede404c9f_MD5.jpg]] |
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 
 > [!INFO] 工具

@@ -41,7 +41,7 @@ make -j$(nproc) && make install
 python3 -V
 ```
 
-![[ASLant_Images/d19cd0e11399e15b584dec5e863dc053_MD5.jpg]]
+![[../../../ASLant_Files/d19cd0e11399e15b584dec5e863dc053_MD5.jpg]]
 
 # Windows
 

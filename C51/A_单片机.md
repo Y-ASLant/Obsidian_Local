@@ -2,7 +2,7 @@
 
 <center>    
 
-![[ASLant_Images/1cd85b32622f53eee967e6df8aa176f2_MD5.jpg]]   
+![[../ASLant_Files/1cd85b32622f53eee967e6df8aa176f2_MD5.jpg]]   
 
 </center>   
 
@@ -12,7 +12,7 @@
 
 ## 共阴极七段数码管
 ----
-![[ASLant_Images/080717d5ab0e2ebf55028224e2b40972_MD5.jpg]]   
+![[../ASLant_Files/080717d5ab0e2ebf55028224e2b40972_MD5.jpg]]   
 
 ```c 
 // 共阴极   
@@ -74,7 +74,7 @@ TR1 = 1;
 ----    
 - 字节地址为89H，**不能位寻址**      
 
-![[ASLant_Images/664a8561ba641b5c970fd56c7d7226f9_MD5.jpg]]       
+![[../ASLant_Files/664a8561ba641b5c970fd56c7d7226f9_MD5.jpg]]       
 
 8位分为两组，高四位控制T1，低四位控制T0   
  
@@ -88,7 +88,7 @@ TR1 = 1;
 ####  M1、M0  工作方式选择位      
 共有四种编码 即**四种工作方式**       
  
-![[ASLant_Images/1f8a0232c80e63e6507563564fdf554d_MD5.jpg]]          
+![[../ASLant_Files/1f8a0232c80e63e6507563564fdf554d_MD5.jpg]]          
 
 ####  C/T非 计数器模式和定时器模式选择位          
 - C/~~T~~ = 0，定时器模式     
@@ -103,7 +103,7 @@ TR1 = 1;
 -----
 TCON的字节地址为88H，**可寻址位**，位地址为88H ~ 8FH.   
 
-![[ASLant_Images/5b1a0b2cad8bc1fc5ad80a13146dcda7_MD5.jpg]]      
+![[../ASLant_Files/5b1a0b2cad8bc1fc5ad80a13146dcda7_MD5.jpg]]      
 
 ####  TF1、TF0  计数溢出标志位    
 当计数器溢出时，该位置为1。       
@@ -132,7 +132,7 @@ TCON的字节地址为88H，**可寻址位**，位地址为88H ~ 8FH.
 ----
 字节地址为 A8H，为可寻址位      
 
-![[ASLant_Images/3086fbd8f86e03072b3703b7c7228af9_MD5.jpg]]   
+![[../ASLant_Files/3086fbd8f86e03072b3703b7c7228af9_MD5.jpg]]   
 
 <br/>
 
@@ -142,7 +142,7 @@ TCON的字节地址为88H，**可寻址位**，位地址为88H ~ 8FH.
   
 > 函数类型  函数名  interrupt n using n 
 
-![[ASLant_Images/16690caebc0b3481484919ed5e5cec61_MD5.jpg]]       
+![[../ASLant_Files/16690caebc0b3481484919ed5e5cec61_MD5.jpg]]       
 
 <br/>
 
@@ -155,7 +155,7 @@ TCON的字节地址为88H，**可寻址位**，位地址为88H ~ 8FH.
 > 
 > 即:   
 > 
-> ![[ASLant_Images/cd2c49c59cdcba0c4c721571a0a73241_MD5.jpg]] 
+> ![[../ASLant_Files/cd2c49c59cdcba0c4c721571a0a73241_MD5.jpg]] 
 
 
 
@@ -164,4 +164,4 @@ TCON的字节地址为88H，**可寻址位**，位地址为88H ~ 8FH.
 
 -----
 
-![[ASLant_Images/9627d84893979635e67810413f7d1e92_MD5.jpg]]
+![[../ASLant_Files/9627d84893979635e67810413f7d1e92_MD5.jpg]]

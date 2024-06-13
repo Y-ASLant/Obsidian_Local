@@ -6,7 +6,7 @@ Java 是由 Sun Microsystems 公司于 1995 年 5 月推出的 Java 程序设计
 
   
 
-![[ASLant_Images/b8d0e8af4e6f62bb201a35b94b8d5a45_MD5.jpg]]  
+![[../../../ASLant_Files/b8d0e8af4e6f62bb201a35b94b8d5a45_MD5.jpg]]  
 
   
 
@@ -1262,7 +1262,7 @@ else{  
 
   
 
-![[ASLant_Images/316236cfb541953ab7e3557dfbbb879d_MD5.jpg]]    
+![[../../../ASLant_Files/316236cfb541953ab7e3557dfbbb879d_MD5.jpg]]    
 
   
 
@@ -1308,7 +1308,7 @@ else {  
 
   
 
-![[ASLant_Images/4653ddaa14877159be49012acb98512e_MD5.jpg]]
+![[../../../ASLant_Files/4653ddaa14877159be49012acb98512e_MD5.jpg]]
 
   
 
@@ -1372,7 +1372,7 @@ else{  
 
   
 
-![[ASLant_Images/0db429cafb41775203b7537985cd361a_MD5.jpg]]
+![[../../../ASLant_Files/0db429cafb41775203b7537985cd361a_MD5.jpg]]
 
   
 
@@ -1586,7 +1586,7 @@ while(条件){  
 
   
 
-![[ASLant_Images/1e6ba2beeaac439e672c0ed1341e6a92_MD5.jpg]]  
+![[../../../ASLant_Files/1e6ba2beeaac439e672c0ed1341e6a92_MD5.jpg]]  
 
   
 
@@ -1618,7 +1618,7 @@ do{  
 
   
 
-![[ASLant_Images/3170c79362db610d022020cb954982f7_MD5.jpg]]    
+![[../../../ASLant_Files/3170c79362db610d022020cb954982f7_MD5.jpg]]    
 
   
 
@@ -1664,7 +1664,7 @@ for(循环变量初始化①; 循环条件②; 循环变量值操作③){  
 
   
 
-![[ASLant_Images/1e6ba2beeaac439e672c0ed1341e6a92_MD5.jpg]]    
+![[../../../ASLant_Files/1e6ba2beeaac439e672c0ed1341e6a92_MD5.jpg]]    
 
   
 
@@ -1924,7 +1924,7 @@ public class PrintWeek {  
 
   
 
-![[ASLant_Images/f58eb68cb55298a92cd1067a5be62036_MD5.jpg]]  
+![[../../../ASLant_Files/f58eb68cb55298a92cd1067a5be62036_MD5.jpg]]  
 
   
 
@@ -2928,7 +2928,7 @@ $ java NewObject
 
   
 
-![[ASLant_Images/d8695c60505f5bf5a8ee5e325a4e33ea_MD5.jpg]]  
+![[../../../ASLant_Files/d8695c60505f5bf5a8ee5e325a4e33ea_MD5.jpg]]  
 
   
 
@@ -2970,7 +2970,7 @@ LiLei.cry();
 
   
 
-![[ASLant_Images/200cd66f6766c45a158fd5f99b2874dd_MD5.jpg]]
+![[../../../ASLant_Files/200cd66f6766c45a158fd5f99b2874dd_MD5.jpg]]
 
   
 
@@ -3348,7 +3348,7 @@ Java中，可以使用访问控制符来保护对类、变量、方法和构造�
 
   
 
-![[ASLant_Images/3a66152d1ff7bda82032837e8a4f6593_MD5.jpg]]
+![[../../../ASLant_Files/3a66152d1ff7bda82032837e8a4f6593_MD5.jpg]]
 
   
 
@@ -4956,7 +4956,7 @@ public Inner getInner(final String name, String city) {
 
   
 
-![[ASLant_Images/51d9ae2b9163211345f9723fa3057566_MD5.jpg]]
+![[../../../ASLant_Files/51d9ae2b9163211345f9723fa3057566_MD5.jpg]]
 
   
 
@@ -4964,7 +4964,7 @@ public Inner getInner(final String name, String city) {
 
   
 
-![[ASLant_Images/7551df82e727a3c11636b24831f173b2_MD5.jpg]]
+![[../../../ASLant_Files/7551df82e727a3c11636b24831f173b2_MD5.jpg]]
 
   
 
@@ -5078,7 +5078,7 @@ package com.shiyanlou.java
 
   
 
-![[ASLant_Images/41fd2404dc1f62bc457b2d56cd923d99_MD5.jpg]]
+![[../../../ASLant_Files/41fd2404dc1f62bc457b2d56cd923d99_MD5.jpg]]
 
   
 

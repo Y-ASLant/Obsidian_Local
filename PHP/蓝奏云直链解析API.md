@@ -175,4 +175,4 @@ function restoreUrl($shortUrl)
 
   > [!BUG] 直接下载请求示例 https://www.yuanxiapi.cn/api/lanzou/?url=https://lanzoui.com/iWQJ808cflgd&pwd=密码&type=down
 
-![[ASLant_Images/a4e724f535e3d403f2cf49e62a8f2f94_MD5.jpg]]
+![[../ASLant_Files/a4e724f535e3d403f2cf49e62a8f2f94_MD5.jpg]]

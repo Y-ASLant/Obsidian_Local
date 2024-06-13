@@ -20,7 +20,7 @@
 - 在路由器中找到 Armbian 的 ip 地址（amol） 
 
 
-![[ASLant_Images/5bba03a13253e4db0fd4cd6d11e85778_MD5.jpg]]
+![[../ASLant_Files/5bba03a13253e4db0fd4cd6d11e85778_MD5.jpg]]
 
 ### 使用 SSH 工具连接 
 ----
@@ -41,9 +41,9 @@ sudo ./install.sh
 等待.....
 ``` 
 
-![[ASLant_Images/3bcc068f898226c36ccc839c56360414_MD5.jpg]]  
+![[../ASLant_Files/3bcc068f898226c36ccc839c56360414_MD5.jpg]]  
 
-![[ASLant_Images/412a34ff71542cd46eb62a1fccf25d74_MD5.jpg]]   
+![[../ASLant_Files/412a34ff71542cd46eb62a1fccf25d74_MD5.jpg]]   
 
 
 ### 完成后，拔电源，拔掉 U 盘。
@@ -54,7 +54,7 @@ ARMbian 系统刷入到板载芯片完成。
 ### 设置固定 IP  
 ----
 
-![[ASLant_Images/24993425526d3ff03e9dd10b476f3904_MD5.jpg]]       
+![[../ASLant_Files/24993425526d3ff03e9dd10b476f3904_MD5.jpg]]       
 
 ### 换 Debian 源  
 ----    
@@ -83,9 +83,9 @@ apt-get update && apt-get upgrade
 ``` 
 
 
-![[ASLant_Images/5b53af5ba852632e4139c430b75d304a_MD5.jpg]]    
+![[../ASLant_Files/5b53af5ba852632e4139c430b75d304a_MD5.jpg]]    
 
-![[ASLant_Images/58a67b7b77f6b5b8ebca8b2371173683_MD5.jpg]]   
+![[../ASLant_Files/58a67b7b77f6b5b8ebca8b2371173683_MD5.jpg]]   
 
 
 
@@ -103,7 +103,7 @@ apt install docker.io
 wget https://gitee.com/pj-xiaoyu/download/raw/main/TTarm32.sh && sudo bash TTarm32.sh
 ```
 
-![[ASLant_Images/14a13e14ba421c2db0c24c6709529aa3_MD5.jpg]]   
+![[../ASLant_Files/14a13e14ba421c2db0c24c6709529aa3_MD5.jpg]]   
 
 
 ```sh   

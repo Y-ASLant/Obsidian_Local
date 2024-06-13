@@ -9,7 +9,7 @@
 ## 仿真图	
 ---
 
-![[ASLant_Images/82f1f29088e27571ce96d237d4aecb82_MD5.jpg]]	
+![[../ASLant_Files/82f1f29088e27571ce96d237d4aecb82_MD5.jpg]]	
 
 > [仿真源文件](/123pan/?d=N7orVv-RpMV3.html)		
 
@@ -68,4 +68,4 @@ void Time1(void) interrupt 3 using 0 // “interrupt”声明函数为中断服�
 ## 效果预览
 ----
 
-![[ASLant_Images/ba931cd64dde4c6f543fe5c34d2ed84f_MD5.gif]]  
+![[../ASLant_Files/ba931cd64dde4c6f543fe5c34d2ed84f_MD5.gif]]  

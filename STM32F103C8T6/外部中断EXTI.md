@@ -39,9 +39,9 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 
 # 单个外部中断 EXTI
 
-![[ASLant_Images/9cdcd900cf7cb4acab9584615daf607b_MD5.jpg]]
+![[../ASLant_Files/9cdcd900cf7cb4acab9584615daf607b_MD5.jpg]]
 
-![[ASLant_Images/b8a28917d1db2547a1142089144ac2bc_MD5.jpg]]
+![[../ASLant_Files/b8a28917d1db2547a1142089144ac2bc_MD5.jpg]]
 
 ### 外部中断回调函数
 
@@ -54,7 +54,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 
 # 多个外部中断线
 
-![[ASLant_Images/d0d36dd74936f9b7369dada269bc9874_MD5.jpg]]
+![[../ASLant_Files/d0d36dd74936f9b7369dada269bc9874_MD5.jpg]]
 
 ```c
 /*****************************************************************

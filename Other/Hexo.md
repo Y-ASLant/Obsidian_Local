@@ -70,4 +70,4 @@ hexo g; hexo s
 
 ### 最终效果
 
-![[ASLant_Images/94b37e996ecbb76d6caa99a7959402d1_MD5.jpg]]
+![[../ASLant_Files/94b37e996ecbb76d6caa99a7959402d1_MD5.jpg]]

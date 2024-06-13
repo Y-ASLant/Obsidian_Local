@@ -86,7 +86,7 @@ sudo yum install neofetch
 
 ## 使用官方提供的 SSH 工具进行连接
 
-![[ASLant_Images/68002362f780da61ff47a2e0e59447e5_MD5.jpg]]
+![[../ASLant_Files/68002362f780da61ff47a2e0e59447e5_MD5.jpg]]
 
 ## 通过 Xshell 等第三方工具进行连接
 
@@ -94,4 +94,4 @@ sudo yum install neofetch
 > [Xshell]()
 > [Xftp]()
 
- ![[ASLant_Images/58185241dcb30486c77f494acfc09c12_MD5.jpg]]
+ ![[../ASLant_Files/58185241dcb30486c77f494acfc09c12_MD5.jpg]]

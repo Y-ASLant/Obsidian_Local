@@ -2,17 +2,8 @@
 
 > [!ERROR] 自动修正命令
 ![[ASLant_Images/1c927c17ce3650176f37c746d0e7786e_MD5.gif]]
-> [[ASLant_Images/1c927c17ce3650176f37c746d0e7786e_MD5.gif|Open: 1c927c17ce3650176f37c746d0e7786e_MD5.gif]]
-
-# Debian 系列
-
-```shell
-apt-get update &&apt-get upgrade
-```
-
-```sh
-apt-get install python3-pip
-```
+> [](../ASLant_Files/1c927c17ce3650176f37c746d0e7786e_MD5.gif)en: 1c927c17ce3650176f37c746d0e7786e_MD5.gif]]
+[](../ASLant_Files/1c927c17ce3650176f37c746d0e7786e_MD5.gif)``
 
 ```python
 pip3 install thefuck

@@ -78,7 +78,7 @@ For another, it is self-evident that a healthy society requires the inner beauty
 ```
 
 # Write
-![[ASLant_Images/4ca72a5433c2ba5e7967831d983420ed_MD5.jpg]]
+![[../ASLant_Files/4ca72a5433c2ba5e7967831d983420ed_MD5.jpg]]
 
 ```text
 # 第一段开头：
@@ -91,7 +91,7 @@ For another, it is self-evident that a healthy society requires the inner beauty
   In the light of what has been said above, I think no one deny the fact that AI is necessary for us and if you rational make use of AI, you will get a shining future.
 ```
 
-**![[ASLant_Images/2aa20676ef7779bb2923fa4066c5a858_MD5.jpg]]**
+**![[../ASLant_Files/2aa20676ef7779bb2923fa4066c5a858_MD5.jpg]]**
 
 > [!text] 模板
 > # 第一段开头：
@@ -104,11 +104,7 @@ For another, it is self-evident that a healthy society requires the inner beauty
 >   In the light of what has been said above, I think no one deny the fact that **AI** is necessary for us and if you rational make use of **AI**, you will get a shining future.
 >   
 ![[../ASLant_Images/1718272640593.mp3]]
-
-# Translation
-
-```text
-在当今时代，“人工智能如何改变我们的生活”成为了互联网上最热门的搜索词之一。很多人在网上表达了他们的看法。对我而言，我认为主要体现在两个方面。
+[](../ASLant_Files/1718272640593.mp3)我们的生活”成为了互联网上最热门的搜索词之一。很多人在网上表达了他们的看法。对我而言，我认为主要体现在两个方面。
 
 首先，毫无疑问的，人工智能不仅能提高工作或学习效率，还能拓宽我们与世界沟通的方式，比如通过AI机器人或机器设备。据最新调查数据显示，超过80%的人有使用过AI产品的经验。
 

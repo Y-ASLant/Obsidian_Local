@@ -13,7 +13,7 @@
 
 #### SQL 约束  
 
-![[ASLant_Images/5366e84c35e1b5c446436f53cb476504_MD5.jpg]]
+![[../ASLant_Files/5366e84c35e1b5c446436f53cb476504_MD5.jpg]]
 
 #### 本地连接
 
@@ -82,7 +82,7 @@ alter table T_Employee add constraint sex default '保密' for sex
 
 如何区分谁是外键谁是主键？A 现在需要去找 B 确定是否存在这个数据，A 就是外键，B 就是主键 > 可视化创建方法：
 
-演示一下，这里创建一张名为 test 1 的表，作为外键表，一列为 ID 列，一列为 Name 列，他们对应 int 类型与 nvarchar 类型 [![[ASLant_Images/5366e84c35e1b5c446436f53cb476504_MD5.jpg]] 然后再新建一个名为 test 2 的表，作为主键表请注意！因为我要 Name 这个列创建外键关系，所以在这个主键表需要把 Name 设为主键 [![](undefined) 两张表的 Name 列的属性、数据类型、Null 是否为空全部一致的情况下，我们回到 test 1 表右键空白处，点击关系 [![](undefined) 在新的窗口中点击添加，然后在右侧表和列规范点击最右边的按钮 [![](undefined) 然后把主键表改为 test 2，下面的选项分边选择两张表的 Name 列 [![](undefined) 然后点击确定，关闭，Ctrl + S 保存，此时会提示一个提示更改了表什么什么的，确定即可这时候我们去编辑 test 2 表，在 Name 输入两个参数，小明和小红 [![](undefined) 然后我们去编辑 test 1 外键表，尝试在 Name 里面输入其他的数据 [![](undefined) 此时就会提示约束冲突，然后我们输入主键表中的数据 [![](undefined) 此时就会发现没问题啦 > 语句创建方法
+演示一下，这里创建一张名为 test 1 的表，作为外键表，一列为 ID 列，一列为 Name 列，他们对应 int 类型与 nvarchar 类型 [![[../ASLant_Files/5366e84c35e1b5c446436f53cb476504_MD5.jpg]] 然后再新建一个名为 test 2 的表，作为主键表请注意！因为我要 Name 这个列创建外键关系，所以在这个主键表需要把 Name 设为主键 [![](undefined) 两张表的 Name 列的属性、数据类型、Null 是否为空全部一致的情况下，我们回到 test 1 表右键空白处，点击关系 [![](undefined) 在新的窗口中点击添加，然后在右侧表和列规范点击最右边的按钮 [![](undefined) 然后把主键表改为 test 2，下面的选项分边选择两张表的 Name 列 [![](undefined) 然后点击确定，关闭，Ctrl + S 保存，此时会提示一个提示更改了表什么什么的，确定即可这时候我们去编辑 test 2 表，在 Name 输入两个参数，小明和小红 [![](undefined) 然后我们去编辑 test 1 外键表，尝试在 Name 里面输入其他的数据 [![](undefined) 此时就会提示约束冲突，然后我们输入主键表中的数据 [![](undefined) 此时就会发现没问题啦 > 语句创建方法
 
 创建表时添加：constraint 自定义外键名 foreign key (外键列名) references 主键表名 (主键列名) 创建表后添加：alter table 外键表名 constraint 自定义外键名 foreign key (外键列名) references 主键表名 (主键列名) 当前表的列名为外键，表名 (列名) 为主键
 `foreign key (外键名) references 主键表名(主键名)`

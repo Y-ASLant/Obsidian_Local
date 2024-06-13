@@ -1,7 +1,7 @@
 
-![[ASLant_Images/8c1f5b5f299c07b6bf74066cfb08555c_MD5.jpg]]
+![[../ASLant_Files/8c1f5b5f299c07b6bf74066cfb08555c_MD5.jpg]]
 
-![[ASLant_Images/ab035709447c125d498b7818ae133d9a_MD5.jpg]]
+![[../ASLant_Files/ab035709447c125d498b7818ae133d9a_MD5.jpg]]
 
 #### 由上面的表可知:  
 **STBY引脚在高电平的时候模块是正常工作，低电平模块待机；PWM要有信号输入或者处于高电平且IN1和IN2电平不同时，模块才会有输出。**  

@@ -2,9 +2,9 @@
 
 <meta name="referrer" content="no-referrer" />    
 
-![[ASLant_Images/e0d5c43b4d66868b2441ac45646a7a98_MD5.jpg]]
+![[../../ASLant_Files/e0d5c43b4d66868b2441ac45646a7a98_MD5.jpg]]
 
-![[ASLant_Images/174a29586539ad2becb9d166de793591_MD5.jpg]]
+![[../../ASLant_Files/174a29586539ad2becb9d166de793591_MD5.jpg]]
 > [!tip]
 > `DaVinci Resolve Studio` 是一款先进的调色工具，具有专业多轨道剪辑，能完成剪辑、调色、后期及交付等工作，具备分辨率无关性，强大兼容性、超快速度、以及一流的画质，令您合理掌控整体流程。
 # 下载链接:    

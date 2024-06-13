@@ -109,20 +109,20 @@ XCYBK-2B3KV-G8T8F-WXJM7-WCTYT
 - 不改美区，Beta里只有俩软件  
 > 用什么邮箱都可以    
 > 
-> ![[ASLant_Images/e5f11b8ad7e56cf9e1e8ea54dcd2a217_MD5.jpg]]
+> ![[../ASLant_Files/e5f11b8ad7e56cf9e1e8ea54dcd2a217_MD5.jpg]]
 >
 > 进去后，找到Beta就可以了    
 >
-> ![[ASLant_Images/b0f132909f73314ab0d97cfaae6bd54b_MD5.jpg]]   
+> ![[../ASLant_Files/b0f132909f73314ab0d97cfaae6bd54b_MD5.jpg]]   
 >
 
 - 打开另一个软件，进行激活    
  
-> ![[ASLant_Images/83fb1824096eb601aa614dac56589723_MD5.jpg]]   
+> ![[../ASLant_Files/83fb1824096eb601aa614dac56589723_MD5.jpg]]   
 >
-> ![[ASLant_Images/6a0e3f2e684a96a1bb1cd94ac90d80a4_MD5.jpg]] 
+> ![[../ASLant_Files/6a0e3f2e684a96a1bb1cd94ac90d80a4_MD5.jpg]] 
 >
-> ![[ASLant_Images/6f28bc7a729f102d9f9b9b8e3ba7af6c_MD5.jpg]] 
+> ![[../ASLant_Files/6f28bc7a729f102d9f9b9b8e3ba7af6c_MD5.jpg]] 
 > 
 
 
@@ -315,10 +315,10 @@ XCYBK-2B3KV-G8T8F-WXJM7-WCTYT
 >
 > `TOOLS.INI`中 KRAM 和 RAM下 增加两行  
 >
-> ![[ASLant_Images/f6997febdbae5c68125e0720bfed0e93_MD5.jpg]] 
+> ![[../ASLant_Files/f6997febdbae5c68125e0720bfed0e93_MD5.jpg]] 
 >
 > 打开Proteus选择 远程调试  
-> ![[ASLant_Images/ce41548b49f267cfc8f865d7e5f7cf94_MD5.jpg]] 
+> ![[../ASLant_Files/ce41548b49f267cfc8f865d7e5f7cf94_MD5.jpg]] 
 > 
   
 
@@ -366,7 +366,7 @@ XCYBK-2B3KV-G8T8F-WXJM7-WCTYT
 
 ### 等宽字体    
 ----
-> ![[ASLant_Images/1f23134185ceafe6e18f832f3e050377_MD5.jpg]] 
+> ![[../ASLant_Files/1f23134185ceafe6e18f832f3e050377_MD5.jpg]] 
 > - [`JetBrains-Mono`](https://aslant.lanzoul.com/iUDeQ0j3ypah) [`项目地址`](https://github.com/JetBrains/JetBrainsMono)
 > 
 > - 专注于代码显示(IntelliJ IDEA默认字体)   
@@ -456,7 +456,7 @@ XCYBK-2B3KV-G8T8F-WXJM7-WCTYT
 > `YouTube` `Tiktok` `Instagram` 国外短视频下载工具   
 > - [`4K Video Downloader+ Pro`](https://aslant.lanzoul.com/ib0aS0qm5rta)      [`官网`](https://www.4kdownload.com/zh-cn/)  
 > 
-> > ![[ASLant_Images/90ae2a835df86ce6731a507f8d078b0e_MD5.jpg]]  
+> > ![[../ASLant_Files/90ae2a835df86ce6731a507f8d078b0e_MD5.jpg]]  
 > 
 > - [`全系 Crack 补丁`](https://aslant.lanzoul.com/iOaAn1b16cda)   
 >

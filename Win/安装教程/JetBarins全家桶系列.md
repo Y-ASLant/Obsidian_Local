@@ -1,6 +1,6 @@
 # JetBarins全家桶系列🏠
 
-![[ASLant_Images/35b7f6c6d99800b9594971b8c0f6b48b_MD5.jpg]]
+![[../../ASLant_Files/35b7f6c6d99800b9594971b8c0f6b48b_MD5.jpg]]
 
 # 软件下载🔻
 
@@ -48,7 +48,7 @@ bash ./scripts/install.sh
 
 ### 3. 等待 30 s 左右，提示 Done！
 
-![[ASLant_Images/523d70a56520476b319f02dea3433245_MD5.jpg]]
+![[../../ASLant_Files/523d70a56520476b319f02dea3433245_MD5.jpg]]
 
 ##### 4. 填写以下激活码即可在当前机器 `永久` 激活  
 
@@ -115,7 +115,7 @@ Q2AJCW53PE-eyJsaWNlbnNlSWQiOiJRMkFKQ1c1M1BFIiwibGljZW5zZWVOYW1lIjoic2lnbnVwIHNjb
 ##### 5. 激活成功
 
 > 订阅有效期至 2025 年 8 月 1 日为激活成功标志    
-![[ASLant_Images/900f5ddfb9133d24841c17980e466fe5_MD5.jpg]]
+![[../../ASLant_Files/900f5ddfb9133d24841c17980e466fe5_MD5.jpg]]
  
 ## "Invalid Key" 或 "无效激活码"问题
 

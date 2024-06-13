@@ -8,7 +8,7 @@
 ## 仿真图	
 ---
 
-![[ASLant_Images/47979164062823b5a79177534e0e68d9_MD5.jpg]]   
+![[../ASLant_Files/47979164062823b5a79177534e0e68d9_MD5.jpg]]   
 
 > [仿真源文件](/123pan/?d=N7orVv-spMV3.html)		
 
@@ -44,4 +44,4 @@ External_Interrupt_0() interrupt 0
 
 ## 效果预览
 ----
-![[ASLant_Images/ae0df0eb02943dfc95e9af769a982e43_MD5.gif]]    
+![[../ASLant_Files/ae0df0eb02943dfc95e9af769a982e43_MD5.gif]]    

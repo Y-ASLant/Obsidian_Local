@@ -77,15 +77,15 @@
 - Need： CH 340 USB 转 TTL 模块
     
     这种设备主要作用是用来调试或下载程序。价格也很便宜，普遍 5~8 元。常见的有以下两种：
-    ![[ASLant_Images/70f88eba70a13a2b8ac231106c723fbe_MD5.jpg|504]]
-    ![[ASLant_Images/27836164a047abb3dac3adbc5a37e53b_MD5.jpg|500]]
+    ![[../ASLant_Files/70f88eba70a13a2b8ac231106c723fbe_MD5.jpg|504]]
+    ![[../ASLant_Files/27836164a047abb3dac3adbc5a37e53b_MD5.jpg|500]]
     
     个人更推荐下面一款，因为它可以切换 VCC 输出电压，在对一些传感器进行独立测试的时候会比较方便。不过反正也不贵，多买几个想怎么用就怎么用。
     
 ### 2.1 CH 340 驱动安装
 
-![[ASLant_Images/d1e02718c367e7f2ef45aeebbcdf6486_MD5.jpg]]
-![[ASLant_Images/9a62350e777fc68941f31e525bea9a3e_MD5.jpg]] ![[ASLant_Images/d3b036f847704ff8aa57c990af959b46_MD5.jpg]]
+![[../ASLant_Files/d1e02718c367e7f2ef45aeebbcdf6486_MD5.jpg]]
+![[../ASLant_Files/9a62350e777fc68941f31e525bea9a3e_MD5.jpg]] ![[../ASLant_Files/d3b036f847704ff8aa57c990af959b46_MD5.jpg]]
 ### 2.2 FlyMcu 安装
 
 串口下载工具有很多，这里推荐 FlyMcu 。
@@ -98,11 +98,11 @@ http://www.mcuisp.com/
 
 当然，用我提供的也行，反正也是他们官网下载的。
 
-![[ASLant_Images/52b241ad6bff61b42c7be321eb0ed5c3_MD5.jpg]]
+![[../ASLant_Files/52b241ad6bff61b42c7be321eb0ed5c3_MD5.jpg]]
 
-![[ASLant_Images/63c0fd192b6f3d9a3ef3b13ebba7ecea_MD5.jpg]]
+![[../ASLant_Files/63c0fd192b6f3d9a3ef3b13ebba7ecea_MD5.jpg]]
 
-![[ASLant_Images/a3eb1169f894fb17e65f5bcb4c55bf7e_MD5.jpg]]
+![[../ASLant_Files/a3eb1169f894fb17e65f5bcb4c55bf7e_MD5.jpg]]
 
 下载好后解压，双击 .exe 文件即可打开，无需安装。
 
@@ -110,7 +110,7 @@ http://www.mcuisp.com/
 
 在下载程序之前，请先接好线。接线图如下图所示：
 
-![[ASLant_Images/65e540481c52fc8103812075eaf012bc_MD5.jpg]]
+![[../ASLant_Files/65e540481c52fc8103812075eaf012bc_MD5.jpg]]
 
 电源接线没什么好说的，主要是串口这边，一定要注意**交叉接线**，也就是 CH 340 转 TLL 工具的 TX 要接板子的 RX ，CH 340 转 TLL 工具的 RX 要接板子的 TX ，千万不要接错，否则就不能烧进去！
 
@@ -120,11 +120,11 @@ http://www.mcuisp.com/
 
 打开 FlyMcu 。如果你们使用的是我上面推荐的 STM 32 F 103 C 8 T 6 核心板，那么请下载 `1. 安装包及驱动准备` 我提供的模板工程，如下操作：
 
-![[ASLant_Images/085bd75a8bbdf5804f05cf5d4d8f5b09_MD5.jpg]]
+![[../ASLant_Files/085bd75a8bbdf5804f05cf5d4d8f5b09_MD5.jpg]]
 
 接下来，将板子上的 BOOT 0 跳线帽接到 1 ，BOOT 1 路线帽维持在 0 ，如下图所示：
 
-![[ASLant_Images/0ed6b22403dbf3c256310c27916e9bea_MD5.jpg]]
+![[../ASLant_Files/0ed6b22403dbf3c256310c27916e9bea_MD5.jpg]]
 
 为什么要这么操作呢？
 
@@ -138,11 +138,11 @@ BOOT 0 和 BOOT 1 是用于设置 STM 32 的启动方式的：
 |1|0|系统存储器|系统存储器，用于串口下载|
 |1|1|SRAM 启动|SRAM 启动，用于在 SRAM 中调试代码|
 
-这里是用 USB 下载，也就是串口下载，所以选择表中的第二个方式也就是 **BOOT 0 选择 1， BOOT 1 选择 0** 。![[ASLant_Images/adceb819f948b7b0ff86d050a4714086_MD5.jpg]]
+这里是用 USB 下载，也就是串口下载，所以选择表中的第二个方式也就是 **BOOT 0 选择 1， BOOT 1 选择 0** 。![[../ASLant_Files/adceb819f948b7b0ff86d050a4714086_MD5.jpg]]
 
 然后你就可以点击软件上的开始编程按钮，但你会发现，右边一直处于连接状态。这个时候，只有你按一下板子上的 reset 按键（板子上唯一的一个按键），它就开始往下走了。
 
-![[ASLant_Images/e37c53f0daf8f52ea43ba7424396c691_MD5.jpg]]
+![[../ASLant_Files/e37c53f0daf8f52ea43ba7424396c691_MD5.jpg]]
 
 **下载后记得把 BOOT 0 的跳线冒跳回 0 端**，BOOT 0 和 BOOT 1 都为 0 ，这样程序就从 flash 区启动，再按一下 reset 按键板子就开始运行烧录进去的代码了。
 
@@ -154,22 +154,22 @@ ST-Link V 2 是我现在最常用的下载方式，也是我最推荐的。 ST-L
     
     ST-Link 是一种用于 STM 32 微控制器的调试和编程工具，它可以通过 SWD 或 JTAG 接口与开发板进行通信。一般也很便宜，七八元左右。
     
-    ![[ASLant_Images/2f32f9397c8929dd5e698c92a5876013_MD5.jpg]]
+    ![[../ASLant_Files/2f32f9397c8929dd5e698c92a5876013_MD5.jpg]]
     
 
 ### 3.1 ST-Link 驱动安装
 
-![[ASLant_Images/165a54a1541b2cd4c071e1e861698f2a_MD5.jpg]]
+![[../ASLant_Files/165a54a1541b2cd4c071e1e861698f2a_MD5.jpg]]
 
-![[ASLant_Images/49a2b2cf6f19e5babde30d4286770363_MD5.jpg]]
+![[../ASLant_Files/49a2b2cf6f19e5babde30d4286770363_MD5.jpg]]
 
-![[ASLant_Images/0087f2cdda542ac51a4f5db26f8638a3_MD5.jpg]]
+![[../ASLant_Files/0087f2cdda542ac51a4f5db26f8638a3_MD5.jpg]]
 
-![[ASLant_Images/8b4fc5c6d7d4de3abab94a489a23100f_MD5.jpg]]
+![[../ASLant_Files/8b4fc5c6d7d4de3abab94a489a23100f_MD5.jpg]]
 
-![[ASLant_Images/70ea52a0a20ec024e3fd35a1a9fd6a96_MD5.jpg]]
+![[../ASLant_Files/70ea52a0a20ec024e3fd35a1a9fd6a96_MD5.jpg]]
 
-![[ASLant_Images/b0f98d0b0658f60077512708ef08c153_MD5.jpg]]
+![[../ASLant_Files/b0f98d0b0658f60077512708ef08c153_MD5.jpg]]
 
 ### 3.2 安装 MDK 5
 
@@ -179,7 +179,7 @@ MDK 5 可以在它们的官网上下载，网址如下：
 
 https://www.keil.com/demo/eval/arm.htm#/DOWNLOAD
 
-![[ASLant_Images/805562b5ad979a2c045bc377d152ab0c_MD5.jpg]]
+![[../ASLant_Files/805562b5ad979a2c045bc377d152ab0c_MD5.jpg]]
 
 当前最新版本是 MDK 538 A ，但新版并不意味着最好，可能会有一些奇奇怪怪的问题，也可能不稳定。
 
@@ -187,23 +187,23 @@ https://www.keil.com/demo/eval/arm.htm#/DOWNLOAD
 
 双击我给大家提供的安装包后，会出现以下界面，大家跟着我的图片操作即可：
 
-![[ASLant_Images/4e5c086f16b8356edd40dbd5f98a38ab_MD5.jpg]]
+![[../ASLant_Files/4e5c086f16b8356edd40dbd5f98a38ab_MD5.jpg]]
 
-![[ASLant_Images/5b0fd6d0a205a4775140f4aab3ab1b34_MD5.jpg]]
+![[../ASLant_Files/5b0fd6d0a205a4775140f4aab3ab1b34_MD5.jpg]]
 
-![[ASLant_Images/2ae50909c131716d279be7a935b7f16d_MD5.jpg]]
+![[../ASLant_Files/2ae50909c131716d279be7a935b7f16d_MD5.jpg]]
 
-![[ASLant_Images/e44b9bf50ea16de7b51d7833c3e14e2e_MD5.jpg]]
+![[../ASLant_Files/e44b9bf50ea16de7b51d7833c3e14e2e_MD5.jpg]]
 
-![[ASLant_Images/522fea84c1288a7058859e0803e04675_MD5.jpg]]
+![[../ASLant_Files/522fea84c1288a7058859e0803e04675_MD5.jpg]]
 
-![[ASLant_Images/693e8ec1ab0e15b065896eb3dd70a842_MD5.jpg]]
+![[../ASLant_Files/693e8ec1ab0e15b065896eb3dd70a842_MD5.jpg]]
 
-![[ASLant_Images/4ad05405df7354809e1986fbb184add3_MD5.jpg]]
+![[../ASLant_Files/4ad05405df7354809e1986fbb184add3_MD5.jpg]]
 
-![[ASLant_Images/17da5b92c0b286cdb3b56e4e8d9ede17_MD5.jpg]]
+![[../ASLant_Files/17da5b92c0b286cdb3b56e4e8d9ede17_MD5.jpg]]
 
-![[ASLant_Images/4972cb1432e3df9038865d939b3ef94f_MD5.jpg]]
+![[../ASLant_Files/4972cb1432e3df9038865d939b3ef94f_MD5.jpg]]
 
 到此为止，MDK 5 就安装完成了。
 
@@ -217,25 +217,25 @@ https://www.keil.com/demo/eval/arm.htm#/DOWNLOAD
 
 https://www.keil.arm.com/packs/
 
-![[ASLant_Images/70883a52cb6dfbd845f17cf240c081fe_MD5.jpg]]
+![[../ASLant_Files/70883a52cb6dfbd845f17cf240c081fe_MD5.jpg]]
 
 由于我们使用的板子是 STM 32 F 103 C 8 T 6 ，属于 F 1 系列，所以在搜索框里搜索 STM 32 F 1 即可。如果大家使用的是其它系列芯片，那就搜索对应系列的关键词，不要傻乎乎都按下图搜索哦~
 
-![[ASLant_Images/5bf339362fe3d6048dc8e63ee73a2359_MD5.jpg]]
+![[../ASLant_Files/5bf339362fe3d6048dc8e63ee73a2359_MD5.jpg]]
 
 同样的，由于服务器在国外，下载速度巨慢。大家用我提供的文件就可以了，同样也是官网上下载的，原汁原味。链接在 `1. 安装包及驱动准备` 可以找到。
 
 安装的方法很简单，只需要双击安装包即可，然后它就会自动识别固件包的目录，点击 Next ，然后等进度条走到底就 OK 了。
 
-![[ASLant_Images/3f493e4d7f23b8895df0080ae5d462a0_MD5.jpg]]
+![[../ASLant_Files/3f493e4d7f23b8895df0080ae5d462a0_MD5.jpg]]
 
 ### 3.3 程序编译
 
 如果你们使用的是我上面推荐的 STM 32 F 103 C 8 T 6 核心板，那么请下载 `1. 安装包及驱动准备` 我提供的模板工程，然后打开这个工程。
 
-![[ASLant_Images/14b4a34f9360d46428dc88900d8a2b52_MD5.jpg]]
+![[../ASLant_Files/14b4a34f9360d46428dc88900d8a2b52_MD5.jpg]]
 
-![[ASLant_Images/e02d4f0048c5e5ad846ef3564e3c8abb_MD5.jpg]]
+![[../ASLant_Files/e02d4f0048c5e5ad846ef3564e3c8abb_MD5.jpg]]
 
 程序打开后，在上图中左上角箭头处，有三个按钮，我们所做的编译工作都是使用这三个按钮。那这三个按钮有什么作用呢？
 
@@ -250,7 +250,7 @@ https://www.keil.arm.com/packs/
 
 ### 3.4 硬件接线
 
-![[ASLant_Images/c050e1a4625301aa390f9880bc57a0a5_MD5.jpg]]
+![[../ASLant_Files/c050e1a4625301aa390f9880bc57a0a5_MD5.jpg]]
 
 核心板上边的电源线，随便找一根 microUSB 线来接就行，也就是之前手机充电线，扁头的那种，它就是用来供电的，没有传输数据。
 
@@ -258,21 +258,21 @@ https://www.keil.arm.com/packs/
 
 在下面这张图里，棕色是 GND ，红色是 SWDIO ，黄色是 SWDCLK ，大家可以对照着接线。
 
-![[ASLant_Images/6a4687c317bcdd17812961d16ed1cb9f_MD5.jpg]]
+![[../ASLant_Files/6a4687c317bcdd17812961d16ed1cb9f_MD5.jpg]]
 
 ### 3.5 程序下载
 
 在下载之前，请先按下面的步骤做好配置。
 
-![[ASLant_Images/1b0ccea0493b7f0e59e7df5d6529b888_MD5.jpg]]
+![[../ASLant_Files/1b0ccea0493b7f0e59e7df5d6529b888_MD5.jpg]]
 
-![[ASLant_Images/75096fc11f921e5353ee171df8e9b069_MD5.jpg]]
+![[../ASLant_Files/75096fc11f921e5353ee171df8e9b069_MD5.jpg]]
 
-![[ASLant_Images/0f07cbf1884f234ed1776fb8185eaee8_MD5.jpg]]
+![[../ASLant_Files/0f07cbf1884f234ed1776fb8185eaee8_MD5.jpg]]
 
-![[ASLant_Images/c1b340974a1e0417f2c49f1f3e515ffe_MD5.jpg]]
+![[../ASLant_Files/c1b340974a1e0417f2c49f1f3e515ffe_MD5.jpg]]
 
-![[ASLant_Images/9144ca9016478b845195bc6dc3d2c0a8_MD5.jpg]]
+![[../ASLant_Files/9144ca9016478b845195bc6dc3d2c0a8_MD5.jpg]]
 
 到此为止，针对 MDK 的配置已经搞定了，现在就可以进行下载了。
 
@@ -283,11 +283,11 @@ https://www.keil.arm.com/packs/
 3. 编译好程序；
 4. 板子一定要上电。
 
-![[ASLant_Images/9d0aef28ad3b8023d769beda7be92060_MD5.jpg]]
+![[../ASLant_Files/9d0aef28ad3b8023d769beda7be92060_MD5.jpg]]
 
 程序下载成功之后，板子自动运行新代码，会看到 LED 灯间隔 500 毫秒亮灭交替闪烁。
 
-![[ASLant_Images/fbc7e54f45beadb049c1b2d5b3af2358_MD5.jpg]]
+![[../ASLant_Files/fbc7e54f45beadb049c1b2d5b3af2358_MD5.jpg]]
 
 ## 4. STM 32 ST-LINK Utility 下载
 
@@ -303,7 +303,7 @@ ST-LINK Utility 只支持 ST-Link （多个版本）的下载调试器，支持�
 
 https://www.st.com/en/development-tools/stsw-link004.html
 
-![[ASLant_Images/d8de59e99efa4fc23025b3fde5dd7573_MD5.jpg]]
+![[../ASLant_Files/d8de59e99efa4fc23025b3fde5dd7573_MD5.jpg]]
 
 官网需要注册、填邮箱……怪麻烦的，所以建议直接拿我准备好的安装包（ `1. 安装包及驱动准备` )，也是官网下的，4.6.0 版本。
 安装没啥好说的，**无脑下一步**，有需要的话记得改下安装路径。
@@ -318,25 +318,25 @@ ST-Link V2 STM32
    3.3V => 3V3
 ```
 
-![[ASLant_Images/861fdd5b5bad4aafb167e55484e71581_MD5.jpg]]
+![[../ASLant_Files/861fdd5b5bad4aafb167e55484e71581_MD5.jpg]]
 
 ### 4 .2 程序下载
 
 打开 ST-LINK Utility ，如图操作：
 
-![[ASLant_Images/159efac69592832b55e2100989b8b605_MD5.jpg]]
+![[../ASLant_Files/159efac69592832b55e2100989b8b605_MD5.jpg]]
 
-![[ASLant_Images/9ccf60742712c0226f6c8a2936258391_MD5.jpg]]
+![[../ASLant_Files/9ccf60742712c0226f6c8a2936258391_MD5.jpg]]
 
 这里需要选择 hex 文件，如果你们使用的是我上面推荐的 STM 32 F 103 C 8 T 6 核心板，可以下载 `1. 安装包及驱动准备` 我提供的模板工程，如下操作。想烧自己的代码要是没有 hex 文件的话可以用 MDK（Keil） 生成。
 
-![[ASLant_Images/2466a5401eb821d5ba7d61614e07c198_MD5.jpg]]
+![[../ASLant_Files/2466a5401eb821d5ba7d61614e07c198_MD5.jpg]]
 
-![[ASLant_Images/480bcc6e1029617db645de9b316fda9b_MD5.jpg]]
+![[../ASLant_Files/480bcc6e1029617db645de9b316fda9b_MD5.jpg]]
 
 看到出现 “Verification... OK” 就是下载成功。
 
-![[ASLant_Images/386af5476368051733b808d320c14492_MD5.jpg]]
+![[../ASLant_Files/386af5476368051733b808d320c14492_MD5.jpg]]
 
 程序下载成功之后，板子自动运行新代码，会看到 LED 灯间隔 500 毫秒亮灭交替闪烁。
 
@@ -352,7 +352,7 @@ JLINK 是一个兼容 JTAG 的仿真器，可以烧入程序和调试。
 
 支持 KEIL 、 IAR 、 ADS 等编译仿真软件。支持功能 JTAG 、 SWD 、 SWO 、 VCOM 模式。正版 JLink 价格在 2000 元以上，某宝上仿的均价在 70 左右，但容易掉固件（一般商家支持帮我们重刷固件）。
 
-![[ASLant_Images/d15ed483c3179b95a59245f00aab28da_MD5.jpg]]
+![[../ASLant_Files/d15ed483c3179b95a59245f00aab28da_MD5.jpg]]
 
 ### 5.1 J-Link 驱动安装
 
@@ -362,53 +362,53 @@ https://www.segger.com/downloads/jlink
 
 也可以用我提供的驱动安装包，我的是 V 612 ，V 1、V 2、V 8、V 9 的仿真器都可以用，或者找买的客服，一般都有驱动（不走官网就跳过下两张图）。
 
-![[ASLant_Images/2727fab6d8b05867c3c537b9e5633cd5_MD5.jpg]]
+![[../ASLant_Files/2727fab6d8b05867c3c537b9e5633cd5_MD5.jpg]]
 
-![[ASLant_Images/65cf5f6429594ecbc596a58858eb3378_MD5.jpg]]
+![[../ASLant_Files/65cf5f6429594ecbc596a58858eb3378_MD5.jpg]]
 
 安装好后解压打开，点下图的 .exe 文件。
 
-![[ASLant_Images/599951c9dc0fb17b3f6fa8ce1dd78303_MD5.jpg]]
+![[../ASLant_Files/599951c9dc0fb17b3f6fa8ce1dd78303_MD5.jpg]]
 
 如下操作：
 
-![[ASLant_Images/ea47506641946c547249c1158fc7be51_MD5.jpg]]
+![[../ASLant_Files/ea47506641946c547249c1158fc7be51_MD5.jpg]]
 
-![[ASLant_Images/b2fe7953edaa0155fad082a94fae0891_MD5.jpg]]
+![[../ASLant_Files/b2fe7953edaa0155fad082a94fae0891_MD5.jpg]]
 
-![[ASLant_Images/962c8e2d3b2ea60466b495a3dc8a29e7_MD5.jpg]]
+![[../ASLant_Files/962c8e2d3b2ea60466b495a3dc8a29e7_MD5.jpg]]
 
-![[ASLant_Images/edef4571762d09bfffa45dcc4751015b_MD5.jpg]]
+![[../ASLant_Files/edef4571762d09bfffa45dcc4751015b_MD5.jpg]]
 
-![[ASLant_Images/3b1e664e9e00989160287647797d5127_MD5.jpg]]
+![[../ASLant_Files/3b1e664e9e00989160287647797d5127_MD5.jpg]]
 
-![[ASLant_Images/0b0dc0d72be7b633a1c4a3800b96a411_MD5.jpg]]
+![[../ASLant_Files/0b0dc0d72be7b633a1c4a3800b96a411_MD5.jpg]]
 
 ### 5.2 硬件连线
 
 烧 STM 32 只要用 4 条杜邦线就可以了，和 STM 32 ST-LINK Utility 下载连线一样，采用 SWD 接口模式，这里的 VREF 就是电源正极。
 
-![[ASLant_Images/7cd61fefa21e06cdf6899db3a43ab2ba_MD5.jpg]]
+![[../ASLant_Files/7cd61fefa21e06cdf6899db3a43ab2ba_MD5.jpg]]
 
 看图连线应该很简单吧，1、7、9 是上面一排，20 是下面一排哦。
 
-![[ASLant_Images/643fe2329449140fac908927cdaee83f_MD5.jpg]]
+![[../ASLant_Files/643fe2329449140fac908927cdaee83f_MD5.jpg]]
 
 整体连好长这样：
 
-![[ASLant_Images/f94d0571955d950bdb47710e2de50aab_MD5.jpg]]
+![[../ASLant_Files/f94d0571955d950bdb47710e2de50aab_MD5.jpg]]
 
 ### 5.3 程序下载
 
 使用 MDK 5 打开工程（这里用的是我的模板工程），点击魔法棒，跟我操作。
 
-![[ASLant_Images/76819356766de9fca8903ed28c5b09a4_MD5.jpg]]
+![[../ASLant_Files/76819356766de9fca8903ed28c5b09a4_MD5.jpg]]
 
-![[ASLant_Images/5bf0d84a39b0372e3df887bdb7fd1b04_MD5.jpg]]
+![[../ASLant_Files/5bf0d84a39b0372e3df887bdb7fd1b04_MD5.jpg]]
 
 一般这样设置就可以了，如果烧录失败，可以参考 3.5 。
 
-![[ASLant_Images/99551b098cce600ebb2c8fdea387e286_MD5.jpg]]
+![[../ASLant_Files/99551b098cce600ebb2c8fdea387e286_MD5.jpg]]
 
 ## 6. STVP 下载
 
@@ -424,17 +424,17 @@ https://www.st.com/en/development-tools/stvp-stm32.html#get-software
 
 和 ST-LINK Utility 一样，官网需要注册、填邮箱……怪麻烦的，所以建议直接拿我准备好的安装包（ `1. 安装包及驱动准备` ），也是官网下的。
 
-![[ASLant_Images/a78ab8d160395f96fdcf313b5f27d948_MD5.jpg]]
+![[../ASLant_Files/a78ab8d160395f96fdcf313b5f27d948_MD5.jpg]]
 
-![[ASLant_Images/fc60b7ac457c53bf86b05bdc5dbc015d_MD5.jpg]]
+![[../ASLant_Files/fc60b7ac457c53bf86b05bdc5dbc015d_MD5.jpg]]
 
 安装过程也是一路 Next 就行，由于安装时我不能截屏了，所以拍几个关键步骤出来。
 
-![[ASLant_Images/9db6956741aac0707f43647f85e3acbb_MD5.jpg]]
+![[../ASLant_Files/9db6956741aac0707f43647f85e3acbb_MD5.jpg]]
 
-![[ASLant_Images/470e38e54c1a421081e61e4977456cf4_MD5.jpg]]
+![[../ASLant_Files/470e38e54c1a421081e61e4977456cf4_MD5.jpg]]
 
-![[ASLant_Images/7a46aac34b83523362e3dc246d9146b6_MD5.jpg]]
+![[../ASLant_Files/7a46aac34b83523362e3dc246d9146b6_MD5.jpg]]
 
 PS ：安装好后会看见 STVD 和 STVP ，我们用 STVP 就行。
 
@@ -453,25 +453,25 @@ SWDIO  =>  SWDIO
  3.3V  =>  3V3
 ```
 
-![[ASLant_Images/861fdd5b5bad4aafb167e55484e71581_MD5.jpg]]
+![[../ASLant_Files/861fdd5b5bad4aafb167e55484e71581_MD5.jpg]]
 
 ### 6.3 程序下载
 
 安装好后，桌面会有这个图标，点击打开。
 
-![[ASLant_Images/f299f3ec0094f856a7dbad87d5be326d_MD5.jpg]]
+![[../ASLant_Files/f299f3ec0094f856a7dbad87d5be326d_MD5.jpg]]
 
 这里以 ST-Link 下载器和 STM 32 F 103 C 8 T 6 核心板为例：
 
-![[ASLant_Images/35c8c625e8d972c908e76e691dac061e_MD5.jpg]]
+![[../ASLant_Files/35c8c625e8d972c908e76e691dac061e_MD5.jpg]]
 
 弹出新窗口，如下操作，这里打开的是 `1. 安装包及驱动准备` 我提供的模板工程，大家可以选自己的，要是 hex 文件，没有可以用 MDK（Keil） 生成。
 
-![[ASLant_Images/878c5da69409c26f1c71d298d6ccce0a_MD5.jpg]]
+![[../ASLant_Files/878c5da69409c26f1c71d298d6ccce0a_MD5.jpg]]
 
-![[ASLant_Images/8d288dd8bc23ebf083cc972a9689ecd2_MD5.jpg]]
+![[../ASLant_Files/8d288dd8bc23ebf083cc972a9689ecd2_MD5.jpg]]
 
-![[ASLant_Images/fe80a6217b348bd0d77a941c3e4b9e98_MD5.jpg]]
+![[../ASLant_Files/fe80a6217b348bd0d77a941c3e4b9e98_MD5.jpg]]
 
 ## 7. 总结
 
