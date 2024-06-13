@@ -15,7 +15,7 @@
   },
   "showInlineTitle": true,
   "newLinkFormat": "relative",
-  "trashOption": "system",
+  "trashOption": "local",
   "showUnsupportedFiles": false,
   "useMarkdownLinks": false
 }
