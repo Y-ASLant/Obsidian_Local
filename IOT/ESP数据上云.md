@@ -234,7 +234,6 @@ void loop() {
     Serial.print("Publish message: ");
     Serial.println(msg);
     client.publish(Mqtt_pub_topic, msg);
-
   }
 }
 ```
