@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "索引.md",
+                "file": "杂/AAA.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "索引.md",
+                "file": "杂/AAA.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "索引.md",
+                "file": "杂/AAA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "索引.md"
+                "file": "杂/AAA.md"
               }
             }
           }
@@ -183,6 +183,8 @@
   },
   "active": "7d5e80f5ed1be03a",
   "lastOpenFiles": [
+    "ASLant_Files/小玩意儿.xmind",
+    "索引.md",
     "WSL2/WSL_GCC_Q.md",
     "WSL2/WSL 2 使用串口.md",
     "WSL2/WSL.md",
@@ -208,8 +210,6 @@
     "STM32F103C8T6/图片取模.md",
     "STM32F103C8T6/屏幕驱动.md",
     "STM32F103C8T6/流水灯.md",
-    "STM32F103C8T6/开发板原理图.md",
-    "STM32F103C8T6/继电器.md",
     "ASLant_Files/2024-06-14-13-09-53.png",
     "ASLant_Files/068ca53b6c9806eac4d57c5f55a8c7f8_MD5.jpg",
     "WSL2",
