@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STM32F103C8T6/WiFi 模块.md",
+                "file": "杂/AAA.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STM32F103C8T6/WiFi 模块.md",
+                "file": "杂/AAA.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STM32F103C8T6/WiFi 模块.md",
+                "file": "杂/AAA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STM32F103C8T6/WiFi 模块.md"
+                "file": "杂/AAA.md"
               }
             }
           }
@@ -183,6 +183,11 @@
   },
   "active": "7d5e80f5ed1be03a",
   "lastOpenFiles": [
+    "杂/2024.05.14 硬件清单.md",
+    "网络安全/Kali Sample 0x01 中间人.md",
+    "网络安全/网络安全.md",
+    "网络安全/计算机网络基础.md",
+    "STM32F103C8T6/WiFi 模块.md",
     "ASLant_Files/2024-06-14-13-13-02.png",
     "STM32F103C8T6/TB6612FNG电机驱动模块.md",
     "STM32F103C8T6/Systick滴答定时器.md",
@@ -205,12 +210,8 @@
     "STM32F103C8T6/定时器.md",
     "STM32F103C8T6/按键扫描.md",
     "PHP/雪花 API.md",
-    "PHP/蓝奏云直链解析API.md",
-    "编程语言/解释型语言/Python/蓝奏云直链生成器.md",
-    "Other/雷池WAF.md",
     "ASLant_Files/2024-06-14-13-09-53.png",
     "ASLant_Files/068ca53b6c9806eac4d57c5f55a8c7f8_MD5.jpg",
-    "Other/打包EXE文件.md",
     "WSL2",
     "ASLant_Files/2024-06-13-20-23-44.png",
     "ASLant_Files/ec50817c33f41e66d72becfe46edce4e_MD5.jpg",
@@ -219,7 +220,6 @@
     "ASLant_Files/bf1efdb1efb60ec3e074a2df252f662a_MD5.jpg",
     "ASLant_Files/a61f0f5fde13294192f76f8e7165abdc_MD5.jpg",
     "ASLant_Files/a7c9d67ac7f13b5d963c4ecb577a87a1_MD5.jpg",
-    "ASLant_Files/0706d83dc5a9ad12cff9ac1d8eded0ae_MD5.jpg",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
     "ASLant_Files/我的19岁-电子设计大赛  1 .pdf",
     "ASLant_Files/video/test.mp4",
