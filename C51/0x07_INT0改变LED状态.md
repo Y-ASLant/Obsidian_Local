@@ -1,22 +1,14 @@
 ## 题目要求
----
 
 > INT0中断触发 LED状态
 
-<br/>   
-
 ## 仿真图	
----
 
 ![[../ASLant_Files/47979164062823b5a79177534e0e68d9_MD5.jpg]]   
 
 > [仿真源文件](/123pan/?d=N7orVv-spMV3.html)		
 
-
-<br/>   
-
 ## 源代码   
----
 
 ```c
 #include <reg52.h>
@@ -40,8 +32,7 @@ External_Interrupt_0() interrupt 0
 }
 
 ```
-<br/>
 
 ## 效果预览
-----
+
 ![[../ASLant_Files/ae0df0eb02943dfc95e9af769a982e43_MD5.gif]]    

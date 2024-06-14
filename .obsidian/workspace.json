@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encryption/Clash Meta Node.md",
+                "file": "C51/0x00_最小系统.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encryption/Clash Meta Node.md",
+                "file": "C51/0x00_最小系统.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Encryption/Clash Meta Node.md",
+                "file": "C51/0x00_最小系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Encryption/Clash Meta Node.md"
+                "file": "C51/0x00_最小系统.md"
               }
             }
           }
@@ -183,6 +183,19 @@
   },
   "active": "7d5e80f5ed1be03a",
   "lastOpenFiles": [
+    "C51/0x01_8LED同时闪烁.md",
+    "C51/0x02_4x4矩阵键盘.md",
+    "C51/0x03_do...while循环点灯.md",
+    "C51/0x04_左右来回流水灯.md",
+    "C51/0x05_定时器设计门铃.md",
+    "C51/0x07_INT0改变LED状态.md",
+    "C51/0x08_长时间定时.md",
+    "C51/0x09_不同周期LED闪烁.md",
+    "C51/0x10_循环左移流水灯.md",
+    "C51/0x11_按键控制8×8LED点阵屏.md",
+    "ESP32/ESP8266一些问题.md",
+    "ESP32/ESP32.md",
+    "Encryption/Clash Meta Node.md",
     "Encryption/索引.md",
     "看板/看板1.md",
     "Linux/NeoVim.md",
@@ -198,7 +211,6 @@
     "2024华清远见实训/机械臂_0x01.md",
     "ASLant_Files/2024-06-13-20-23-44.png",
     "2024华清远见实训/机械臂_0x03.md",
-    "2024华清远见实训/机械臂_0x02.md",
     "ASLant_Files/ec50817c33f41e66d72becfe46edce4e_MD5.jpg",
     "ASLant_Files/d5497dd0746975350385325f22001573_MD5.jpg",
     "ASLant_Files/c922af00f8a26666040720f534b714e0_MD5.jpg",
@@ -208,22 +220,10 @@
     "ASLant_Files/0706d83dc5a9ad12cff9ac1d8eded0ae_MD5.jpg",
     "ASLant_Files/4ed46f8d5ed75f4d68b4982a0deddb21_MD5.jpg",
     "ASLant_Files/ac7da7ec4e62bdd6ebe19e6f2b9e9ba8_MD5.jpg",
-    "2024华清远见实训/机械臂_0x04.md",
-    "编程语言/解释型语言/Python/安装Python环境.md",
-    "编程语言/编译型语言/C语言/C语言 指针总结.md",
-    "编程语言/编译型语言/C语言/C语言 内存.md",
-    "NLE新大陆/NLE 物联网.md",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
     "ASLant_Files/我的19岁-电子设计大赛  1 .pdf",
     "ASLant_Files/video/test.mp4",
-    "PVE虚拟化/安装PVE.md",
-    "PVE虚拟化/PVE 下安装黑群晖.md",
-    "杂/AAA.md",
-    "杂/Test.md",
     "ASLant_Files/1718272640593.mp3",
-    "Win/索引.md",
-    "Encryption/Clash Meta Node.md",
-    "Linux/Docker.md",
     "PVE虚拟化",
     "杂",
     "ASLant_Images/video/te.mp4",
