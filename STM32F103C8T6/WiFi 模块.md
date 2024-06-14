@@ -1,6 +1,8 @@
 > [!BUG] ESP_01s 隶属于 ESP8266 系列
 > ![[ASLant_Files/b96447f3f544a9a8fbb49452ea474cb9_MD5.jpg]]
-[](../ASLant_Files/b96447f3f544a9a8fbb49452ea474cb9_MD5.jpg)- **STA 模式**（Station）
+[](../ASLant_Files/b96447f3f544a9a8fbb49452ea474cb9_MD5.jpg)
+
+- **STA 模式**（Station）
 
 一般用于远距离传输。ESP_01s 通过路由器连接互联网，终端设备通过互联网实现对设备的远程控制。简单来说，此时的 ESP_01s 可以当作是一个客户端，可以向服务端进行数据的下载与传输。这就类似于，手机/平板/笔记本（客户端）可以通过 WIFI 连接到路由器进行上网。
 
@@ -435,4 +437,4 @@ void ESP_01s_uart_printf(char *fmt, ...)
 
 # 测试 AT 指令
 
-![[../ASLant_Images/2024-06-04-21-24-17.png]]
+![[../ASLant_Files/2024-06-14-13-13-02.png]]
