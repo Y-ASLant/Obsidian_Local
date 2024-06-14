@@ -1,9 +1,9 @@
 ### MySQL 下载
------   
-##### [` MySQL-8下载地址`](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.32-winx64.zip) [`官方地址`](https://dev.mysql.com/downloads/mysql/)
+
+##### [`MySQL-8下载地址`](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.32-winx64.zip) [`官方地址`](https://dev.mysql.com/downloads/mysql/)
 
 ### 配置 MySQL  
------   
+
 #### 将压缩包解压至任意盘 (本教程以 E 盘作为解压地址)
 
 ![[../ASLant_Files/fec79ac4d074e946072d91a8fca88f5b_MD5.jpg]]
