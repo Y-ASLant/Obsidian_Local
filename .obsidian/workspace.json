@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ee6fe491acd9bbb7",
+        "id": "36e2e441a17d75f3",
         "type": "tabs",
         "children": [
           {
-            "id": "526ef0f59fb2e8f3",
+            "id": "7d5e80f5ed1be03a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂/CET4.md",
+                "file": "Encryption/Clash Meta Node.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cet",
+                "query": "wsl",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂/CET4.md",
+                "file": "Encryption/Clash Meta Node.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂/CET4.md",
+                "file": "Encryption/Clash Meta Node.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂/CET4.md"
+                "file": "Encryption/Clash Meta Node.md"
               }
             }
           }
@@ -181,10 +181,22 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "526ef0f59fb2e8f3",
+  "active": "7d5e80f5ed1be03a",
   "lastOpenFiles": [
-    "ASLant_Files/2024-06-13-20-23-44.png",
+    "Encryption/索引.md",
+    "看板/看板1.md",
+    "Linux/NeoVim.md",
+    "WSL2/WSL 2 使用串口.md",
+    "Other/ROS.md",
+    "WSL2/WSL_GCC_Q.md",
+    "Other/wewe-RSS.md",
+    "WSL2/WSL.md",
+    "WSL2",
+    "杂/CET4.md",
+    "2024华清远见实训/机械臂_0x06.md",
     "2024华清远见实训/机械臂_0x05.md",
+    "2024华清远见实训/机械臂_0x01.md",
+    "ASLant_Files/2024-06-13-20-23-44.png",
     "2024华清远见实训/机械臂_0x03.md",
     "2024华清远见实训/机械臂_0x02.md",
     "ASLant_Files/ec50817c33f41e66d72becfe46edce4e_MD5.jpg",
@@ -196,13 +208,10 @@
     "ASLant_Files/0706d83dc5a9ad12cff9ac1d8eded0ae_MD5.jpg",
     "ASLant_Files/4ed46f8d5ed75f4d68b4982a0deddb21_MD5.jpg",
     "ASLant_Files/ac7da7ec4e62bdd6ebe19e6f2b9e9ba8_MD5.jpg",
-    "ASLant_Files/3259a2212af6318bfc646e11a810cba8_MD5.jpg",
     "2024华清远见实训/机械臂_0x04.md",
-    "2024华清远见实训/机械臂_0x01.md",
     "编程语言/解释型语言/Python/安装Python环境.md",
     "编程语言/编译型语言/C语言/C语言 指针总结.md",
     "编程语言/编译型语言/C语言/C语言 内存.md",
-    "杂/CET4.md",
     "NLE新大陆/NLE 物联网.md",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
     "ASLant_Files/我的19岁-电子设计大赛  1 .pdf",
@@ -213,22 +222,13 @@
     "杂/Test.md",
     "ASLant_Files/1718272640593.mp3",
     "Win/索引.md",
-    "Encryption/索引.md",
     "Encryption/Clash Meta Node.md",
     "Linux/Docker.md",
     "PVE虚拟化",
-    "Linux/GCC编译.md",
-    "Linux/CentOS 8 一键换源.md",
-    "Linux/在 Linux 中删除文件或目录的几种方式.md",
-    "MySQL/SQL Server命令.md",
-    "MySQL/MySQL.md",
-    "Obsidian/Obsidian.md",
-    "Obsidian/笔记样式.md",
     "杂",
     "ASLant_Images/video/te.mp4",
     "ASLant_Images/video/十行代码，就能让你理解看门狗！经常见但不知道看门狗是什么，看了这个视频你就知道了！.mp4",
     "ASLant_Images/video/机场8k测试.mp4",
-    "ASLant_Files/video",
     "STM32F103C8T6/未命名 1.canvas",
     "STM32F103C8T6/未命名.canvas",
     "Win/未命名.canvas",

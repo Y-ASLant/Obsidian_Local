@@ -1,6 +1,7 @@
+# ldconfig: /usr/lib/wsl/lib/libcuda. So. 1 is not a symbolic link
 在运行 `ldconfig` 时，遇到错误消息 `ldconfig: /usr/lib/wsl/lib/libcuda.so.1 is not a symbolic link`，这是因为 `ldconfig` 期望 `libcuda.so.1` 是一个符号链接，但它是一个实际文件。要解决这个问题，你可以手动创建一个符号链接指向实际的库文件。
 
-请按照以下步骤进行操作：
+### 请按照以下步骤进行操作：
 
 1. 删除现有的 `libcuda.so.1` 文件：
 

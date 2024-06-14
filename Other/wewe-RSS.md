@@ -1,4 +1,3 @@
-[[../ASLant_Files/71f85d5cfbee1319073529cd3bc9b257_MD5.jpg|Open: 71f85d5cfbee1319073529cd3bc9b257_MD5.jpg]]
 # 公众号以 RSS 形式订阅
 
 ### 拉取 Docker 镜像
@@ -47,7 +46,6 @@ docker run -d \
 
 > [!ERROR] 默认端口 4000
 ![[ASLant_Files/71f85d5cfbee1319073529cd3bc9b257_MD5.jpg]]
-[](../ASLant_Files/71f85d5cfbee1319073529cd3bc9b257_MD5.jpg)[[ASLant_Images/71f85d5cfbee1319073529cd3bc9b257_MD5.jpg|Open: 71f85d5cfbee1319073529cd3bc9b257_MD5.jpg]]
 # 公众号以 RSS 形式订阅
 
 ### 拉取 Docker 镜像
