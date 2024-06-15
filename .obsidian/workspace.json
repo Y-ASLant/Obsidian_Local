@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "前端/屏蔽浏览器左下角链接.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Other/Git 版本控制器.md",
+                "file": "前端/屏蔽浏览器左下角链接.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Other/Git 版本控制器.md",
+                "file": "前端/屏蔽浏览器左下角链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Other/Git 版本控制器.md"
+                "file": "前端/屏蔽浏览器左下角链接.md"
               }
             }
           }
@@ -194,11 +193,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "dc6de1e4fc44b157",
+  "active": "1724a292e819274c",
   "lastOpenFiles": [
+    "Other/Git 版本控制器.md",
+    "前端/屏蔽浏览器左下角链接.md",
+    "前端/简易下载不跳转.md",
     "杂/AAA.md",
     "STM32F103C8T6/WiFi 模块.md",
-    "Other/Git 版本控制器.md",
     "IOT/ESP数据上云.md",
     "Obsidian/Obsidian_Online.md",
     "Obsidian/笔记样式.md",
@@ -223,8 +224,6 @@
     "ASLant_Files/小玩意儿.xmind",
     "WSL2/WSL_GCC_Q.md",
     "WSL2/WSL 2 使用串口.md",
-    "WSL2/WSL.md",
-    "杂/2024.05.14 硬件清单.md",
     "ASLant_Files/2024-06-14-13-13-02.png",
     "ASLant_Files/2024-06-14-13-09-53.png",
     "ASLant_Files/068ca53b6c9806eac4d57c5f55a8c7f8_MD5.jpg",
