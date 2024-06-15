@@ -1,6 +1,6 @@
 {
-  "font": "none",
-  "force_mode": false,
+  "font": "山茶花.ttf",
+  "force_mode": true,
   "custom_css_mode": false,
-  "custom_css": ""
+  "custom_css": ":root * {\n\t\t--font-default: 山茶花;\n\t\t--default-font: 山茶花;\n\t\t--font-family-editor: 山茶花;\n\t\t--font-monospace-default: 山茶花,\n\t\t--font-interface-override: 山茶花,\n\t\t--font-text-override: 山茶花,\n\t\t--font-monospace-override: 山茶花,\t\n\t}\n"
 }
