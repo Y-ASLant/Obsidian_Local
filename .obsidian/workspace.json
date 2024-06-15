@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/屏蔽浏览器左下角链接.md",
+                "file": "杂/AAA.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/屏蔽浏览器左下角链接.md",
+                "file": "杂/AAA.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/屏蔽浏览器左下角链接.md",
+                "file": "杂/AAA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/屏蔽浏览器左下角链接.md"
+                "file": "杂/AAA.md"
               }
             }
           }
@@ -195,8 +195,9 @@
   },
   "active": "1724a292e819274c",
   "lastOpenFiles": [
-    "Other/Git 版本控制器.md",
+    "ASLant_Files/8fa482703899539a5d091231ab932fb.jpg",
     "前端/屏蔽浏览器左下角链接.md",
+    "Other/Git 版本控制器.md",
     "前端/简易下载不跳转.md",
     "杂/AAA.md",
     "STM32F103C8T6/WiFi 模块.md",
@@ -223,7 +224,6 @@
     "杂/CET4.md",
     "ASLant_Files/小玩意儿.xmind",
     "WSL2/WSL_GCC_Q.md",
-    "WSL2/WSL 2 使用串口.md",
     "ASLant_Files/2024-06-14-13-13-02.png",
     "ASLant_Files/2024-06-14-13-09-53.png",
     "ASLant_Files/068ca53b6c9806eac4d57c5f55a8c7f8_MD5.jpg",
