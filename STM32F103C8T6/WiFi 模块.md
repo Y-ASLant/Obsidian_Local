@@ -1,6 +1,5 @@
 > [!BUG] ESP_01s 隶属于 ESP8266 系列
 > ![[ASLant_Files/b96447f3f544a9a8fbb49452ea474cb9_MD5.jpg]]
-[](../ASLant_Files/b96447f3f544a9a8fbb49452ea474cb9_MD5.jpg)
 
 - **STA 模式**（Station）
 

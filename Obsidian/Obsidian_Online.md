@@ -11,3 +11,8 @@
 > [!DOwn] Download CSS
 > [lib配置](https://aslant.top/Cloud/OneDrive/Other/lib.tar.gz?preview)
 
+# Git Clone
+
+```git
+https://github.com/Y-ASLant/Obsidian_Local.git
+```
