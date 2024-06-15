@@ -13,20 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "杂/Git提交流程.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc6de1e4fc44b157",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other/Git 版本控制器.md",
-                "mode": "preview",
                 "source": false
               }
             }
@@ -117,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "杂/Git提交流程.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "杂/Git提交流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂/AAA.md"
+                "file": "杂/Git提交流程.md"
               }
             }
           }
@@ -195,11 +183,12 @@
   },
   "active": "1724a292e819274c",
   "lastOpenFiles": [
+    "杂/AAA.md",
+    "杂/Git提交流程.md",
+    "Other/Git 版本控制器.md",
     "ASLant_Files/8fa482703899539a5d091231ab932fb.jpg",
     "前端/屏蔽浏览器左下角链接.md",
-    "Other/Git 版本控制器.md",
     "前端/简易下载不跳转.md",
-    "杂/AAA.md",
     "STM32F103C8T6/WiFi 模块.md",
     "IOT/ESP数据上云.md",
     "Obsidian/Obsidian_Online.md",
@@ -232,7 +221,6 @@
     "ASLant_Files/ec50817c33f41e66d72becfe46edce4e_MD5.jpg",
     "ASLant_Files/d5497dd0746975350385325f22001573_MD5.jpg",
     "ASLant_Files/c922af00f8a26666040720f534b714e0_MD5.jpg",
-    "ASLant_Files/bf1efdb1efb60ec3e074a2df252f662a_MD5.jpg",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
     "ASLant_Files/我的19岁-电子设计大赛  1 .pdf",
     "ASLant_Files/video/test.mp4",
