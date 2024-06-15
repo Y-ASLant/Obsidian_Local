@@ -20,3 +20,7 @@ wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/D
 wget https://github.com/EXALAB/Anlinux-Resources/raw/master/Scripts/DesktopEnvironment/Heavy/KDE/Apt/de-apt-kde.sh --no-check-certificate && bash de-apt-kde.sh
 ``` 
 
+
+
+
+![[../ASLant_Files/2024-06-15-17-16-21.png]]
