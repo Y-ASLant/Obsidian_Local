@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "Other/Git 版本控制器.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "Other/Git 版本控制器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂/AAA.md"
+                "file": "Other/Git 版本控制器.md"
               }
             }
           }
@@ -193,14 +194,14 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1724a292e819274c",
+  "active": "dc6de1e4fc44b157",
   "lastOpenFiles": [
+    "杂/AAA.md",
     "STM32F103C8T6/WiFi 模块.md",
     "Other/Git 版本控制器.md",
     "IOT/ESP数据上云.md",
     "Obsidian/Obsidian_Online.md",
     "Obsidian/笔记样式.md",
-    "杂/AAA.md",
     "STM32F103C8T6/PWM.md",
     "STM32F103C8T6/屏幕驱动.md",
     "STM32F103C8T6/流水灯.md",
