@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/ssh连接ZeroTermux.md",
+                "file": "IOT/STM32F103C8T6/开发板原理图.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/ssh连接ZeroTermux.md",
+                "file": "IOT/STM32F103C8T6/开发板原理图.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/ssh连接ZeroTermux.md",
+                "file": "IOT/STM32F103C8T6/开发板原理图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/ssh连接ZeroTermux.md"
+                "file": "IOT/STM32F103C8T6/开发板原理图.md"
               }
             }
           }
@@ -181,10 +181,24 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1724a292e819274c",
+  "active": "48474868f5e85949",
   "lastOpenFiles": [
-    "Android/Termux安装Kali Linux.md",
+    "IOT/STM32F103C8T6/继电器.md",
+    "IOT/STM32F103C8T6/流水灯.md",
+    "IOT/STM32F103C8T6/基本项目创建.md",
+    "IOT/STM32F103C8T6/按键扫描.md",
+    "编程语言/编译型语言/C++/C++ 基础.md",
+    "Linux/FreeBSD.md",
+    "编程语言/解释型语言/Shell/清理.md",
+    "编程语言/解释型语言/Python/安装Python环境.md",
+    "编程语言/解释型语言/Python/分卷下载.md",
+    "编程语言/解释型语言/Python/蓝奏云直链生成器.md",
+    "编程语言/解释型语言/Python/字体精简.md",
+    "编程语言/解释型语言/Python/html内容批量更改.md",
+    "编程语言/解释型语言/Python/Python基本语法.md",
+    "编程语言/解释型语言/Python/SCP Upload.md",
     "Android/ssh连接ZeroTermux.md",
+    "Android/Termux安装Kali Linux.md",
     "Android/ZeroTermux Install.md",
     "ASLant_Files/2024-06-16-12-39-04.png",
     "ASLant_Files/2024-06-16-12-38-37.png",
@@ -194,31 +208,17 @@
     "ASLant_Files/8fa482703899539a5d091231ab932fb.jpg",
     "前端/屏蔽浏览器左下角链接.md",
     "前端/简易下载不跳转.md",
-    "STM32F103C8T6/WiFi 模块.md",
+    "IOT/STM32F103C8T6/WiFi 模块.md",
     "IOT/ESP数据上云.md",
     "Obsidian/Obsidian_Online.md",
     "Obsidian/笔记样式.md",
-    "STM32F103C8T6/PWM.md",
-    "STM32F103C8T6/屏幕驱动.md",
-    "STM32F103C8T6/流水灯.md",
-    "STM32F103C8T6/开发板原理图.md",
-    "ESP32/MicroPython.md",
     "ASLant_Files/2024-06-15-19-45-37.png",
-    "Linux/TheFuck.md",
-    "Encryption/索引.md",
     "ASLant_Files/2024-06-15-17-16-21.png",
-    "Linux/SSH连接.md",
-    "编程语言/解释型语言/Python/Python基本语法.md",
-    "编程语言/解释型语言/Python/分卷下载.md",
-    "编程语言/解释型语言/Python/安装Python环境.md",
-    "索引.md",
-    "STM32F103C8T6/BLE 蓝牙模块.md",
-    "STM32F103C8T6/问题汇总.md",
     "ASLant_Files/小玩意儿.xmind",
     "ASLant_Files/2024-06-14-13-13-02.png",
     "ASLant_Files/2024-06-14-13-09-53.png",
     "ASLant_Files/068ca53b6c9806eac4d57c5f55a8c7f8_MD5.jpg",
-    "WSL2",
+    "Linux/WSL2",
     "ASLant_Files/2024-06-13-20-23-44.png",
     "ASLant_Files/ec50817c33f41e66d72becfe46edce4e_MD5.jpg",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
