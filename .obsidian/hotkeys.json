@@ -150,5 +150,11 @@
       ],
       "key": "W"
     }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
   ]
 }

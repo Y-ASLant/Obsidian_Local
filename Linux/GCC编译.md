@@ -23,9 +23,6 @@ dnf -y install gcc
 
 > [!BUG]- 可能遇到的问题
 ![[ASLant_Files/80e37f956d4923d54c77200f3279e84c_MD5.jpg]]
-[](../ASLant_Files/80e37f956d4923d54c77200f3279e84c_MD5.jpg)en: 80e37f956d4923d54c77200f3279e84c_MD5.jpg]]
-[](../ASLant_Files/80e37f956d4923d54c77200f3279e84c_MD5.jpg)
-```
 
 ![[../ASLant_Files/f738620db30c677c1ed857bf77ab01f9_MD5.jpg]]
 ### 汇编
