@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/ZeroTermux.md",
+                "file": "Android/ssh连接ZeroTermux.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/ZeroTermux.md",
+                "file": "Android/ssh连接ZeroTermux.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/ZeroTermux.md",
+                "file": "Android/ssh连接ZeroTermux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/ZeroTermux.md"
+                "file": "Android/ssh连接ZeroTermux.md"
               }
             }
           }
@@ -183,10 +183,12 @@
   },
   "active": "1724a292e819274c",
   "lastOpenFiles": [
+    "Android/Termux安装Kali Linux.md",
+    "Android/ssh连接ZeroTermux.md",
+    "Android/ZeroTermux Install.md",
     "ASLant_Files/2024-06-16-12-39-04.png",
     "ASLant_Files/2024-06-16-12-38-37.png",
     "杂/Git提交流程.md",
-    "Android/ZeroTermux.md",
     "杂/AAA.md",
     "Other/Git 版本控制器.md",
     "ASLant_Files/8fa482703899539a5d091231ab932fb.jpg",
@@ -204,7 +206,6 @@
     "ASLant_Files/2024-06-15-19-45-37.png",
     "Linux/TheFuck.md",
     "Encryption/索引.md",
-    "Android/Termux安装Kali Linux.md",
     "ASLant_Files/2024-06-15-17-16-21.png",
     "Linux/SSH连接.md",
     "编程语言/解释型语言/Python/Python基本语法.md",
@@ -220,7 +221,6 @@
     "WSL2",
     "ASLant_Files/2024-06-13-20-23-44.png",
     "ASLant_Files/ec50817c33f41e66d72becfe46edce4e_MD5.jpg",
-    "ASLant_Files/d5497dd0746975350385325f22001573_MD5.jpg",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
     "ASLant_Files/我的19岁-电子设计大赛  1 .pdf",
     "ASLant_Files/video/test.mp4",
