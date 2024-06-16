@@ -67,6 +67,7 @@ var DEFAULT_SETTINGS = {
   areFoldersHidden: true,
   matchCaseInsensitive: true,
   addHiddenFoldersToObsidianIgnoreList: false,
+  hideBottomStatusBarIndicatorText: false,
   enableCompatQuickExplorer: false,
   attachmentFolderNames: ["attachments"]
 };
@@ -113,7 +114,9 @@ var HideFoldersPlugin = class extends import_obsidian.Plugin {
     this.settings.areFoldersHidden = !this.settings.areFoldersHidden;
     this.ribbonIconButton.ariaLabel = this.settings.areFoldersHidden ? "Show hidden folders" : "Hide hidden folders again";
     (0, import_obsidian.setIcon)(this.ribbonIconButton, this.settings.areFoldersHidden ? "eye" : "eye-off");
-    this.statusBarItem.innerHTML = this.settings.areFoldersHidden ? "Configured folders are hidden" : "";
+    if (this.statusBarItem) {
+      this.statusBarItem.innerHTML = this.settings.areFoldersHidden ? "Configured folders are hidden" : "";
+    }
     await this.processFolders();
     await this.saveSettings();
     await this.updateObsidianIgnoreList();
@@ -154,14 +157,21 @@ var HideFoldersPlugin = class extends import_obsidian.Plugin {
       this.app.vault.trigger("config-changed");
     });
   }
+  createBottomStatusBarIndicatorTextItem() {
+    if (this.statusBarItem)
+      return;
+    this.statusBarItem = this.addStatusBarItem();
+    this.statusBarItem.setText(this.settings.areFoldersHidden ? "Configured folders are hidden" : "");
+  }
   async onload() {
     console.log("loading plugin hide-folders");
     await this.loadSettings();
     this.ribbonIconButton = this.addRibbonIcon(this.settings.areFoldersHidden ? "eye" : "eye-off", this.settings.areFoldersHidden ? "Show hidden folders" : "Hide hidden folders again", (evt) => {
       this.toggleFunctionality();
     });
-    this.statusBarItem = this.addStatusBarItem();
-    this.statusBarItem.setText(this.settings.areFoldersHidden ? "Attachment folders are hidden" : "");
+    if (!this.settings.hideBottomStatusBarIndicatorText) {
+      this.createBottomStatusBarIndicatorTextItem();
+    }
     this.addCommand({
       id: "toggle-attachment-folders",
       name: "Toggle visibility of hidden folders",
@@ -243,6 +253,16 @@ var HideFoldersPluginSettingTab = class extends import_obsidian.PluginSettingTab
       this.plugin.settings.addHiddenFoldersToObsidianIgnoreList = value;
       await this.plugin.saveSettings();
       await this.plugin.updateObsidianIgnoreList(!value);
+    }));
+    new import_obsidian.Setting(containerEl).setName('Hide bottom status-bar "Folders are Hidden" indicator').setDesc("If enable there will be no bottom-bar indicator-text telling you if this plugin is active.").addToggle((toggle) => toggle.setValue(this.plugin.settings.hideBottomStatusBarIndicatorText).onChange(async (value) => {
+      var _a;
+      this.plugin.settings.hideBottomStatusBarIndicatorText = value;
+      if (value) {
+        (_a = this.plugin.statusBarItem) == null ? void 0 : _a.remove();
+      } else {
+        this.plugin.createBottomStatusBarIndicatorTextItem();
+      }
+      await this.plugin.saveSettings();
     }));
     new import_obsidian.Setting(experimentalSettingsContainerEl).setName("[EXPERIMENTAL] Compatibility: quick-explorer by pjeby").setDesc("[WARNING: UNSTABLE] Also hide hidden folders in the https://github.com/pjeby/quick-explorer plugin. Not affiliated with quick-explorer's author.").addToggle((toggle) => toggle.setValue(this.plugin.settings.enableCompatQuickExplorer).onChange(async (value) => {
       this.plugin.settings.enableCompatQuickExplorer = value;
