@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂/Git提交流程.md",
+                "file": "Android/ZeroTermux.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂/Git提交流程.md",
+                "file": "Android/ZeroTermux.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂/Git提交流程.md",
+                "file": "Android/ZeroTermux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂/Git提交流程.md"
+                "file": "Android/ZeroTermux.md"
               }
             }
           }
@@ -183,8 +183,11 @@
   },
   "active": "1724a292e819274c",
   "lastOpenFiles": [
-    "杂/AAA.md",
+    "ASLant_Files/2024-06-16-12-39-04.png",
+    "ASLant_Files/2024-06-16-12-38-37.png",
     "杂/Git提交流程.md",
+    "Android/ZeroTermux.md",
+    "杂/AAA.md",
     "Other/Git 版本控制器.md",
     "ASLant_Files/8fa482703899539a5d091231ab932fb.jpg",
     "前端/屏蔽浏览器左下角链接.md",
@@ -210,9 +213,7 @@
     "索引.md",
     "STM32F103C8T6/BLE 蓝牙模块.md",
     "STM32F103C8T6/问题汇总.md",
-    "杂/CET4.md",
     "ASLant_Files/小玩意儿.xmind",
-    "WSL2/WSL_GCC_Q.md",
     "ASLant_Files/2024-06-14-13-13-02.png",
     "ASLant_Files/2024-06-14-13-09-53.png",
     "ASLant_Files/068ca53b6c9806eac4d57c5f55a8c7f8_MD5.jpg",
@@ -220,7 +221,6 @@
     "ASLant_Files/2024-06-13-20-23-44.png",
     "ASLant_Files/ec50817c33f41e66d72becfe46edce4e_MD5.jpg",
     "ASLant_Files/d5497dd0746975350385325f22001573_MD5.jpg",
-    "ASLant_Files/c922af00f8a26666040720f534b714e0_MD5.jpg",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
     "ASLant_Files/我的19岁-电子设计大赛  1 .pdf",
     "ASLant_Files/video/test.mp4",
