@@ -195,8 +195,9 @@
   },
   "active": "1f9adc6cb0f9e5cc",
   "lastOpenFiles": [
-    "IOT/ESP_01S/AT固件.md",
     "IOT/STM32F103C8T6/WiFi 模块.md",
+    "杂/AAA.md",
+    "IOT/ESP_01S/AT固件.md",
     "IOT/ESP_01S/AT 命令.md",
     "IOT/STM32F103C8T6/定时器.md",
     "ASLant_Files/2024-06-16-17-40-55.png",
@@ -208,7 +209,6 @@
     "IOT/ESP8266/OneNet.md",
     "IOT/MQTT.md",
     "Linux/Docker.md",
-    "杂/AAA.md",
     "杂/2024.05.14 硬件清单.md",
     "Linux/GCC编译.md",
     "大学课程/习近平新时代中国特色社会主义思想/习思想 7~17.md",
