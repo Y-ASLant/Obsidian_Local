@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "编程语言/解释型语言/Bat脚本/Windows 桌面图标缓存清理.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "IOT/STM32F103C8T6/WiFi 模块.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "IOT/STM32F103C8T6/WiFi 模块.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂/AAA.md"
+                "file": "IOT/STM32F103C8T6/WiFi 模块.md"
               }
             }
           }
@@ -193,10 +194,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1f9adc6cb0f9e5cc",
+  "active": "567b99c9fcb0e7be",
   "lastOpenFiles": [
-    "IOT/STM32F103C8T6/WiFi 模块.md",
+    "编程语言/解释型语言/Bat脚本/Windows 桌面图标缓存清理.md",
+    "编程语言/解释型语言/Bat脚本",
+    "编程语言/解释型语言/Bat脚本/ALT+F4.md",
     "杂/AAA.md",
+    "IOT/STM32F103C8T6/WiFi 模块.md",
     "IOT/ESP_01S/AT固件.md",
     "IOT/ESP_01S/AT 命令.md",
     "IOT/STM32F103C8T6/定时器.md",
@@ -222,8 +226,6 @@
     "IOT/STM32F103C8T6/开发板原理图.md",
     "IOT/STM32F103C8T6/继电器.md",
     "IOT/STM32F103C8T6/流水灯.md",
-    "编程语言/编译型语言/C++/C++ 基础.md",
-    "Linux/FreeBSD.md",
     "ASLant_Files/2024-06-16-12-39-04.png",
     "ASLant_Files/2024-06-16-12-38-37.png",
     "ASLant_Files/8fa482703899539a5d091231ab932fb.jpg",
@@ -240,7 +242,6 @@
     "ASLant_Files/1718272640593.mp3",
     "PVE虚拟化",
     "杂",
-    "ASLant_Images/video/te.mp4",
     "STM32F103C8T6/未命名 1.canvas",
     "STM32F103C8T6/未命名.canvas",
     "Win/未命名.canvas",

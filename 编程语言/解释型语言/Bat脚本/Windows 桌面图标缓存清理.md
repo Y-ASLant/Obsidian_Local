@@ -1,6 +1,6 @@
 > [!important] Windows 桌面图标缓存清理. Bat
 
-```sh
+```bat
 rem 关闭 Windows 外壳程序 Explorer
 taskkill /f /im explorer.exe
 rem 清理系统图标缓存数据库
