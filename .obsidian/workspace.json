@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IOT/STM32F103C8T6/定时器.md",
+                "file": "杂/AAA.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,8 +61,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "AT",
+                "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IOT/STM32F103C8T6/WiFi 模块.md",
+                "file": "杂/AAA.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IOT/STM32F103C8T6/WiFi 模块.md",
+                "file": "杂/AAA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IOT/STM32F103C8T6/WiFi 模块.md"
+                "file": "杂/AAA.md"
               }
             }
           }
@@ -194,9 +193,15 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "567b99c9fcb0e7be",
+  "active": "1f9adc6cb0f9e5cc",
   "lastOpenFiles": [
+    "IOT/ESP_01S/AT固件.md",
+    "IOT/STM32F103C8T6/WiFi 模块.md",
+    "IOT/ESP_01S/AT 命令.md",
     "IOT/STM32F103C8T6/定时器.md",
+    "ASLant_Files/2024-06-16-17-40-55.png",
+    "ASLant_Files/2024-06-16-17-34-50.png",
+    "IOT/ESP_01S",
     "IOT/STM32F103C8T6/基本项目创建.md",
     "IOT/STM32F103C8T6/按键扫描.md",
     "IOT/ESP8266/ESP数据上云.md",
@@ -219,9 +224,6 @@
     "IOT/STM32F103C8T6/流水灯.md",
     "编程语言/编译型语言/C++/C++ 基础.md",
     "Linux/FreeBSD.md",
-    "编程语言/解释型语言/Shell/清理.md",
-    "编程语言/解释型语言/Python/安装Python环境.md",
-    "编程语言/解释型语言/Python/分卷下载.md",
     "ASLant_Files/2024-06-16-12-39-04.png",
     "ASLant_Files/2024-06-16-12-38-37.png",
     "ASLant_Files/8fa482703899539a5d091231ab932fb.jpg",
@@ -232,8 +234,6 @@
     "ASLant_Files/2024-06-14-13-09-53.png",
     "ASLant_Files/068ca53b6c9806eac4d57c5f55a8c7f8_MD5.jpg",
     "Linux/WSL2",
-    "ASLant_Files/2024-06-13-20-23-44.png",
-    "ASLant_Files/ec50817c33f41e66d72becfe46edce4e_MD5.jpg",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
     "ASLant_Files/我的19岁-电子设计大赛  1 .pdf",
     "ASLant_Files/video/test.mp4",
@@ -241,7 +241,6 @@
     "PVE虚拟化",
     "杂",
     "ASLant_Images/video/te.mp4",
-    "ASLant_Images/video/十行代码，就能让你理解看门狗！经常见但不知道看门狗是什么，看了这个视频你就知道了！.mp4",
     "STM32F103C8T6/未命名 1.canvas",
     "STM32F103C8T6/未命名.canvas",
     "Win/未命名.canvas",
