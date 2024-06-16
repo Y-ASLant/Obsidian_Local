@@ -17,5 +17,6 @@
   "newLinkFormat": "relative",
   "trashOption": "local",
   "showUnsupportedFiles": false,
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "defaultViewMode": "preview"
 }
