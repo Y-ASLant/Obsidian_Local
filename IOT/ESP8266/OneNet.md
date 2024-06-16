@@ -2,8 +2,8 @@
 
 > [!success] [Download Token Tools](https://open.iot.10086.cn/college/video/onenet-portal/2024-04-19/17134946071850.exe)
 
-![[../ASLant_Files/d5080ab26c71f5f92f8ba608ac18a570_MD5.jpg]]
-![[../ASLant_Files/6238dd3b17383b08462ca7635cf2c463_MD5.jpg]]
+![[../../ASLant_Files/d5080ab26c71f5f92f8ba608ac18a570_MD5.jpg]]
+![[../../ASLant_Files/6238dd3b17383b08462ca7635cf2c463_MD5.jpg]]
 
 # Token 获取
 1. 更换自己的 Product_ID 和 Devices_ID
@@ -17,7 +17,7 @@ products/Product_ID/devices/Devices_ID
 
 4. 生成 Token
    
-   ![[../ASLant_Files/57f8adac1f4255015cfdb11cc8d2fa24_MD5.jpg]]
+   ![[../../ASLant_Files/57f8adac1f4255015cfdb11cc8d2fa24_MD5.jpg]]
 
 # OneNet_2
 
@@ -152,14 +152,13 @@ void OneNet_Prop_Post() {
 
 # 问题 1 显示上传成功但是云平台数据上传不显示
 
-![[../ASLant_Files/4ae5ec18f38e01f3a5e5bea0f513ac77_MD5.jpg]]
+![[../../ASLant_Files/4ae5ec18f38e01f3a5e5bea0f513ac77_MD5.jpg]]
 
 > [!BUG] 云平台必须添加两个物理模型否则不显示数据
 ![[ASLant_Files/1caabccbde92d745a65f9c86cca2a8f9_MD5.jpg]]
 [](../ASLant_Files/1caabccbde92d745a65f9c86cca2a8f9_MD5.jpg)en: 1caabccbde92d745a65f9c86cca2a8f9_MD5.jpg]]
-[](../ASLant_Files/1caabccbde92d745a65f9c86cca2a8f9_MD5.jpg)# 准备
-
-> [!success] [Download Token Tools](https://open.iot.10086.cn/college/video/onenet-portal/2024-04-19/17134946071850.exe)
+[](../../ASLant_Files/1caabccbde92d745a65f9c86cca2a8f9_MD5.jpg)# 准备
+[](../../ASLant_Files/1caabccbde92d745a65f9c86cca2a8f9_MD5.jpg)cn/college/video/onenet-portal/2024-04-19/17134946071850.exe)
 
 ![[ASLant_Files/d5080ab26c71f5f92f8ba608ac18a570_MD5.jpg]]
 ![[ASLant_Files/6238dd3b17383b08462ca7635cf2c463_MD5.jpg]]

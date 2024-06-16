@@ -30,6 +30,14 @@
 
 extern UART_HandleTypeDef g_uart_handle;
 
+/******************************************************************
+*
+* ESP_01s的RX --> PA2
+* ESP_01s的TX --> PA3
+*
+*****************************************************************/
+
+
 /* 引脚定义 */
 #define ESP_01s_UART_TX_GPIO_PORT           GPIOA
 #define ESP_01s_UART_TX_GPIO_PIN            GPIO_PIN_2
