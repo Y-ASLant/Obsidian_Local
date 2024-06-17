@@ -14,12 +14,8 @@
 # 2
 ![](https://cf-image-hosting-9lj.pages.dev/file/630512731c54d636bdb9c.jpg)
 
-
-
-
-
-
-
+# LOGO
+![](https://cf-image-hosting-9lj.pages.dev/file/dc2e4e3191b0107c9e1c2.png)
 
 
 
