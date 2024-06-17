@@ -8,12 +8,11 @@
 
 > [!check] [Xcom_2.6](https://aslant.top/Cloud/OneDrive/Other/Drivers/Xcom_2.6.exe)
 
+# 1
+![](https://telegraph-image-b9w.pages.dev/file/504673a27484211d28cdf.jpg)
 
-
-
-
-
-
+# 2
+![](https://cf-image-hosting-9lj.pages.dev/file/630512731c54d636bdb9c.jpg)
 
 
 
