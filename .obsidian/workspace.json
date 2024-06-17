@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/解释型语言/Bat脚本/Windows 桌面图标缓存清理.md",
+                "file": "杂/Cloudflare.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c1a309341723ffe7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/站点首页.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -62,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "AT",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IOT/STM32F103C8T6/WiFi 模块.md",
+                "file": "前端/站点首页.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IOT/STM32F103C8T6/WiFi 模块.md",
+                "file": "前端/站点首页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IOT/STM32F103C8T6/WiFi 模块.md"
+                "file": "前端/站点首页.md"
               }
             }
           }
@@ -194,13 +206,16 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "567b99c9fcb0e7be",
+  "active": "c1a309341723ffe7",
   "lastOpenFiles": [
+    "IOT/STM32F103C8T6/WiFi 模块.md",
+    "杂/Cloudflare.md",
+    "ASLant_Files/2024-06-17-15-39-31.png",
+    "IOT/STM32F103C8T6/Printf() 串口重定向.md",
     "编程语言/解释型语言/Bat脚本/Windows 桌面图标缓存清理.md",
     "编程语言/解释型语言/Bat脚本",
     "编程语言/解释型语言/Bat脚本/ALT+F4.md",
     "杂/AAA.md",
-    "IOT/STM32F103C8T6/WiFi 模块.md",
     "IOT/ESP_01S/AT固件.md",
     "IOT/ESP_01S/AT 命令.md",
     "IOT/STM32F103C8T6/定时器.md",
@@ -223,9 +238,6 @@
     "Linux/SSH连接.md",
     "Linux/SCP命令传输文件.md",
     "Linux/Node.js.md",
-    "IOT/STM32F103C8T6/开发板原理图.md",
-    "IOT/STM32F103C8T6/继电器.md",
-    "IOT/STM32F103C8T6/流水灯.md",
     "ASLant_Files/2024-06-16-12-39-04.png",
     "ASLant_Files/2024-06-16-12-38-37.png",
     "ASLant_Files/8fa482703899539a5d091231ab932fb.jpg",
@@ -234,7 +246,6 @@
     "ASLant_Files/小玩意儿.xmind",
     "ASLant_Files/2024-06-14-13-13-02.png",
     "ASLant_Files/2024-06-14-13-09-53.png",
-    "ASLant_Files/068ca53b6c9806eac4d57c5f55a8c7f8_MD5.jpg",
     "Linux/WSL2",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
     "ASLant_Files/我的19岁-电子设计大赛  1 .pdf",
