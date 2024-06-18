@@ -16,6 +16,11 @@ i
 
 # 保存并退出（按Esc后输入）
 :wq
+
+# 重启sshd服务
+service sshd restart
+# 或
+systemctl restart sshd
 ```
 
 > [!BUG] 本站点公网 IP : 4x.1xx.13.41
