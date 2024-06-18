@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "杂/0X00_初识Linux操作系统.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -30,21 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ec6c1f305e0e1127",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Win/安装教程/Adobe 全家桶最新.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Win/安装教程/Adobe 全家桶最新.md",
+                "file": "杂/0X00_初识Linux操作系统.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Win/安装教程/Adobe 全家桶最新.md",
+                "file": "杂/0X00_初识Linux操作系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Win/安装教程/Adobe 全家桶最新.md"
+                "file": "杂/0X00_初识Linux操作系统.md"
               }
             }
           }
@@ -206,13 +193,14 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "ec6c1f305e0e1127",
+  "active": "f9ca6e4fb4b3c9df",
   "lastOpenFiles": [
+    "ASLant_Files/2024-06-18-14-55-42.png",
+    "杂/0X01_文件管理命令.md",
+    "Win/安装教程/Adobe 全家桶.md",
     "未命名.md",
-    "Win/安装教程/Adobe 全家桶最新.md",
     "Win/索引.md",
     "杂/0X00_初识Linux操作系统.md",
-    "杂/0X01_文件管理命令.md",
     "Linux/GCC编译.md",
     "ASLant_Files/2024-06-18-13-43-40.png",
     "ASLant_Files/2024-06-18-13-43-14.png",
@@ -245,7 +233,6 @@
     "杂/2024.05.14 硬件清单.md",
     "大学课程/习近平新时代中国特色社会主义思想/习思想 7~17.md",
     "前端/简易下载不跳转.md",
-    "Linux/NeoVim.md",
     "ASLant_Files/小玩意儿.xmind",
     "Linux/WSL2",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
