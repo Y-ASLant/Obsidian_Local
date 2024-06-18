@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "d128d4432a7f48b2",
+            "id": "ec6c1f305e0e1127",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/GCC编译.md",
+                "file": "Win/安装教程/Adobe 全家桶最新.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/GCC编译.md",
+                "file": "Win/安装教程/Adobe 全家桶最新.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/GCC编译.md",
+                "file": "Win/安装教程/Adobe 全家桶最新.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/GCC编译.md"
+                "file": "Win/安装教程/Adobe 全家桶最新.md"
               }
             }
           }
@@ -206,15 +206,18 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d128d4432a7f48b2",
+  "active": "ec6c1f305e0e1127",
   "lastOpenFiles": [
+    "未命名.md",
+    "Win/安装教程/Adobe 全家桶最新.md",
+    "Win/索引.md",
+    "杂/0X00_初识Linux操作系统.md",
+    "杂/0X01_文件管理命令.md",
+    "Linux/GCC编译.md",
     "ASLant_Files/2024-06-18-13-43-40.png",
     "ASLant_Files/2024-06-18-13-43-14.png",
     "ASLant_Files/2024-06-18-13-42-37.png",
     "ASLant_Files/3da25bf7c5399ad23d3cac9f1f659bb3_MD5.jpg",
-    "Linux/GCC编译.md",
-    "杂/0X01_文件管理命令.md",
-    "杂/0X00_初识Linux操作系统.md",
     "ASLant_Files/2024-06-18-13-40-10.png",
     "ASLant_Files/2024-06-18-13-38-30.png",
     "ASLant_Files/2024-06-18-13-06-25.png",
@@ -241,11 +244,8 @@
     "Linux/Docker.md",
     "杂/2024.05.14 硬件清单.md",
     "大学课程/习近平新时代中国特色社会主义思想/习思想 7~17.md",
-    "Win/索引.md",
     "前端/简易下载不跳转.md",
     "Linux/NeoVim.md",
-    "Linux/WSL2/WSL 2 使用串口.md",
-    "ASLant_Files/2024-06-16-12-39-04.png",
     "ASLant_Files/小玩意儿.xmind",
     "Linux/WSL2",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
