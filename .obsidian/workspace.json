@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f9ca6e4fb4b3c9df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "杂/0X00_初识Linux操作系统.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1f9adc6cb0f9e5cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "杂/0X01_文件管理命令.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d128d4432a7f48b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/GCC编译.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -105,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "Linux/GCC编译.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "Linux/GCC编译.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂/AAA.md"
+                "file": "Linux/GCC编译.md"
               }
             }
           }
@@ -181,10 +206,20 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1f9adc6cb0f9e5cc",
+  "active": "d128d4432a7f48b2",
   "lastOpenFiles": [
-    "杂/Cloudflare.md",
+    "ASLant_Files/2024-06-18-13-43-40.png",
+    "ASLant_Files/2024-06-18-13-43-14.png",
+    "ASLant_Files/2024-06-18-13-42-37.png",
+    "ASLant_Files/3da25bf7c5399ad23d3cac9f1f659bb3_MD5.jpg",
+    "Linux/GCC编译.md",
+    "杂/0X01_文件管理命令.md",
+    "杂/0X00_初识Linux操作系统.md",
+    "ASLant_Files/2024-06-18-13-40-10.png",
+    "ASLant_Files/2024-06-18-13-38-30.png",
+    "ASLant_Files/2024-06-18-13-06-25.png",
     "杂/AAA.md",
+    "杂/Cloudflare.md",
     "IOT/STM32F103C8T6/WiFi 模块.md",
     "前端/站点首页.md",
     "ASLant_Files/2024-06-17-15-39-31.png",
@@ -205,23 +240,13 @@
     "IOT/MQTT.md",
     "Linux/Docker.md",
     "杂/2024.05.14 硬件清单.md",
-    "Linux/GCC编译.md",
     "大学课程/习近平新时代中国特色社会主义思想/习思想 7~17.md",
     "Win/索引.md",
     "前端/简易下载不跳转.md",
     "Linux/NeoVim.md",
     "Linux/WSL2/WSL 2 使用串口.md",
-    "Linux/SSH连接.md",
-    "Linux/SCP命令传输文件.md",
-    "Linux/Node.js.md",
     "ASLant_Files/2024-06-16-12-39-04.png",
-    "ASLant_Files/2024-06-16-12-38-37.png",
-    "ASLant_Files/8fa482703899539a5d091231ab932fb.jpg",
-    "ASLant_Files/2024-06-15-19-45-37.png",
-    "ASLant_Files/2024-06-15-17-16-21.png",
     "ASLant_Files/小玩意儿.xmind",
-    "ASLant_Files/2024-06-14-13-13-02.png",
-    "ASLant_Files/2024-06-14-13-09-53.png",
     "Linux/WSL2",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
     "ASLant_Files/我的19岁-电子设计大赛  1 .pdf",

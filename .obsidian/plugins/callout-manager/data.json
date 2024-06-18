@@ -4,7 +4,8 @@
       "title",
       "download",
       "box",
-      "text"
+      "text",
+      "tree"
     ],
     "settings": {
       "cite": [
@@ -79,6 +80,14 @@
           "changes": {
             "icon": "lucide-text-selection",
             "color": "46, 45, 45"
+          }
+        }
+      ],
+      "tree": [
+        {
+          "changes": {
+            "icon": "lucide-list-ordered",
+            "color": "145, 43, 123"
           }
         }
       ]
