@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂/0X00_初识Linux操作系统.md",
+                "file": "前端/加载动画.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d4c2615bd36754c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/点击特效.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂/0X00_初识Linux操作系统.md",
+                "file": "前端/点击特效.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂/0X00_初识Linux操作系统.md",
+                "file": "前端/点击特效.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂/0X00_初识Linux操作系统.md"
+                "file": "前端/点击特效.md"
               }
             }
           }
@@ -190,16 +202,19 @@
       "widgets:Add widget": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "cd26d2ffa7564f30",
+  "active": "6d4c2615bd36754c",
   "lastOpenFiles": [
+    "前端/加载动画.md",
+    "ASLant_Files/0x03.gif",
+    "前端/点击特效.md",
+    "杂/0X00_初识Linux操作系统.md",
     "ASLant_Files/2024-06-19-18-12-03.png",
     "IOT/ESP8266/串口获取心知天气数据-无屏幕.md",
     "IOT/ESP8266/天气预报.md",
-    "杂/0X00_初识Linux操作系统.md",
     "Win/索引.md",
     "杂/0x02_VIM.md",
     "Linux/SSH连接.md",
@@ -219,7 +234,6 @@
     "杂/Cloudflare.md",
     "IOT/STM32F103C8T6/WiFi 模块.md",
     "前端/站点首页.md",
-    "ASLant_Files/2024-06-17-15-39-31.png",
     "IOT/STM32F103C8T6/Printf() 串口重定向.md",
     "编程语言/解释型语言/Bat脚本/Windows 桌面图标缓存清理.md",
     "编程语言/解释型语言/Bat脚本",
@@ -227,13 +241,10 @@
     "IOT/ESP_01S/AT固件.md",
     "IOT/ESP_01S/AT 命令.md",
     "IOT/STM32F103C8T6/定时器.md",
-    "ASLant_Files/2024-06-16-17-40-55.png",
     "IOT/ESP_01S",
     "IOT/STM32F103C8T6/基本项目创建.md",
     "IOT/STM32F103C8T6/按键扫描.md",
     "IOT/ESP8266/ESP数据上云.md",
-    "IOT/ESP8266/OneNet.md",
-    "IOT/MQTT.md",
     "ASLant_Files/小玩意儿.xmind",
     "Linux/WSL2",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
