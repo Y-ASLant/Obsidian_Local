@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d04a3eb814017017",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Win/索引.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Win/索引.md",
+                "file": "杂/0X00_初识Linux操作系统.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Win/索引.md",
+                "file": "杂/0X00_初识Linux操作系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Win/索引.md"
+                "file": "杂/0X00_初识Linux操作系统.md"
               }
             }
           }
@@ -206,8 +194,11 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "d04a3eb814017017",
+  "active": "cd26d2ffa7564f30",
   "lastOpenFiles": [
+    "ASLant_Files/2024-06-19-18-12-03.png",
+    "IOT/ESP8266/串口获取心知天气数据-无屏幕.md",
+    "IOT/ESP8266/天气预报.md",
     "杂/0X00_初识Linux操作系统.md",
     "Win/索引.md",
     "杂/0x02_VIM.md",
@@ -243,9 +234,6 @@
     "IOT/ESP8266/ESP数据上云.md",
     "IOT/ESP8266/OneNet.md",
     "IOT/MQTT.md",
-    "Linux/Docker.md",
-    "杂/2024.05.14 硬件清单.md",
-    "大学课程/习近平新时代中国特色社会主义思想/习思想 7~17.md",
     "ASLant_Files/小玩意儿.xmind",
     "Linux/WSL2",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
