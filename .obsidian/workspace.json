@@ -20,18 +20,31 @@
             }
           },
           {
-            "id": "1f9adc6cb0f9e5cc",
+            "id": "cd26d2ffa7564f30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/SSH连接.md",
-                "mode": "preview",
+                "file": "杂/0X00_初识Linux操作系统.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d04a3eb814017017",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Win/索引.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂/0x02_VIM.md",
+                "file": "Win/索引.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂/0x02_VIM.md",
+                "file": "Win/索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂/0x02_VIM.md"
+                "file": "Win/索引.md"
               }
             }
           }
@@ -188,21 +201,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "widgets:Add widget": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "callout-manager:Insert Callout": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "48474868f5e85949",
+  "active": "d04a3eb814017017",
   "lastOpenFiles": [
+    "杂/0X00_初识Linux操作系统.md",
+    "Win/索引.md",
+    "杂/0x02_VIM.md",
     "Linux/SSH连接.md",
     "杂/0X01_文件管理命令.md",
-    "杂/0x02_VIM.md",
-    "杂/0X00_初识Linux操作系统.md",
     "ASLant_Files/2024-06-18-14-55-42.png",
     "Win/安装教程/Adobe 全家桶.md",
     "未命名.md",
-    "Win/索引.md",
     "Linux/GCC编译.md",
     "ASLant_Files/2024-06-18-13-43-40.png",
     "ASLant_Files/2024-06-18-13-43-14.png",
