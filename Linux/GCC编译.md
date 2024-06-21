@@ -46,7 +46,8 @@ dnf -y install gcc
 gcc -E xxx.c -o xxx.i
 ```
 
-![[../ASLant_Files/2024-06-18-13-38-30.png]]
+[[ASLant_Files/2024-06-18-13-38-30.png|Open: 2024-06-18-13-38-30.png]]
+![[ASLant_Files/2024-06-18-13-38-30.png]]
 ### 2. 编译
 
 **编译（Compilation）**：
@@ -58,7 +59,8 @@ gcc -E xxx.c -o xxx.i
 gcc -S xxx.i -o xxx.s
 ```
 
-![[../ASLant_Files/2024-06-18-13-40-10.png]]
+[[ASLant_Files/2024-06-18-13-40-10.png|Open: 2024-06-18-13-40-10.png]]
+![[ASLant_Files/2024-06-18-13-40-10.png]]
 
 ### 3. 汇编
 
@@ -71,7 +73,8 @@ gcc -S xxx.i -o xxx.s
 gcc -c xxx.s -o xxx.o
 ```
 
-![[../ASLant_Files/2024-06-18-13-42-37.png]]
+[[ASLant_Files/2024-06-18-13-42-37.png|Open: 2024-06-18-13-42-37.png]]
+![[ASLant_Files/2024-06-18-13-42-37.png]]
 
 ### 4. 链接
 
@@ -84,10 +87,12 @@ gcc -c xxx.s -o xxx.o
 gcc xxx.o -o xxx
 ```
 
-![[../ASLant_Files/2024-06-18-13-43-14.png]]
+[[ASLant_Files/2024-06-18-13-43-14.png|Open: 2024-06-18-13-43-14.png]]
+![[ASLant_Files/2024-06-18-13-43-14.png]]
 
 ##### 运行
-![[../ASLant_Files/2024-06-18-13-43-40.png]]
+[[ASLant_Files/2024-06-18-13-43-40.png|Open: 2024-06-18-13-43-40.png]]
+![[ASLant_Files/2024-06-18-13-43-40.png]]
 # 单文件编译
 
 ### 输出 Hello World

@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f9ca6e4fb4b3c9df",
+            "id": "1f9adc6cb0f9e5cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂/0x02_VIM.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd26d2ffa7564f30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "杂/0x02_VIM.md",
+                "file": "Win/索引.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂/0x02_VIM.md",
+                "file": "Win/索引.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂/0x02_VIM.md",
+                "file": "Win/索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂/0x02_VIM.md"
+                "file": "Win/索引.md"
               }
             }
           }
@@ -188,36 +176,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "widgets:Add widget": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "callout-manager:Insert Callout": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f9ca6e4fb4b3c9df",
+  "active": "1f9adc6cb0f9e5cc",
   "lastOpenFiles": [
-    "前端/点击特效.md",
+    "杂/2024 年全球热点新闻回顾：从气候变化到科技突破.md",
+    "ASLant_Files/2024-06-21-13-40-21.png",
     "杂/0x02_VIM.md",
-    "ASLant_Files/2024-06-19-19-15-30.png",
-    "前端/加载动画.md",
-    "ASLant_Files/0x03.gif",
-    "杂/0X00_初识Linux操作系统.md",
-    "ASLant_Files/2024-06-19-18-12-03.png",
-    "IOT/ESP8266/串口获取心知天气数据-无屏幕.md",
-    "IOT/ESP8266/天气预报.md",
-    "Win/索引.md",
-    "Linux/SSH连接.md",
     "杂/0X01_文件管理命令.md",
-    "ASLant_Files/2024-06-18-14-55-42.png",
+    "杂/0X00_初识Linux操作系统.md",
+    "前端/点击特效.md",
+    "前端/加载动画.md",
     "Win/安装教程/Adobe 全家桶.md",
-    "未命名.md",
-    "Linux/GCC编译.md",
+    "ASLant_Files/2024-06-19-19-15-30.png",
+    "ASLant_Files/2024-06-19-18-12-03.png",
+    "ASLant_Files/2024-06-18-14-55-42.png",
     "ASLant_Files/2024-06-18-13-43-40.png",
     "ASLant_Files/2024-06-18-13-43-14.png",
     "ASLant_Files/2024-06-18-13-42-37.png",
-    "ASLant_Files/3da25bf7c5399ad23d3cac9f1f659bb3_MD5.jpg",
     "ASLant_Files/2024-06-18-13-40-10.png",
     "ASLant_Files/2024-06-18-13-38-30.png",
+    "ASLant_Files/2024-06-18-13-06-25.png",
     "杂/AAA.md",
+    "杂/Test.md",
     "杂/Cloudflare.md",
     "IOT/STM32F103C8T6/WiFi 模块.md",
     "前端/站点首页.md",
@@ -232,6 +216,10 @@
     "IOT/STM32F103C8T6/基本项目创建.md",
     "IOT/STM32F103C8T6/按键扫描.md",
     "IOT/ESP8266/ESP数据上云.md",
+    "IOT/ESP8266/OneNet.md",
+    "IOT/MQTT.md",
+    "Linux/Docker.md",
+    "杂/2024.05.14 硬件清单.md",
     "ASLant_Files/小玩意儿.xmind",
     "Linux/WSL2",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
