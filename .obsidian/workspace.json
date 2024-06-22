@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android开发/Compose/Kotlin.md",
+                "file": "Android开发/Compose/Android Compose.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "62ca05d1b091351f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android开发/Compose/Kotlin.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,12 +194,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c3287f69cef00207",
+  "active": "62ca05d1b091351f",
   "lastOpenFiles": [
-    "未命名.md",
-    "Android开发/Compose/Kotlin.md",
     "Android开发/Android Studio.md",
+    "Android开发/Compose/Kotlin.md",
     "Android开发/Compose/Android Compose.md",
+    "未命名.md",
     "Android开发/Flutter",
     "Android开发/Compose",
     "Win/索引.md",

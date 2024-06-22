@@ -13,7 +13,9 @@
 - 互操作性: 充分利用 JVM、Android 和浏览器的现有库。
 - 工具友好: 可用任何 Java IDE 或者使用命令行构建。
 ### Android Studio 下载
-> [!BUG] [Android Studio 2023.3.1.18](https://redirector.gvt1.com/edgedl/android/studio/install/2023.3.1.18/android-studio-2023.3.1.18-windows.exe)
+
+> [!check] [Android Studio 2024.1.1.11](https://redirector.gvt1.com/edgedl/android/studio/install/2024.1.1.11/android-studio-2024.1.1.11-windows.exe)
+
 # Kotlin 基础语法
 ### 包声明
 
