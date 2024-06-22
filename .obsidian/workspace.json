@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android开发/Compose/Kotlin.md",
+                "file": "Android开发/Compose/新建Compose项目.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android开发/Compose/Android Compose.md",
+                "file": "Android开发/Compose/新建Compose项目.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android开发/Compose/Android Compose.md",
+                "file": "Android开发/Compose/新建Compose项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android开发/Compose/Android Compose.md"
+                "file": "Android开发/Compose/新建Compose项目.md"
               }
             }
           }
@@ -193,12 +194,18 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c3287f69cef00207",
+  "active": "62ca05d1b091351f",
   "lastOpenFiles": [
+    "ASLant_Files/2024-06-22-23-05-32.png",
+    "ASLant_Files/2024-06-22-23-02-07.png",
+    "ASLant_Files/d087c8137f7ecc710ea176cfc05e7d2 1.jpg",
+    "ASLant_Files/d087c8137f7ecc710ea176cfc05e7d2.jpg",
+    "Android开发/Compose/Kotlin.md",
+    "Android开发/Compose/新建Compose项目.md",
+    "Android开发/Compose/Android Compose.md",
+    "ASLant_Files/2024-06-22-22-07-43.png",
     "ASLant_Files/2024-06-22-15-13-53.png",
     "ASLant_Files/2024-06-22-15-13-49.png",
-    "Android开发/Compose/Kotlin.md",
-    "Android开发/Compose/Android Compose.md",
     "Android开发/Android Studio.md",
     "未命名.md",
     "Android开发/Flutter",
@@ -215,11 +222,6 @@
     "Win/安装教程/Adobe 全家桶.md",
     "ASLant_Files/2024-06-19-19-15-30.png",
     "ASLant_Files/2024-06-19-18-12-03.png",
-    "ASLant_Files/2024-06-18-14-55-42.png",
-    "ASLant_Files/2024-06-18-13-43-40.png",
-    "ASLant_Files/2024-06-18-13-43-14.png",
-    "ASLant_Files/2024-06-18-13-42-37.png",
-    "ASLant_Files/2024-06-18-13-40-10.png",
     "杂/AAA.md",
     "杂/Test.md",
     "杂/Cloudflare.md",
@@ -234,7 +236,6 @@
     "IOT/STM32F103C8T6/定时器.md",
     "IOT/ESP_01S",
     "IOT/STM32F103C8T6/基本项目创建.md",
-    "IOT/STM32F103C8T6/按键扫描.md",
     "ASLant_Files/小玩意儿.xmind",
     "Linux/WSL2",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
