@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2e9efbefa706ad6f",
+        "id": "675a5928588f2b25",
         "type": "tabs",
         "children": [
           {
-            "id": "1f9adc6cb0f9e5cc",
+            "id": "c3287f69cef00207",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Win/索引.md",
+                "file": "Android开发/Android Studio.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Win/索引.md",
+                "file": "Android开发/Android Studio.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Win/索引.md",
+                "file": "Android开发/Android Studio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Win/索引.md"
+                "file": "Android开发/Android Studio.md"
               }
             }
           }
@@ -181,8 +181,14 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1f9adc6cb0f9e5cc",
+  "active": "c3287f69cef00207",
   "lastOpenFiles": [
+    "Android开发/Compose/Kotlin.md",
+    "Android开发/Android Studio.md",
+    "Android开发/Compose/Android Compose.md",
+    "Android开发/Flutter",
+    "Android开发/Compose",
+    "Win/索引.md",
     "ASLant_Files/2024-06-21-13-44-23.png",
     "杂/2024 年全球热点新闻回顾：从气候变化到科技突破.md",
     "ASLant_Files/2024-06-21-13-40-21.png",
@@ -200,7 +206,6 @@
     "ASLant_Files/2024-06-18-13-42-37.png",
     "ASLant_Files/2024-06-18-13-40-10.png",
     "ASLant_Files/2024-06-18-13-38-30.png",
-    "ASLant_Files/2024-06-18-13-06-25.png",
     "杂/AAA.md",
     "杂/Test.md",
     "杂/Cloudflare.md",
@@ -218,17 +223,12 @@
     "IOT/STM32F103C8T6/按键扫描.md",
     "IOT/ESP8266/ESP数据上云.md",
     "IOT/ESP8266/OneNet.md",
-    "IOT/MQTT.md",
-    "Linux/Docker.md",
-    "杂/2024.05.14 硬件清单.md",
     "ASLant_Files/小玩意儿.xmind",
     "Linux/WSL2",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
     "ASLant_Files/我的19岁-电子设计大赛  1 .pdf",
     "ASLant_Files/video/test.mp4",
     "ASLant_Files/1718272640593.mp3",
-    "PVE虚拟化",
-    "杂",
     "STM32F103C8T6/未命名 1.canvas",
     "STM32F103C8T6/未命名.canvas",
     "Win/未命名.canvas",
