@@ -17,6 +17,7 @@
 ## 源文件
 - 所有源文件都必须编码为 UTF-8。
 - Kotlin 程序文件以 . Kt 结尾，如：hello. Kt 、app. Kt
+![[../../ASLant_Files/2024-06-22-23-08-25.png|1000]]
 # Kotlin 基础语法
 ### 包声明
 
