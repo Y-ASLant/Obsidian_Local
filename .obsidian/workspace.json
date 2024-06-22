@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android开发/Android Studio.md",
+                "file": "Android开发/Compose/Kotlin.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android开发/Android Studio.md",
+                "file": "Android开发/Compose/Kotlin.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android开发/Android Studio.md",
+                "file": "Android开发/Compose/Kotlin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android开发/Android Studio.md"
+                "file": "Android开发/Compose/Kotlin.md"
               }
             }
           }
@@ -183,6 +183,7 @@
   },
   "active": "c3287f69cef00207",
   "lastOpenFiles": [
+    "未命名.md",
     "Android开发/Compose/Kotlin.md",
     "Android开发/Android Studio.md",
     "Android开发/Compose/Android Compose.md",
@@ -222,7 +223,6 @@
     "IOT/STM32F103C8T6/基本项目创建.md",
     "IOT/STM32F103C8T6/按键扫描.md",
     "IOT/ESP8266/ESP数据上云.md",
-    "IOT/ESP8266/OneNet.md",
     "ASLant_Files/小玩意儿.xmind",
     "Linux/WSL2",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
