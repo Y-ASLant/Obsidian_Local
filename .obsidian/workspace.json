@@ -26,13 +26,12 @@
               "type": "markdown",
               "state": {
                 "file": "Android开发/Compose/Kotlin.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android开发/Compose/Kotlin.md",
+                "file": "Android开发/Compose/Android Compose.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android开发/Compose/Kotlin.md",
+                "file": "Android开发/Compose/Android Compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android开发/Compose/Kotlin.md"
+                "file": "Android开发/Compose/Android Compose.md"
               }
             }
           }
@@ -194,11 +193,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "62ca05d1b091351f",
+  "active": "c3287f69cef00207",
   "lastOpenFiles": [
-    "Android开发/Android Studio.md",
+    "ASLant_Files/2024-06-22-15-13-53.png",
+    "ASLant_Files/2024-06-22-15-13-49.png",
     "Android开发/Compose/Kotlin.md",
     "Android开发/Compose/Android Compose.md",
+    "Android开发/Android Studio.md",
     "未命名.md",
     "Android开发/Flutter",
     "Android开发/Compose",
@@ -219,7 +220,6 @@
     "ASLant_Files/2024-06-18-13-43-14.png",
     "ASLant_Files/2024-06-18-13-42-37.png",
     "ASLant_Files/2024-06-18-13-40-10.png",
-    "ASLant_Files/2024-06-18-13-38-30.png",
     "杂/AAA.md",
     "杂/Test.md",
     "杂/Cloudflare.md",
@@ -235,7 +235,6 @@
     "IOT/ESP_01S",
     "IOT/STM32F103C8T6/基本项目创建.md",
     "IOT/STM32F103C8T6/按键扫描.md",
-    "IOT/ESP8266/ESP数据上云.md",
     "ASLant_Files/小玩意儿.xmind",
     "Linux/WSL2",
     "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",

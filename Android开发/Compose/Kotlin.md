@@ -5,7 +5,6 @@
 - Kotlin 是一种在 Java 虚拟机上运行的静态类型编程语言，被称之为 Android 世界的Swift，由 JetBrains 设计开发并开源。
 - Kotlin 可以编译成Java字节码，也可以编译成 JavaScript，方便在没有 JVM 的设备上运行。
 - 在Google I/O 2017中，Google 宣布 Kotlin 成为 Android 官方开发语言。
-- **Kotlin 程序文件以 .kt 结尾，如：hello.kt 、app.kt**
 ### 为什么选择 Kotlin？
 
 - 简洁: 大大减少样板代码的数量。
@@ -15,7 +14,9 @@
 ### Android Studio 下载
 
 > [!check] [Android Studio 2024.1.1.11](https://redirector.gvt1.com/edgedl/android/studio/install/2024.1.1.11/android-studio-2024.1.1.11-windows.exe)
-
+## 源文件
+- 所有源文件都必须编码为 UTF-8。
+- Kotlin 程序文件以 . Kt 结尾，如：hello. Kt 、app. Kt
 # Kotlin 基础语法
 ### 包声明
 
