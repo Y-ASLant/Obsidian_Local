@@ -217,3 +217,6 @@ public fun TabItem(
 # 界面效果
 
 ![[ASLant_Files/d087c8137f7ecc710ea176cfc05e7d2 1.jpg\|450]]
+# 源代码下载
+
+> [!check] [Download](https://aslant.top/Cloud/OneDrive/Android/Android%20Studio/AIOT_Compose.7z)
