@@ -24,3 +24,17 @@ implementation(files("libs/org.eclipse.paho.client.mqttv3-1.2.5.jar"))
 
 > [!NOTE] 因为 Compose 没有 XML 文件, 需要使用 kotlin 重写
 
+
+
+
+
+
+# Metraial Design 3 动态取色
+
+> [!box] Android 12L+ 的新特性
+> 随着用户桌面壁纸变化，ui 整体颜色也随之变化
+> 注意：Material 默认使用[基准](https://m3.material.io/styles/color/the-color-system/tokens)紫色配色方案。如果您未指定或自定义主题，Material 组件将采用基准主题。
+### Material Design 主题生成器
+[Material Theme 生成器](https://material-foundation.github.io/material-theme-builder/)
+
+

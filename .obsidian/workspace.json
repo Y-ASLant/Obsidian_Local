@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android开发/Compose/Modifier.md",
-                "mode": "source",
+                "file": "Android开发/Compose/新建Compose项目.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android开发/Compose/Project_使用Compose重构旧项目.md",
-                "mode": "source",
+                "file": "Android开发/Compose/M3 Bottom_Button.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android开发/Compose/Project_使用Compose重构旧项目.md",
+                "file": "Android开发/Compose/M3 Bottom_Button.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android开发/Compose/Project_使用Compose重构旧项目.md",
+                "file": "Android开发/Compose/M3 Bottom_Button.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android开发/Compose/Project_使用Compose重构旧项目.md"
+                "file": "Android开发/Compose/M3 Bottom_Button.md"
               }
             }
           }
@@ -196,12 +196,15 @@
   },
   "active": "115dd52dfbab5a45",
   "lastOpenFiles": [
+    "ASLant_Files/4d13db31177bb7db76d3e81e0699827.jpg",
+    "Android开发/Compose/新建Compose项目.md",
+    "Android开发/Compose/Modifier.md",
+    "Android开发/Compose/M3 Bottom_Button.md",
+    "Android开发/Compose/Project_使用Compose重构旧项目.md",
     "ASLant_Files/2024-06-23-14-07-57.png",
     "ASLant_Files/2024-06-23-14-05-33.png",
     "Android开发/Android Code.md",
-    "Android开发/Compose/Project_使用Compose重构旧项目.md",
     "Android开发/Compose/Android Compose  test.md",
-    "Android开发/Compose/Modifier.md",
     "ASLant_Files/b43df5c94290b726a19069daec56c3d1_MD5.webp",
     "ASLant_Files/4bd597384a07eb54c582504d5d2973f9_MD5.webp",
     "ASLant_Files/2b267dad5726ef34ce9c9d878aaef052_MD5.webp",
@@ -210,9 +213,7 @@
     "ASLant_Files/1e509fc73be456c2137d814af3b0b0f9_MD5.webp",
     "ASLant_Files/f8e264d48335314d5a42aab8264aef0c_MD5.webp",
     "ASLant_Files/f5788dcb51b50072b319f7c1e99983e6_MD5.webp",
-    "ASLant_Files/abfdd4a7e1b7f4d4664b9693eb3d6be0_MD5.webp",
     "Android开发/Compose/Kotlin.md",
-    "Android开发/Compose/新建Compose项目.md",
     "Android开发/Android Studio配置.md",
     "未命名.md",
     "Android开发/Flutter",
@@ -234,7 +235,6 @@
     "编程语言/解释型语言/Bat脚本/Windows 桌面图标缓存清理.md",
     "编程语言/解释型语言/Bat脚本",
     "编程语言/解释型语言/Bat脚本/ALT+F4.md",
-    "IOT/ESP_01S/AT固件.md",
     "IOT/ESP_01S",
     "ASLant_Files/小玩意儿.xmind",
     "Linux/WSL2",
