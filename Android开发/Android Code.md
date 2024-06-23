@@ -1,7 +1,7 @@
 > [!info] Android Studio
 > 关键性代码
 
-## 状态栏沉浸、全屏
+# 状态栏沉浸、全屏_Java
 
 ```java
 // Mainactivty.java
@@ -25,7 +25,7 @@ dependencies {
 }
 ```
 
-## MQTT-V3
+# MQTT-V3
 
 > [!success] Download
 > [MQTT_V3-1.2.5.jar](https://aslant.top/Cloud/OneDrive/Encryption/Project/org.eclipse.paho.client.mqttv3-1.2.5.jar)
@@ -39,4 +39,17 @@ Dependencies {
     
 }
 ```
+# 状态栏沉浸、全屏_Compose
+> [!INFO] 横屏沉浸，去除黑边占位
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AIOT_Compose" parent="android:Theme.Material.Light.NoActionBar">
+        <!--        TODO:全屏显示-->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <!--        <item name="android:windowFullscreen">true</item>-->
+    </style>
+</resources>
+```
