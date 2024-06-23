@@ -220,3 +220,9 @@ public fun TabItem(
 # 源代码下载
 
 > [!check] [Download](https://aslant.top/Cloud/OneDrive/Android/Android%20Studio/AIOT_Compose.7z)
+
+# 注意
+
+```kotlin
+implementation("androidx.lifecycle:lifecycle-viewmodel:2.8.2")
+```
