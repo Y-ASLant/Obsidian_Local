@@ -1,3 +1,5 @@
+> [!bug] [Kotlin 官方文档 中文版 (kotlincn.net)](https://book.kotlincn.net/text/home.html)
+
 # Kotlin 简介
 
 ![[../../ASLant_Files/265e74639a14dcd6c1387b2e82b23a5b_MD5.jpg]]
