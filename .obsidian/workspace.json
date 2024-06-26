@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e0ecd040a8d9d879",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IOT/ESP32/ESP32 引脚图.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -166,7 +178,6 @@
       "switcher:打开快速切换": false,
       "audio-recorder:开始/结束录音": false,
       "graph:查看关系图谱": false,
-      "hide-folders:Show hidden folders": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
@@ -178,19 +189,22 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "callout-manager:Insert Callout": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hide-folders:Show hidden folders": false,
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
   "active": "115dd52dfbab5a45",
   "lastOpenFiles": [
+    "IOT/ESP32/ESP32 引脚图.md",
+    "ASLant_Files/2024-06-26-15-52-53.png",
+    "ASLant_Files/d8cbf62ffe21578ba6c9c184b173b64.jpg",
+    "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
     "Android开发/Compose/Dialog.md",
     "ASLant_Files/2024-06-26-15-40-52.png",
     "ASLant_Files/64828d793354131172547d7b9a450c9.jpg",
     "ASLant_Files/592aa22f8ecacf7a11ff9e116a7b3e6.jpg",
     "ASLant_Files/749e067f62d0fa1bcc856b4198f0564.jpg",
     "ASLant_Files/6ba1c30ff2d220d92c82d3636c59f40.jpg",
-    "IOT/ESP32/ESP32 引脚图.md",
-    "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
     "IOT/ESP8266/ESP8266 引脚图.md",
     "大学课程/习近平新时代中国特色社会主义思想/习思想专题练习 7~17.md",
     "大学课程/未命名",
@@ -198,10 +212,8 @@
     "ASLant_Files/2024-06-26-09-21-26.png",
     "ASLant_Files/2024-06-26-09-20-02.png",
     "ASLant_Files/2024-06-26-09-19-49.png",
-    "ASLant_Files/2024-06-26-09-19-14.png",
     "Android开发/Compose/Compose_组件.md",
     "大学课程/物联网技术及应用基础第二版",
-    "ASLant_Files/2024-06-25-14-23-46.png",
     "Android开发/Compose/M3 Bottom_Button.md",
     "Android开发/Compose/Android Compose  test.md",
     "Android开发/Compose/Kotlin.md",
