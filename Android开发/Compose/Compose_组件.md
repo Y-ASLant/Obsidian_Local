@@ -28,7 +28,7 @@ Box {
 ![[../../ASLant_Files/2024-06-25-14-13-04.png]]
 
 
-## Card
+## Card + Column + Row
 
 ```kotlin
 Card(
@@ -77,4 +77,38 @@ Card(
 #### 效果
 
 ![[../../ASLant_Files/2024-06-25-14-23-46.png]]
+
+## 横排图标
+
+```kotlin
+Row(  
+    modifier = Modifier.fillMaxWidth(),  
+    horizontalArrangement = Arrangement.SpaceBetween  
+) {  
+    IconButton(  
+        onClick = { /*TODO*/ }  
+    ) {  
+        Icon(Icons.Filled.Favorite, null)  
+    }  
+    IconButton(  
+        onClick = { /*TODO*/ },  
+    ) {  
+        Icon(Icons.Filled.Home, null)  
+    }  
+    IconButton(  
+        onClick = { /*TODO*/ },  
+    ) {  
+        Icon(Icons.Filled.Share, null)  
+    }  
+}
+```
+
+## Spacer
+
+> [!NOTE] `Spacer` 能够提供一个空白的布局，可以使用 `Modifier.width`, `Modifier.height` 和 `Modifier.size` 来填充
+
+
+
+
+
 
