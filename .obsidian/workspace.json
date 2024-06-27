@@ -8,25 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "115dd52dfbab5a45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e0ecd040a8d9d879",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IOT/ESP32/ESP32 引脚图.md",
-                "mode": "preview",
+                "file": "大学课程/未命名/未命名.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -109,7 +97,7 @@
       {
         "id": "9951d4e4e2fbed3c",
         "type": "tabs",
-        "dimension": 67.85714285714286,
+        "dimension": 66.66666666666667,
         "children": [
           {
             "id": "8b20f2b40bdbdf4a",
@@ -117,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+                "file": "大学课程/未命名/未命名.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+                "file": "大学课程/未命名/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md"
+                "file": "大学课程/未命名/未命名.md"
               }
             }
           }
@@ -156,7 +144,7 @@
       {
         "id": "0f746a9a5b6cb717",
         "type": "tabs",
-        "dimension": 32.142857142857146,
+        "dimension": 33.333333333333336,
         "children": [
           {
             "id": "5d1e73ed2f393b8e",
@@ -193,10 +181,16 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "115dd52dfbab5a45",
+  "active": "e0ecd040a8d9d879",
   "lastOpenFiles": [
-    "IOT/ESP32/ESP32 引脚图.md",
     "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+    "大学课程/未命名/未命名.md",
+    "ASLant_Files/2024-06-27-12-18-46.png",
+    "ASLant_Files/2024-06-27-11-58-07.png",
+    "Other/wewe-RSS.md",
+    "Android开发/Compose/新建Compose项目.md",
+    "Win/索引.md",
+    "IOT/ESP32/ESP32 引脚图.md",
     "ASLant_Files/2024-06-26-15-52-53.png",
     "ASLant_Files/d8cbf62ffe21578ba6c9c184b173b64.jpg",
     "Android开发/Compose/Dialog.md",
@@ -210,8 +204,6 @@
     "大学课程/未命名",
     "大学课程/通信原理",
     "ASLant_Files/2024-06-26-09-21-26.png",
-    "ASLant_Files/2024-06-26-09-20-02.png",
-    "ASLant_Files/2024-06-26-09-19-49.png",
     "Android开发/Compose/Compose_组件.md",
     "大学课程/物联网技术及应用基础第二版",
     "Android开发/Compose/M3 Bottom_Button.md",
@@ -219,14 +211,12 @@
     "Android开发/Compose/Kotlin.md",
     "Android开发/Compose/Modifier.md",
     "Android开发/Android Code.md",
-    "Android开发/Compose/新建Compose项目.md",
     "Android开发/Compose/三界面切换.md",
     "Android开发/Compose/Project_使用Compose重构旧项目.md",
     "Android开发/Android Studio配置.md",
     "未命名.md",
     "Android开发/Flutter",
     "Android开发/Compose",
-    "Win/索引.md",
     "杂/2024 年全球热点新闻回顾：从气候变化到科技突破.md",
     "杂/0x02_VIM.md",
     "杂/0X01_文件管理命令.md",
@@ -234,7 +224,6 @@
     "前端/点击特效.md",
     "前端/加载动画.md",
     "Win/安装教程/Adobe 全家桶.md",
-    "杂/AAA.md",
     "编程语言/解释型语言/Bat脚本",
     "IOT/ESP_01S",
     "ASLant_Files/小玩意儿.xmind",
