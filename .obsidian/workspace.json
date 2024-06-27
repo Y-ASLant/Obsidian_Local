@@ -26,13 +26,12 @@
               "type": "markdown",
               "state": {
                 "file": "大学课程/无线组网技术/无线组网技术.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大学课程/无线组网技术/无线组网技术.md",
+                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大学课程/无线组网技术/无线组网技术.md",
+                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大学课程/无线组网技术/无线组网技术.md"
+                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md"
               }
             }
           }
@@ -194,17 +193,18 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f8dd5ec1b1a6a968",
+  "active": "e0ecd040a8d9d879",
   "lastOpenFiles": [
-    "Excalidraw/树形拓扑结构.excalidraw.md",
-    "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
-    "Excalidraw/网状拓扑结构.excalidraw.md",
     "大学课程/无线组网技术/无线组网技术.md",
+    "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+    "IOT/ESP8266/ESP8266 引脚图.md",
+    "IOT/ESP32/ESP32 引脚图.md",
+    "Excalidraw/树形拓扑结构.excalidraw.md",
+    "Excalidraw/网状拓扑结构.excalidraw.md",
     "Excalidraw/星型拓扑结构.excalidraw.md",
     "Excalidraw/Drawing 2024-05-12 08.21.02.excalidraw.md",
     "Excalidraw/Drawing 2024-05-18 15.38.46.excalidraw.md",
     "Encryption/索引.md",
-    "IOT/ESP32/ESP32 引脚图.md",
     "ASLant_Files/2024-06-27-12-18-46.png",
     "ASLant_Files/2024-06-27-11-58-07.png",
     "Other/wewe-RSS.md",
@@ -218,7 +218,6 @@
     "ASLant_Files/592aa22f8ecacf7a11ff9e116a7b3e6.jpg",
     "ASLant_Files/749e067f62d0fa1bcc856b4198f0564.jpg",
     "ASLant_Files/6ba1c30ff2d220d92c82d3636c59f40.jpg",
-    "IOT/ESP8266/ESP8266 引脚图.md",
     "大学课程/习近平新时代中国特色社会主义思想/习思想专题练习 7~17.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
