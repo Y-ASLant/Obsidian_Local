@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大学课程/无线组网技术/无线组网技术.md",
-                "mode": "preview",
+                "file": "大学课程/通信原理/通信原理.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+                "file": "大学课程/通信原理/通信原理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+                "file": "大学课程/通信原理/通信原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md"
+                "file": "大学课程/通信原理/通信原理.md"
               }
             }
           }
@@ -193,9 +194,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "e0ecd040a8d9d879",
+  "active": "f8dd5ec1b1a6a968",
   "lastOpenFiles": [
     "大学课程/无线组网技术/无线组网技术.md",
+    "大学课程/通信原理/通信原理.md",
     "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
     "IOT/ESP8266/ESP8266 引脚图.md",
     "IOT/ESP32/ESP32 引脚图.md",
@@ -235,7 +237,6 @@
     "未命名.md",
     "Android开发/Flutter",
     "Android开发/Compose",
-    "杂/2024 年全球热点新闻回顾：从气候变化到科技突破.md",
     "编程语言/解释型语言/Bat脚本",
     "IOT/ESP_01S",
     "ASLant_Files/小玩意儿.xmind",
