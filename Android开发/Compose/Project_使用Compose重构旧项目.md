@@ -38,3 +38,10 @@ implementation(files("libs/org.eclipse.paho.client.mqttv3-1.2.5.jar"))
 [Material Theme 生成器](https://material-foundation.github.io/material-theme-builder/)
 
 
+
+
+# 重构后代码
+
+> [!success] [1.0 版本](https://aslant.top/Cloud/OneDrive/Android/Android%20Studio/AIOT_Compose_20240628_1.0.7z)
+
+
