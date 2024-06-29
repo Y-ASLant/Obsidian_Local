@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e0ecd040a8d9d879",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a4df75228392a27b",
             "type": "leaf",
             "state": {
@@ -40,6 +28,28 @@
                 "file": "大学课程/无线组网技术/无线组网技术.md",
                 "mode": "preview",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "a259c9376bfd2e62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "大学课程/无线组网技术/Test.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "07fdcfc5df3195fb",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/IOT_工作流程.excalidraw.md"
               }
             }
           }
@@ -130,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大学课程/通信原理/通信原理.md",
+                "file": "大学课程/无线组网技术/无线组网技术.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大学课程/通信原理/通信原理.md",
+                "file": "大学课程/无线组网技术/无线组网技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大学课程/通信原理/通信原理.md"
+                "file": "大学课程/无线组网技术/无线组网技术.md"
               }
             }
           }
@@ -206,20 +216,26 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "a4df75228392a27b",
+  "active": "19b56b656d714954",
   "lastOpenFiles": [
+    "大学课程/通信原理/通信原理.md",
+    "大学课程/无线组网技术/无线组网技术.md",
+    "大学课程/无线组网技术/Test.md",
+    "Excalidraw/IOT_工作流程.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-18 15.38.46.excalidraw.md",
+    "大学课程/无线组网技术/Test - 副本.md",
+    "Excalidraw/工作流程.excalidraw.png",
+    "Excalidraw/物联网设备工作流程.excalidraw.png",
+    "ASLant_Files/2024-06-29-18-05-05.png",
+    "大学课程/无线组网技术/test2.md",
+    "ASLant_Files/04a1c95247e56474222e0f09e3929f8.png",
     "ASLant_Files/2024-06-29-15-01-07.png",
     "ASLant_Files/2024-06-29-15-00-49.png",
     "ASLant_Files/2024-06-29-14-58-15.png",
     "ASLant_Files/2024-06-29-14-57-53.png",
     "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
-    "大学课程/通信原理/通信原理.md",
-    "大学课程/无线组网技术/无线组网技术.md",
     "ASLant_Files/2024-06-29-11-59-54.png",
     "ASLant_Files/2024-06-29-11-54-56.png",
-    "ASLant_Files/c28ba328d4f79ec4c07bac283e76a2d.jpg",
-    "ASLant_Files/2024-06-29-11-04-09.png",
-    "ASLant_Files/2024-06-29-11-03-52.png",
     "Other/雷池WAF.md",
     "IOT/ESP32/ESP32 引脚图.md",
     "Android开发/Compose/Project_使用Compose重构旧项目.md",
@@ -232,21 +248,14 @@
     "Excalidraw/网状拓扑结构.excalidraw.md",
     "Excalidraw/星型拓扑结构.excalidraw.md",
     "Excalidraw/Drawing 2024-05-12 08.21.02.excalidraw.md",
-    "Excalidraw/Drawing 2024-05-18 15.38.46.excalidraw.md",
     "Encryption/索引.md",
-    "ASLant_Files/2024-06-27-12-18-46.png",
-    "ASLant_Files/2024-06-27-11-58-07.png",
     "Other/wewe-RSS.md",
     "Android开发/Compose/新建Compose项目.md",
     "Win/索引.md",
     "Android开发/Compose/Dialog.md",
-    "大学课程/习近平新时代中国特色社会主义思想/习思想专题练习 7~17.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
-    "Android开发/Compose/Compose_组件.md",
     "大学课程/物联网技术及应用基础第二版",
-    "Android开发/Compose/M3 Bottom_Button.md",
-    "Android开发/Compose/Android Compose  test.md",
     "Android开发/Flutter",
     "Android开发/Compose",
     "编程语言/解释型语言/Bat脚本",
