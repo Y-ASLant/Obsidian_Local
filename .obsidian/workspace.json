@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "大学课程/通信原理/通信原理.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+                "file": "大学课程/通信原理/通信原理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+                "file": "大学课程/通信原理/通信原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md"
+                "file": "大学课程/通信原理/通信原理.md"
               }
             }
           }
@@ -205,11 +206,15 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "e0ecd040a8d9d879",
+  "active": "a4df75228392a27b",
   "lastOpenFiles": [
-    "大学课程/无线组网技术/无线组网技术.md",
-    "大学课程/通信原理/通信原理.md",
+    "ASLant_Files/2024-06-29-15-01-07.png",
+    "ASLant_Files/2024-06-29-15-00-49.png",
+    "ASLant_Files/2024-06-29-14-58-15.png",
+    "ASLant_Files/2024-06-29-14-57-53.png",
     "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+    "大学课程/通信原理/通信原理.md",
+    "大学课程/无线组网技术/无线组网技术.md",
     "ASLant_Files/2024-06-29-11-59-54.png",
     "ASLant_Files/2024-06-29-11-54-56.png",
     "ASLant_Files/c28ba328d4f79ec4c07bac283e76a2d.jpg",
@@ -234,10 +239,7 @@
     "Other/wewe-RSS.md",
     "Android开发/Compose/新建Compose项目.md",
     "Win/索引.md",
-    "ASLant_Files/2024-06-26-15-52-53.png",
-    "ASLant_Files/d8cbf62ffe21578ba6c9c184b173b64.jpg",
     "Android开发/Compose/Dialog.md",
-    "ASLant_Files/2024-06-26-15-40-52.png",
     "大学课程/习近平新时代中国特色社会主义思想/习思想专题练习 7~17.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
