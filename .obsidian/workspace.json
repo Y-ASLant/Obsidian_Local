@@ -37,24 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大学课程/无线组网技术/Test.md",
+                "file": "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "07fdcfc5df3195fb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/IOT_工作流程.excalidraw.md"
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大学课程/无线组网技术/无线组网技术.md",
+                "file": "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大学课程/无线组网技术/无线组网技术.md",
+                "file": "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大学课程/无线组网技术/无线组网技术.md"
+                "file": "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md"
               }
             }
           }
@@ -216,15 +206,16 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "19b56b656d714954",
+  "active": "a259c9376bfd2e62",
   "lastOpenFiles": [
-    "大学课程/通信原理/通信原理.md",
-    "大学课程/无线组网技术/无线组网技术.md",
-    "大学课程/无线组网技术/Test.md",
+    "Excalidraw/工作流程.excalidraw.png",
+    "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md",
     "Excalidraw/IOT_工作流程.excalidraw.md",
+    "Excalidraw/IOT_工作流程.excalidraw.png",
+    "大学课程/无线组网技术/无线组网技术.md",
+    "大学课程/通信原理/通信原理.md",
     "Excalidraw/Drawing 2024-05-18 15.38.46.excalidraw.md",
     "大学课程/无线组网技术/Test - 副本.md",
-    "Excalidraw/工作流程.excalidraw.png",
     "Excalidraw/物联网设备工作流程.excalidraw.png",
     "ASLant_Files/2024-06-29-18-05-05.png",
     "大学课程/无线组网技术/test2.md",
@@ -235,7 +226,6 @@
     "ASLant_Files/2024-06-29-14-57-53.png",
     "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
     "ASLant_Files/2024-06-29-11-59-54.png",
-    "ASLant_Files/2024-06-29-11-54-56.png",
     "Other/雷池WAF.md",
     "IOT/ESP32/ESP32 引脚图.md",
     "Android开发/Compose/Project_使用Compose重构旧项目.md",
