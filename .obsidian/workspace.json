@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "大学课程/通信原理/通信原理.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大学课程/通信原理/通信原理.md",
+                "file": "大学课程/无线组网技术/无线组网技术.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大学课程/通信原理/通信原理.md",
+                "file": "大学课程/无线组网技术/无线组网技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大学课程/通信原理/通信原理.md"
+                "file": "大学课程/无线组网技术/无线组网技术.md"
               }
             }
           }
@@ -205,14 +206,15 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "a4df75228392a27b",
+  "active": "e1805f92d776900c",
   "lastOpenFiles": [
-    "大学课程/无线组网技术/无线组网技术.md",
     "大学课程/通信原理/通信原理.md",
+    "大学课程/无线组网技术/无线组网技术.md",
+    "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+    "IOT/ESP32/ESP32 引脚图.md",
     "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md",
     "ASLant_Files/2024-06-30-15-16-43.png",
     "ASLant_Files/2024-06-30-15-16-25.png",
-    "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
     "Win/索引.md",
     "Win/安装教程/Adobe 全家桶.md",
     "ASLant_Files/preview.png",
@@ -232,7 +234,6 @@
     "ASLant_Files/04a1c95247e56474222e0f09e3929f8.png",
     "ASLant_Files/2024-06-29-15-01-07.png",
     "Other/雷池WAF.md",
-    "IOT/ESP32/ESP32 引脚图.md",
     "Android开发/Compose/Project_使用Compose重构旧项目.md",
     "Linux/ZeroTermux Install.md",
     "Android开发/Android Killer.md",
