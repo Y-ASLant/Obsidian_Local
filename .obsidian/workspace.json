@@ -14,37 +14,12 @@
               "type": "markdown",
               "state": {
                 "file": "大学课程/通信原理/通信原理.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1805f92d776900c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "杂/AAA.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab197bf7bdb98b3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "大学课程/通信原理/通信原理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂/AAA.md",
+                "file": "大学课程/通信原理/通信原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂/AAA.md"
+                "file": "大学课程/通信原理/通信原理.md"
               }
             }
           }
@@ -206,13 +181,15 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "e1805f92d776900c",
+  "active": "a4df75228392a27b",
   "lastOpenFiles": [
-    "ASLant_Files/2024-07-01-11-29-01.png",
+    "ASLant_Files/2024-07-01-19-30-33.png",
     "大学课程/无线组网技术/无线组网技术.md",
     "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md",
     "大学课程/通信原理/通信原理.md",
     "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+    "杂/AAA.md",
+    "ASLant_Files/2024-07-01-11-29-01.png",
     "IOT/ESP32/ESP32 引脚图.md",
     "ASLant_Files/2024-06-30-15-16-43.png",
     "ASLant_Files/2024-06-30-15-16-25.png",
@@ -233,7 +210,6 @@
     "ASLant_Files/2024-06-29-18-05-05.png",
     "大学课程/无线组网技术/test2.md",
     "ASLant_Files/04a1c95247e56474222e0f09e3929f8.png",
-    "ASLant_Files/2024-06-29-15-01-07.png",
     "Other/雷池WAF.md",
     "Android开发/Compose/Project_使用Compose重构旧项目.md",
     "Linux/ZeroTermux Install.md",
@@ -243,7 +219,6 @@
     "IOT/ESP8266/ESP8266 引脚图.md",
     "Excalidraw/树形拓扑结构.excalidraw.md",
     "Excalidraw/网状拓扑结构.excalidraw.md",
-    "Excalidraw/星型拓扑结构.excalidraw.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
     "大学课程/物联网技术及应用基础第二版",
