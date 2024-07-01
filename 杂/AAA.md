@@ -1,5 +1,4 @@
-![[ASLant_Files/8fa482703899539a5d091231ab932fb.jpg|250]]
-
+![[../ASLant_Files/2024-07-01-11-29-01.png]]
 
 
 > [!check] [网络调试助手 5.0.10](https://aslant.top/Cloud/OneDrive/Other/Drivers/net_debug.exe)
