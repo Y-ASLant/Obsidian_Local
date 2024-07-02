@@ -8,8 +8,8 @@
   "newFileLocation": "current",
   "pdfExportSettings": {
     "includeName": true,
-    "pageSize": "A3",
-    "landscape": true,
+    "pageSize": "A4",
+    "landscape": false,
     "margin": "2",
     "downscalePercent": 100
   },
