@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大学课程/通信原理/通信原理.md",
+                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e832fc1ec414af4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "大学课程/无线组网技术/无线组网技术.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大学课程/通信原理/通信原理.md",
+                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大学课程/通信原理/通信原理.md",
+                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大学课程/通信原理/通信原理.md"
+                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md"
               }
             }
           }
@@ -183,14 +195,15 @@
   },
   "active": "a4df75228392a27b",
   "lastOpenFiles": [
+    "大学课程/无线组网技术/无线组网技术.md",
+    "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+    "大学课程/物联网技术及应用基础第二版/未命名.md",
+    "大学课程/通信原理/通信原理.md",
     "ASLant_Files/2024-07-01-21-00-09.png",
     "ASLant_Files/2024-07-01-20-59-46.png",
     "ASLant_Files/39f9a4dd19bae0b5aa58fd008ce0cb8.jpg",
     "ASLant_Files/2024-07-01-19-30-33.png",
-    "大学课程/无线组网技术/无线组网技术.md",
     "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md",
-    "大学课程/通信原理/通信原理.md",
-    "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
     "杂/AAA.md",
     "ASLant_Files/2024-07-01-11-29-01.png",
     "IOT/ESP32/ESP32 引脚图.md",
@@ -206,7 +219,6 @@
     "2024华清远见实训/机械臂_0x01.md",
     "Excalidraw/工作流程.excalidraw.png",
     "Excalidraw/IOT_工作流程.excalidraw.md",
-    "Excalidraw/IOT_工作流程.excalidraw.png",
     "Excalidraw/Drawing 2024-05-18 15.38.46.excalidraw.md",
     "大学课程/无线组网技术/Test - 副本.md",
     "大学课程/无线组网技术/test2.md",
