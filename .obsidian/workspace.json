@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "675a5928588f2b25",
+        "id": "921463f527db58c9",
         "type": "tabs",
         "children": [
           {
-            "id": "a4df75228392a27b",
+            "id": "8de1b3dee6b624d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d58219204a848532",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IOT/ESP32/ESP32 引脚图.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e832fc1ec414af4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大学课程/无线组网技术/无线组网技术.md",
+                "file": "Win/安装教程/激活码系列.md",
                 "mode": "preview",
                 "source": false
               }
@@ -129,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+                "file": "Win/安装教程/激活码系列.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+                "file": "Win/安装教程/激活码系列.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md"
+                "file": "Win/安装教程/激活码系列.md"
               }
             }
           }
@@ -205,13 +181,14 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "a4df75228392a27b",
+  "active": "8de1b3dee6b624d0",
   "lastOpenFiles": [
-    "IOT/ESP32/ESP32 引脚图.md",
-    "ASLant_Files/2024-07-03-10-15-58.png",
-    "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
-    "ASLant_Files/2024-07-03-09-59-22.png",
+    "Win/索引.md",
     "大学课程/无线组网技术/无线组网技术.md",
+    "IOT/ESP32/ESP32 引脚图.md",
+    "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
+    "ASLant_Files/2024-07-03-10-15-58.png",
+    "ASLant_Files/2024-07-03-09-59-22.png",
     "大学课程/物联网技术及应用基础第二版/未命名.md",
     "大学课程/通信原理/通信原理.md",
     "ASLant_Files/2024-07-01-21-00-09.png",
@@ -223,7 +200,6 @@
     "ASLant_Files/2024-07-01-11-29-01.png",
     "ASLant_Files/2024-06-30-15-16-43.png",
     "ASLant_Files/2024-06-30-15-16-25.png",
-    "Win/索引.md",
     "Win/安装教程/Adobe 全家桶.md",
     "ASLant_Files/preview.png",
     "IOT/ESP_01S/WiFi模块_AT 命令.md",
