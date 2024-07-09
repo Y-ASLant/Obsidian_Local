@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "921463f527db58c9",
+        "id": "f5e636c8b7456dec",
         "type": "tabs",
         "children": [
           {
-            "id": "8de1b3dee6b624d0",
+            "id": "3894591c856643f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Win/安装教程/激活码系列.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -105,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Win/安装教程/激活码系列.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Win/安装教程/激活码系列.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Win/安装教程/激活码系列.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -181,27 +173,32 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "8de1b3dee6b624d0",
+  "active": "3894591c856643f8",
   "lastOpenFiles": [
+    "视频课程/MATLAB 官方教程.md",
+    "Other/MATLAB 补丁更新.md",
+    "ASLant_Files/2024-07-10-01-03-04.png",
+    "ASLant_Files/2024-07-10-01-02-19.png",
+    "ASLant_Files/2024-07-10-00-59-38.png",
+    "ASLant_Files/2024-07-10-00-54-42.png",
+    "ASLant_Files/2024-07-10-00-54-03.png",
+    "ASLant_Files/2024-07-10-00-53-46.png",
+    "ASLant_Files/2024-07-10-00-53-32.png",
+    "AI深度学习/Anaconda安装.md",
+    "ASLant_Files/2024-07-10-00-44-35.png",
+    "ASLant_Files/2024-07-10-00-44-21.png",
+    "ASLant_Files/2024-07-10-00-43-09.png",
+    "Win/安装教程/激活码系列.md",
+    "AI深度学习",
     "Win/索引.md",
     "大学课程/无线组网技术/无线组网技术.md",
     "IOT/ESP32/ESP32 引脚图.md",
     "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
-    "ASLant_Files/2024-07-03-10-15-58.png",
-    "ASLant_Files/2024-07-03-09-59-22.png",
     "大学课程/物联网技术及应用基础第二版/未命名.md",
     "大学课程/通信原理/通信原理.md",
-    "ASLant_Files/2024-07-01-21-00-09.png",
-    "ASLant_Files/2024-07-01-20-59-46.png",
-    "ASLant_Files/39f9a4dd19bae0b5aa58fd008ce0cb8.jpg",
-    "ASLant_Files/2024-07-01-19-30-33.png",
     "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md",
     "杂/AAA.md",
-    "ASLant_Files/2024-07-01-11-29-01.png",
-    "ASLant_Files/2024-06-30-15-16-43.png",
-    "ASLant_Files/2024-06-30-15-16-25.png",
     "Win/安装教程/Adobe 全家桶.md",
-    "ASLant_Files/preview.png",
     "IOT/ESP_01S/WiFi模块_AT 命令.md",
     "2024华清远见实训/机械臂_0x06.md",
     "2024华清远见实训/机械臂_0x02.md",
@@ -214,10 +211,6 @@
     "Android开发/Compose/Project_使用Compose重构旧项目.md",
     "Linux/ZeroTermux Install.md",
     "Android开发/Android Killer.md",
-    "Linux/ssh连接ZeroTermux.md",
-    "Linux/Termux安装Kali Linux.md",
-    "IOT/ESP8266/ESP8266 引脚图.md",
-    "Excalidraw/树形拓扑结构.excalidraw.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
     "大学课程/物联网技术及应用基础第二版",
@@ -227,7 +220,6 @@
     "IOT/ESP_01S",
     "ASLant_Files/小玩意儿.xmind",
     "Linux/WSL2",
-    "ASLant_Files/个人整理——物联网全栈智能配置文档.pdf",
     "STM32F103C8T6/未命名 1.canvas",
     "STM32F103C8T6/未命名.canvas",
     "Win/未命名.canvas",
