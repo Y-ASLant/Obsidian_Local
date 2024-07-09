@@ -11,8 +11,12 @@
             "id": "3894591c856643f8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "AI深度学习/Anaconda安装.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -101,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AI深度学习/Anaconda安装.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AI深度学习/Anaconda安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AI深度学习/Anaconda安装.md"
+              }
             }
           }
         ],
@@ -175,19 +183,20 @@
   },
   "active": "3894591c856643f8",
   "lastOpenFiles": [
+    "ASLant_Files/2024-07-10-01-28-44.png",
+    "ASLant_Files/2024-07-10-01-28-17.png",
+    "AI深度学习/Anaconda安装.md",
+    "ASLant_Files/2024-07-10-01-18-39.png",
+    "ASLant_Files/2024-07-10-01-16-17.png",
+    "ASLant_Files/2024-07-10-01-15-24.png",
+    "ASLant_Files/2024-07-10-01-15-08.png",
+    "ASLant_Files/2024-07-10-01-14-43.png",
     "视频课程/MATLAB 官方教程.md",
     "Other/MATLAB 补丁更新.md",
     "ASLant_Files/2024-07-10-01-03-04.png",
     "ASLant_Files/2024-07-10-01-02-19.png",
     "ASLant_Files/2024-07-10-00-59-38.png",
     "ASLant_Files/2024-07-10-00-54-42.png",
-    "ASLant_Files/2024-07-10-00-54-03.png",
-    "ASLant_Files/2024-07-10-00-53-46.png",
-    "ASLant_Files/2024-07-10-00-53-32.png",
-    "AI深度学习/Anaconda安装.md",
-    "ASLant_Files/2024-07-10-00-44-35.png",
-    "ASLant_Files/2024-07-10-00-44-21.png",
-    "ASLant_Files/2024-07-10-00-43-09.png",
     "Win/安装教程/激活码系列.md",
     "AI深度学习",
     "Win/索引.md",
