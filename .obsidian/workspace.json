@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI深度学习/Anaconda安装.md",
-                "mode": "source",
+                "file": "Encryption/Clash Meta Node.md",
+                "mode": "preview",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "4bf34505cf2dbc4c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -105,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI深度学习/Anaconda安装.md",
+                "file": "Encryption/Clash Meta Node.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI深度学习/Anaconda安装.md",
+                "file": "Encryption/Clash Meta Node.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI深度学习/Anaconda安装.md"
+                "file": "Encryption/Clash Meta Node.md"
               }
             }
           }
@@ -183,9 +191,15 @@
   },
   "active": "3894591c856643f8",
   "lastOpenFiles": [
+    "编程语言/解释型语言/Python/Python基本语法.md",
+    "AI深度学习/Anaconda安装.md",
+    "杂/Test.md",
+    "杂/0X01_文件管理命令.md",
+    "杂/Cloudflare.md",
+    "杂/CET4.md",
+    "杂/AAA.md",
     "ASLant_Files/2024-07-10-01-28-44.png",
     "ASLant_Files/2024-07-10-01-28-17.png",
-    "AI深度学习/Anaconda安装.md",
     "ASLant_Files/2024-07-10-01-18-39.png",
     "ASLant_Files/2024-07-10-01-16-17.png",
     "ASLant_Files/2024-07-10-01-15-24.png",
@@ -196,7 +210,6 @@
     "ASLant_Files/2024-07-10-01-03-04.png",
     "ASLant_Files/2024-07-10-01-02-19.png",
     "ASLant_Files/2024-07-10-00-59-38.png",
-    "ASLant_Files/2024-07-10-00-54-42.png",
     "Win/安装教程/激活码系列.md",
     "AI深度学习",
     "Win/索引.md",
@@ -206,7 +219,6 @@
     "大学课程/物联网技术及应用基础第二版/未命名.md",
     "大学课程/通信原理/通信原理.md",
     "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md",
-    "杂/AAA.md",
     "Win/安装教程/Adobe 全家桶.md",
     "IOT/ESP_01S/WiFi模块_AT 命令.md",
     "2024华清远见实训/机械臂_0x06.md",
@@ -216,10 +228,6 @@
     "Excalidraw/Drawing 2024-05-18 15.38.46.excalidraw.md",
     "大学课程/无线组网技术/Test - 副本.md",
     "大学课程/无线组网技术/test2.md",
-    "Other/雷池WAF.md",
-    "Android开发/Compose/Project_使用Compose重构旧项目.md",
-    "Linux/ZeroTermux Install.md",
-    "Android开发/Android Killer.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
     "大学课程/物联网技术及应用基础第二版",
