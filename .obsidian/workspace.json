@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "28402b18462e6b5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实习/Ubuntu问题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -49,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ssh",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -183,6 +195,14 @@
   },
   "active": "e832fc1ec414af4b",
   "lastOpenFiles": [
+    "实习/Ubuntu问题.md",
+    "Linux/Linux 个人配置.md",
+    "Linux/Linux 常用命令.md",
+    "Linux/Makefile.md",
+    "实习/ROS/2024.07.15.md",
+    "ASLant_Files/2024-07-15-15-09-54.png",
+    "ASLant_Files/2024-07-15-13-51-05.png",
+    "ASLant_Files/2024-07-15-13-41-46.png",
     "ASLant_Files/2024-07-15-12-15-16.png",
     "ASLant_Files/2024-07-15-11-07-48.png",
     "Other/MATLAB 补丁更新.md",
@@ -191,14 +211,9 @@
     "ASLant_Files/2024-07-10-01-18-39.png",
     "ASLant_Files/2024-07-10-01-16-17.png",
     "ASLant_Files/2024-07-10-01-15-24.png",
-    "ASLant_Files/2024-07-10-01-15-08.png",
-    "ASLant_Files/2024-07-10-01-14-43.png",
-    "ASLant_Files/2024-07-10-01-03-04.png",
-    "ASLant_Files/2024-07-10-01-02-19.png",
     "AI深度学习/Anaconda安装.md",
     "AI深度学习",
     "Linux/SSH连接.md",
-    "实习/ROS/2024.07.15.md",
     "编程语言/解释型语言/Python/安装Python环境.md",
     "大学课程/无线组网技术/无线组网技术.md",
     "实习/ROS",
@@ -219,9 +234,6 @@
     "Excalidraw/Drawing 2024-05-18 15.38.46.excalidraw.md",
     "大学课程/无线组网技术/Test - 副本.md",
     "大学课程/无线组网技术/test2.md",
-    "Other/雷池WAF.md",
-    "Android开发/Compose/Project_使用Compose重构旧项目.md",
-    "Linux/ZeroTermux Install.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
     "大学课程/物联网技术及应用基础第二版",
