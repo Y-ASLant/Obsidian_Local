@@ -21,6 +21,8 @@ i
 service sshd restart
 # 或
 systemctl restart sshd
+# Ubuntu：
+sudo service ssh restart
 ```
 
 > [!BUG] 本站点公网 IP : 4x.1xx.13.41
