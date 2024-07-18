@@ -14,12 +14,37 @@
               "type": "markdown",
               "state": {
                 "file": "实习/Xtark/2024.07.16.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c11e9135b6be161e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Vim的使用.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "62e161a1b7a42749",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实习/Xtark/2024.07.17.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vim",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -105,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md",
+                "file": "Linux/Vim的使用.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md",
+                "file": "Linux/Vim的使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md"
+                "file": "Linux/Vim的使用.md"
               }
             }
           }
@@ -181,12 +206,20 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "48474868f5e85949",
+  "active": "c11e9135b6be161e",
   "lastOpenFiles": [
+    "实习/Xtark/2024.07.17.md",
+    "Linux/Vim的使用.md",
+    "实习/Xtark/2024.07.16.md",
+    "实习/Ubuntu问题.md",
+    "Linux/Makefile.md",
+    "Linux/Linux 个人配置.md",
+    "Linux/Linux 常用命令.md",
+    "杂/0x02_VIM.md",
+    "Linux/TheFuck.md",
+    "ASLant_Files/2024-07-18-08-21-13.png",
     "编程语言/解释型语言/Shell/Wget.md",
     "ASLant_Files/2024-07-17-16-31-52.png",
-    "实习/Xtark/2024.07.17.md",
-    "实习/Xtark/2024.07.16.md",
     "ASLant_Files/2024-07-17-15-54-03.png",
     "ASLant_Files/2024-07-17-08-50-47.png",
     "ASLant_Files/2024-07-17-08-46-03.png",
@@ -195,14 +228,9 @@
     "ASLant_Files/2024-07-16-16-11-34.png",
     "ASLant_Files/2024-07-16-14-20-51.png",
     "ASLant_Files/2024-07-16-14-19-36.png",
-    "ASLant_Files/2024-07-16-14-01-45.png",
     "Linux/SSH连接.md",
     "实习/Xtark",
-    "实习/Ubuntu问题.md",
     "实习/ROS/2024.07.15.md",
-    "Linux/Linux 个人配置.md",
-    "Linux/Linux 常用命令.md",
-    "Linux/Makefile.md",
     "Other/MATLAB 补丁更新.md",
     "AI深度学习/Anaconda安装.md",
     "AI深度学习",
@@ -220,8 +248,6 @@
     "Win/安装教程/Adobe 全家桶.md",
     "IOT/ESP_01S/WiFi模块_AT 命令.md",
     "2024华清远见实训/机械臂_0x06.md",
-    "2024华清远见实训/机械臂_0x02.md",
-    "2024华清远见实训/机械臂_0x01.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
     "大学课程/物联网技术及应用基础第二版",
