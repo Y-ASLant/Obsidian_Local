@@ -29,6 +29,7 @@ __export(main_exports, {
 module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
+  font_folder: "",
   font: "None",
   force_mode: false,
   custom_css_mode: false,
@@ -78,7 +79,6 @@ var FontPlugin = class extends import_obsidian.Plugin {
     super(...arguments);
     this.config_dir = this.app.vault.configDir;
     this.plugin_folder_path = `${this.config_dir}/plugins/custom-font-loader`;
-    this.font_folder_path = `${this.app.vault.configDir}/fonts`;
   }
   async load_plugin() {
     await this.loadSettings();
@@ -89,9 +89,9 @@ var FontPlugin = class extends import_obsidian.Plugin {
           await this.process_and_load_font(font_file_name, false);
         } else {
           applyCss("", "custom_font_base64");
-          const files = await this.app.vault.adapter.list(this.font_folder_path);
+          const files = await this.app.vault.adapter.list(this.settings.font_folder);
           for (const file of files.files) {
-            const file_name = file.split("/")[2];
+            const file_name = file.replace(this.settings.font_folder, "");
             await this.process_and_load_font(file_name, true);
           }
         }
@@ -135,11 +135,11 @@ var FontPlugin = class extends import_obsidian.Plugin {
   }
   async convert_font_to_css(font_file_name, css_font_path) {
     new import_obsidian.Notice("Processing Font files");
-    const file = `${this.config_dir}/fonts/${font_file_name}`;
+    const file = `${this.settings.font_folder}/${font_file_name}`;
     const arrayBuffer = await this.app.vault.adapter.readBinary(file);
     const base64 = arrayBufferToBase64(arrayBuffer);
-    const font_family_name = font_file_name.split(".")[0];
-    const font_extension_name = font_file_name.split(".")[1];
+    const font_family_name = font_file_name.split(".")[0].toLowerCase();
+    const font_extension_name = font_file_name.split(".")[1].toLowerCase();
     let css_type = "";
     switch (font_extension_name) {
       case "woff":
@@ -193,9 +193,24 @@ var FontSettingTab = class extends import_obsidian.PluginSettingTab {
   async display() {
     const { containerEl } = this;
     containerEl.empty();
-    const font_folder_path = `${this.app.vault.configDir}/fonts`;
     const infoContainer = containerEl.createDiv();
-    infoContainer.setText("In Order to set the font, copy your font into '.obsidian/fonts/' directory.");
+    infoContainer.setText("In Order to set the font, copy your font into fonts directory that you set");
+    new import_obsidian.Setting(containerEl).setName("Fonts Folder").setDesc("Folder to look for your custom fonts").addText(
+      (text) => {
+        text.onChange(async (value) => {
+          this.plugin.settings.font_folder = value;
+          await this.plugin.saveSettings();
+          await this.plugin.loadSettings();
+        });
+        if (this.plugin.settings.font_folder.trim() == "") {
+          this.plugin.settings.font_folder = `${this.app.vault.configDir}/fonts`;
+        }
+        if (!this.plugin.settings.font_folder.endsWith("/"))
+          this.plugin.settings.font_folder = this.plugin.settings.font_folder + "/";
+        text.setValue(this.plugin.settings.font_folder);
+      }
+    );
+    const font_folder_path = this.plugin.settings.font_folder;
     const options = [{ name: "none", value: "None" }];
     try {
       if (!await this.app.vault.adapter.exists(font_folder_path)) {
@@ -204,7 +219,7 @@ var FontSettingTab = class extends import_obsidian.PluginSettingTab {
       if (await this.app.vault.adapter.exists(font_folder_path)) {
         const files = await this.app.vault.adapter.list(font_folder_path);
         for (const file of files.files) {
-          const file_name = file.split("/")[2];
+          const file_name = file.replace(font_folder_path, "");
           options.push({ name: file_name, value: file_name });
         }
       }
@@ -212,7 +227,17 @@ var FontSettingTab = class extends import_obsidian.PluginSettingTab {
     } catch (error) {
       console.log(error);
     }
-    new import_obsidian.Setting(containerEl).setName("Font").setDesc("Choose font (If you choose multiple fonts option, we will load and process all fonts in the folder for you)").addDropdown((dropdown) => {
+    new import_obsidian.Setting(containerEl).setName("Reload fonts from folder").setDesc("This button reloades from the folder you specified (it also creates the folder for you)").addButton((button) => {
+      button.setButtonText("Reload");
+      button.onClick((callback) => {
+        this.plugin.saveSettings();
+        this.plugin.load_plugin();
+        this.display();
+      });
+    });
+    this.containerEl.createDiv();
+    new import_obsidian.Setting(containerEl).setName("Font").setDesc(`Choose font (If you can't see your fonts, make sure your fonts are in the folder you specified and hit reload. 
+				Also if you choose multiple fonts option, we will load and process all fonts in the folder for you. In that Case, enable Custom CSS Mode)`).addDropdown((dropdown) => {
       for (const opt of options) {
         dropdown.addOption(opt.name, opt.value);
       }

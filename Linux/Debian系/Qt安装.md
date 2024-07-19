@@ -2,7 +2,9 @@
 wget https://download.qt.io/archive/qt/5.12/5.12.9/qt-opensource-linux-x64-5.12.9.run
 ```
 
+```sh
 
+```
 
 ![[../../ASLant_Files/2024-07-19-09-40-11.png]]
 
