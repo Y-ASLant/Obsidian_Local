@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md",
+                "file": "Linux/Debian系/软件安装.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "62e161a1b7a42749",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Debian系/软件安装.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,15 +181,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "62e161a1b7a42749",
+  "active": "580d38831ec8fadd",
   "lastOpenFiles": [
+    "ASLant_Files/2024-07-19-10-50-20.png",
+    "实习/Xtark/2024.07.16.md",
+    "Linux/Debian系/Clash折腾笔记.md",
+    "Linux/Debian系/软件安装.md",
     "ASLant_Files/2024-07-19-09-40-11.png",
     "ASLant_Files/2024-07-19-09-40-08.png",
     "ASLant_Files/2024-07-19-09-38-52.png",
     "实习/Xtark/2024.07.17.md",
-    "Linux/Debian系/软件安装.md",
     "Linux/Debian系",
-    "实习/Xtark/2024.07.16.md",
     "Encryption/Clash Meta Node.md",
     "Android开发/JDK、Gradle对应关系.md",
     "ASLant_Files/2024-07-18-16-44-25.png",
@@ -220,7 +209,6 @@
     "ASLant_Files/2024-07-17-08-50-47.png",
     "ASLant_Files/2024-07-17-08-46-03.png",
     "ASLant_Files/2024-07-17-08-44-44.png",
-    "ASLant_Files/2024-07-17-08-34-51.png",
     "Linux/SSH连接.md",
     "实习/Xtark",
     "实习/ROS/2024.07.15.md",
@@ -236,7 +224,6 @@
     "大学课程/物联网技术及应用基础第二版/未命名.md",
     "大学课程/通信原理/通信原理.md",
     "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md",
-    "杂/AAA.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
     "大学课程/物联网技术及应用基础第二版",
