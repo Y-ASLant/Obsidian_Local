@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Debian系/Qt安装.md",
+                "file": "Linux/Debian系/软件安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Debian系/Qt安装.md",
+                "file": "Linux/Debian系/软件安装.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Debian系/Qt安装.md",
+                "file": "Linux/Debian系/软件安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Debian系/Qt安装.md"
+                "file": "Linux/Debian系/软件安装.md"
               }
             }
           }
@@ -200,7 +200,7 @@
     "ASLant_Files/2024-07-19-09-40-08.png",
     "ASLant_Files/2024-07-19-09-38-52.png",
     "实习/Xtark/2024.07.17.md",
-    "Linux/Debian系/Qt安装.md",
+    "Linux/Debian系/软件安装.md",
     "Linux/Debian系",
     "实习/Xtark/2024.07.16.md",
     "Encryption/Clash Meta Node.md",
