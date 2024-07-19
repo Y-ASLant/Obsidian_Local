@@ -20,25 +20,13 @@
             }
           },
           {
-            "id": "c11e9135b6be161e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Android开发/JDK、Gradle对应关系.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "62e161a1b7a42749",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习/Xtark/2024.07.17.md",
-                "mode": "preview",
+                "file": "Linux/Debian系/Qt安装.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -130,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android开发/JDK、Gradle对应关系.md",
+                "file": "Linux/Debian系/Qt安装.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android开发/JDK、Gradle对应关系.md",
+                "file": "Linux/Debian系/Qt安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android开发/JDK、Gradle对应关系.md"
+                "file": "Linux/Debian系/Qt安装.md"
               }
             }
           }
@@ -206,13 +194,19 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c11e9135b6be161e",
+  "active": "62e161a1b7a42749",
   "lastOpenFiles": [
+    "ASLant_Files/2024-07-19-09-40-11.png",
+    "ASLant_Files/2024-07-19-09-40-08.png",
+    "ASLant_Files/2024-07-19-09-38-52.png",
+    "实习/Xtark/2024.07.17.md",
+    "Linux/Debian系/Qt安装.md",
+    "Linux/Debian系",
+    "实习/Xtark/2024.07.16.md",
+    "Encryption/Clash Meta Node.md",
+    "Android开发/JDK、Gradle对应关系.md",
     "ASLant_Files/2024-07-18-16-44-25.png",
     "Linux/Vim的使用.md",
-    "Android开发/JDK、Gradle对应关系.md",
-    "实习/Xtark/2024.07.17.md",
-    "实习/Xtark/2024.07.16.md",
     "实习/Ubuntu问题.md",
     "Linux/Makefile.md",
     "Linux/Linux 个人配置.md",
@@ -227,9 +221,6 @@
     "ASLant_Files/2024-07-17-08-46-03.png",
     "ASLant_Files/2024-07-17-08-44-44.png",
     "ASLant_Files/2024-07-17-08-34-51.png",
-    "ASLant_Files/2024-07-16-16-11-34.png",
-    "ASLant_Files/2024-07-16-14-20-51.png",
-    "ASLant_Files/2024-07-16-14-19-36.png",
     "Linux/SSH连接.md",
     "实习/Xtark",
     "实习/ROS/2024.07.15.md",
@@ -246,14 +237,11 @@
     "大学课程/通信原理/通信原理.md",
     "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md",
     "杂/AAA.md",
-    "Win/索引.md",
-    "Win/安装教程/Adobe 全家桶.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
     "大学课程/物联网技术及应用基础第二版",
     "Android开发/Flutter",
     "Android开发/Compose",
-    "编程语言/解释型语言/Bat脚本",
     "STM32F103C8T6/未命名 1.canvas",
     "STM32F103C8T6/未命名.canvas",
     "Win/未命名.canvas",
