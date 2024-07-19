@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Debian系/软件安装.md",
+                "file": "实习/ROS/2024.07.15.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4de9298caa6d181a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实习/Xtark/2024.07.16.md",
                 "mode": "preview",
                 "source": false
               }
@@ -49,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vim",
+                "query": ".gz",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -105,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Debian系/软件安装.md",
+                "file": "实习/ROS/2024.07.15.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Debian系/软件安装.md",
+                "file": "实习/ROS/2024.07.15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Debian系/软件安装.md"
+                "file": "实习/ROS/2024.07.15.md"
               }
             }
           }
@@ -183,10 +195,14 @@
   },
   "active": "580d38831ec8fadd",
   "lastOpenFiles": [
-    "ASLant_Files/2024-07-19-10-50-20.png",
-    "实习/Xtark/2024.07.16.md",
-    "Linux/Debian系/Clash折腾笔记.md",
+    "实习/ROS/ROS环境安装.md",
+    "实习/ROS/2024.07.15.md",
+    "ASLant_Files/2024-07-19-15-34-54.png",
     "Linux/Debian系/软件安装.md",
+    "实习/Xtark/2024.07.16.md",
+    "Linux/Linux 常用命令.md",
+    "ASLant_Files/2024-07-19-10-50-20.png",
+    "Linux/Debian系/Clash折腾笔记.md",
     "ASLant_Files/2024-07-19-09-40-11.png",
     "ASLant_Files/2024-07-19-09-40-08.png",
     "ASLant_Files/2024-07-19-09-38-52.png",
@@ -199,7 +215,6 @@
     "实习/Ubuntu问题.md",
     "Linux/Makefile.md",
     "Linux/Linux 个人配置.md",
-    "Linux/Linux 常用命令.md",
     "杂/0x02_VIM.md",
     "Linux/TheFuck.md",
     "ASLant_Files/2024-07-18-08-21-13.png",
@@ -207,11 +222,8 @@
     "ASLant_Files/2024-07-17-16-31-52.png",
     "ASLant_Files/2024-07-17-15-54-03.png",
     "ASLant_Files/2024-07-17-08-50-47.png",
-    "ASLant_Files/2024-07-17-08-46-03.png",
-    "ASLant_Files/2024-07-17-08-44-44.png",
     "Linux/SSH连接.md",
     "实习/Xtark",
-    "实习/ROS/2024.07.15.md",
     "Other/MATLAB 补丁更新.md",
     "AI深度学习/Anaconda安装.md",
     "AI深度学习",
@@ -223,7 +235,6 @@
     "IOT/ESP32/ESP32 引脚图.md",
     "大学课程/物联网技术及应用基础第二版/未命名.md",
     "大学课程/通信原理/通信原理.md",
-    "大学课程/无线组网技术/温室大棚、谷仓、粮仓系统.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
     "大学课程/物联网技术及应用基础第二版",
