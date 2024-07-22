@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习/Ubuntu.md",
-                "mode": "source",
+                "file": "实习/ROS/2024.07.15.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md",
+                "file": "实习/YoloV5s/模型训练.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0a0dc3a6b225530",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Debian系/Clash折腾笔记.md",
                 "mode": "preview",
                 "source": false
               }
@@ -62,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ".gz",
+                "query": "代理",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md",
+                "file": "实习/YoloV5s/模型训练.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md",
+                "file": "实习/YoloV5s/模型训练.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md"
+                "file": "实习/YoloV5s/模型训练.md"
               }
             }
           }
@@ -196,26 +208,30 @@
   },
   "active": "4de9298caa6d181a",
   "lastOpenFiles": [
-    "ASLant_Files/2024-07-22-09-52-17.png",
-    "实习/Ubuntu.md",
-    "ASLant_Files/2024-07-22-09-34-12.png",
-    "实习/Xtark/2024.07.16.md",
-    "实习/Xtark/2024.07.17.md",
-    "实习/ROS/2024.07.15.md",
-    "实习/ROS/官方安装教程.md",
-    "ASLant_Files/2024-07-19-16-34-23.png",
-    "ASLant_Files/2024-07-19-16-17-34.png",
-    "ASLant_Files/2024-07-19-16-17-23.png",
-    "ASLant_Files/2024-07-19-16-16-45.png",
-    "实习/ROS/ROS环境安装.md",
-    "ASLant_Files/2024-07-19-15-34-54.png",
+    "ASLant_Files/PixPin_2024-07-22_15-02-34.png",
+    "ASLant_Files/2024-07-22-14-47-09.png",
+    "ASLant_Files/2024-07-22-14-45-58.png",
+    "ASLant_Files/2024-07-22-14-45-17.png",
+    "ASLant_Files/2024-07-22-14-19-21.png",
+    "ASLant_Files/2024-07-22-14-15-45.png",
+    "ASLant_Files/2024-07-22-14-14-10.png",
+    "Linux/Debian系/Clash折腾笔记.md",
     "Linux/Debian系/软件安装.md",
     "Linux/Linux 常用命令.md",
-    "ASLant_Files/2024-07-19-10-50-20.png",
-    "Linux/Debian系/Clash折腾笔记.md",
-    "ASLant_Files/2024-07-19-09-40-11.png",
-    "ASLant_Files/2024-07-19-09-40-08.png",
-    "ASLant_Files/2024-07-19-09-38-52.png",
+    "实习/YoloV5s/模型训练.md",
+    "Linux/WSL2/WSL2中使用GUI.md",
+    "Linux/WSL2/WSL.md",
+    "ASLant_Files/2024-07-22-10-57-37.png",
+    "ASLant_Files/2024-07-22-10-56-28.png",
+    "实习/Xtark/2024.07.16.md",
+    "实习/YoloV5s",
+    "实习/ROS/2024.07.15.md",
+    "实习/ROS/官方安装教程.md",
+    "实习/Ubuntu.md",
+    "ASLant_Files/2024-07-22-10-07-31.png",
+    "ASLant_Files/2024-07-22-09-52-17.png",
+    "实习/Xtark/2024.07.17.md",
+    "实习/ROS/ROS环境安装.md",
     "Linux/Debian系",
     "Encryption/Clash Meta Node.md",
     "Android开发/JDK、Gradle对应关系.md",
@@ -234,14 +250,10 @@
     "大学课程/无线组网技术/无线组网技术.md",
     "实习/ROS",
     "实习",
-    "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
-    "IOT/ESP32/ESP32 引脚图.md",
-    "大学课程/物联网技术及应用基础第二版/未命名.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
     "大学课程/物联网技术及应用基础第二版",
     "Android开发/Flutter",
-    "Android开发/Compose",
     "STM32F103C8T6/未命名 1.canvas",
     "STM32F103C8T6/未命名.canvas",
     "Win/未命名.canvas",
