@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习/ROS/2024.07.15.md",
-                "mode": "preview",
+                "file": "实习/Ubuntu.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实习/ROS/2024.07.15.md",
+                "file": "实习/Xtark/2024.07.16.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实习/ROS/2024.07.15.md",
+                "file": "实习/Xtark/2024.07.16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实习/ROS/2024.07.15.md"
+                "file": "实习/Xtark/2024.07.16.md"
               }
             }
           }
@@ -193,35 +194,37 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "580d38831ec8fadd",
+  "active": "4de9298caa6d181a",
   "lastOpenFiles": [
-    "实习/ROS/ROS环境安装.md",
+    "ASLant_Files/2024-07-22-09-52-17.png",
+    "实习/Ubuntu.md",
+    "ASLant_Files/2024-07-22-09-34-12.png",
+    "实习/Xtark/2024.07.16.md",
+    "实习/Xtark/2024.07.17.md",
     "实习/ROS/2024.07.15.md",
+    "实习/ROS/官方安装教程.md",
+    "ASLant_Files/2024-07-19-16-34-23.png",
+    "ASLant_Files/2024-07-19-16-17-34.png",
+    "ASLant_Files/2024-07-19-16-17-23.png",
+    "ASLant_Files/2024-07-19-16-16-45.png",
+    "实习/ROS/ROS环境安装.md",
     "ASLant_Files/2024-07-19-15-34-54.png",
     "Linux/Debian系/软件安装.md",
-    "实习/Xtark/2024.07.16.md",
     "Linux/Linux 常用命令.md",
     "ASLant_Files/2024-07-19-10-50-20.png",
     "Linux/Debian系/Clash折腾笔记.md",
     "ASLant_Files/2024-07-19-09-40-11.png",
     "ASLant_Files/2024-07-19-09-40-08.png",
     "ASLant_Files/2024-07-19-09-38-52.png",
-    "实习/Xtark/2024.07.17.md",
     "Linux/Debian系",
     "Encryption/Clash Meta Node.md",
     "Android开发/JDK、Gradle对应关系.md",
-    "ASLant_Files/2024-07-18-16-44-25.png",
     "Linux/Vim的使用.md",
-    "实习/Ubuntu问题.md",
     "Linux/Makefile.md",
     "Linux/Linux 个人配置.md",
     "杂/0x02_VIM.md",
     "Linux/TheFuck.md",
-    "ASLant_Files/2024-07-18-08-21-13.png",
     "编程语言/解释型语言/Shell/Wget.md",
-    "ASLant_Files/2024-07-17-16-31-52.png",
-    "ASLant_Files/2024-07-17-15-54-03.png",
-    "ASLant_Files/2024-07-17-08-50-47.png",
     "Linux/SSH连接.md",
     "实习/Xtark",
     "Other/MATLAB 补丁更新.md",
@@ -234,7 +237,6 @@
     "大学课程/物联网技术及应用基础第二版/物联网技术及应用基础.md",
     "IOT/ESP32/ESP32 引脚图.md",
     "大学课程/物联网技术及应用基础第二版/未命名.md",
-    "大学课程/通信原理/通信原理.md",
     "大学课程/无线组网技术",
     "大学课程/通信原理",
     "大学课程/物联网技术及应用基础第二版",
