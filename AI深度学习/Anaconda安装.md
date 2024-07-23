@@ -21,7 +21,7 @@
 ![[../ASLant_Files/2024-07-10-01-18-39.png]]
 
 > [!quote] 路径在"D:\ProgramData\anaconda3\envs\Demo_"
-### 添加环境变量
+### **添加环境变量**
 ```shell
 D:\ProgramData\anaconda3\Scripts
 ```
