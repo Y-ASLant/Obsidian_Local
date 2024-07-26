@@ -26,12 +26,25 @@
               "type": "markdown",
               "state": {
                 "file": "实习/YoloV5s/模型转换.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a21e4582f7c1e31a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实习/Ubuntu.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,8 +74,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "ccat",
+                "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
@@ -117,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md",
+                "file": "实习/YoloV5s/模型转换.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md",
+                "file": "实习/YoloV5s/模型转换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md"
+                "file": "实习/YoloV5s/模型转换.md"
               }
             }
           }
@@ -193,10 +206,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "84604303d4282c8c",
+  "active": "012bada195ae21eb",
   "lastOpenFiles": [
-    "实习/YoloV5s/模型转换.md",
+    "ASLant_Files/2024-07-26-16-16-18.png",
     "实习/Xtark/2024.07.16.md",
+    "实习/Ubuntu.md",
+    "实习/YoloV5s/模型转换.md",
+    "实习/ROS/2024.07.15.md",
+    "编程语言/解释型语言/Shell/Wget.md",
+    "ASLant_Files/2024-07-26-10-10-04.png",
+    "ASLant_Files/2024-07-26-09-31-54.png",
+    "ASLant_Files/2024-07-26-09-29-17.png",
     "实习/YoloV5s/模型训练.md",
     "Linux/SSH连接.md",
     "AI深度学习/Anaconda安装.md",
@@ -204,7 +224,6 @@
     "杂/未命名看板.md",
     "实习/Xtark/2024.07.17.md",
     "Linux/WSL2/WSL.md",
-    "实习/ROS/2024.07.15.md",
     "Other/CFW更换Mihomo内核.md",
     "编程语言/解释型语言/Python/未命名.md",
     "ASLant_Files/2024-07-23-10-33-15.png",
@@ -218,21 +237,15 @@
     "ASLant_Files/2024-07-22-17-43-41.png",
     "ASLant_Files/2024-07-22-16-39-29.png",
     "ASLant_Files/2024-07-22-16-37-53.png",
-    "ASLant_Files/2024-07-22-16-36-46.png",
-    "ASLant_Files/2024-07-22-16-34-30.png",
-    "ASLant_Files/2024-07-22-15-33-39.png",
     "Linux/Debian系/软件安装.md",
     "Linux/Linux 常用命令.md",
     "Linux/WSL2/WSL2中使用GUI.md",
     "实习/YoloV5s",
     "实习/ROS/官方安装教程.md",
-    "实习/Ubuntu.md",
     "实习/ROS/ROS环境安装.md",
     "Linux/Debian系",
     "Android开发/JDK、Gradle对应关系.md",
     "Linux/Vim的使用.md",
-    "Linux/Makefile.md",
-    "Linux/Linux 个人配置.md",
     "实习/Xtark",
     "AI深度学习",
     "实习/ROS",
