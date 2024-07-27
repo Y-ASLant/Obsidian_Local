@@ -3,7 +3,11 @@
 > [!NOTE] 环境已装好，解压即可
 
 ```sh
-unzip yolov5.zip
+curl -k -L -o yolov5-5.0.tar https://aslant.top/Cloud/E5/yolo/yolov5-5.0.tar
+```
+
+```sh
+tar -xvf yolov5-5.0.tar
 ```
 # 构建数据集
 1. 连接小车, 密码 `123456`
