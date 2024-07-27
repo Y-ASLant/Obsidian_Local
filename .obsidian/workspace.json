@@ -50,7 +50,7 @@
               "type": "markdown",
               "state": {
                 "file": "实习/YoloV5s/模型训练-Full.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -220,6 +220,8 @@
   },
   "active": "5626db060d397efc",
   "lastOpenFiles": [
+    "ASLant_Files/2024-07-27-12-52-31.png",
+    "ASLant_Files/2024-07-27-12-51-56.png",
     "实习/YoloV5s/模型转换.md",
     "实习/YoloV5s/模型训练.md",
     "实习/YoloV5s/模型训练-Full.md",
@@ -244,7 +246,6 @@
     "Linux/WSL2/WSL.md",
     "Other/CFW更换Mihomo内核.md",
     "编程语言/解释型语言/Python/未命名.md",
-    "ASLant_Files/2024-07-23-10-33-15.png",
     "Encryption/Clash Node.md",
     "Win/索引.md",
     "Linux/Debian系/Clash折腾笔记.md",

@@ -161,12 +161,6 @@ categories:
        parser.add_argument('--batch-size', type=int, default=1, help='total batch size for all GPUs')
        parser.add_argument('--img-size', nargs='+', type=int, default=[640, 640], help='[train, test] image sizes')
    ```
-6. 
-
-
-
-
-
 
 # 生成 `.pt` 模型
 1. 开始训练
@@ -174,11 +168,10 @@ categories:
    python3 train.py
    ```
 2. 等待即可
-   
-3. 
-
-
-
+   ![[../../ASLant_Files/2024-07-27-12-52-31.png]]
+3. 也可以通过 6006 端口查看
+   ![[../../ASLant_Files/2024-07-27-12-51-56.png]]
+4. 生成的 `.pt` 文件, 在 `runs\train\exp*\weights` 目录下
 
 # TensorRT 优化模型
 
