@@ -74,13 +74,10 @@ categories:
    #     /yolov5
    
    
-   # download command/URL (optional)
-   download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip
-   
    # 路径修改 
    # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-   train: ../../datasets-test/images/train/  # 128 images
-   val: ../../datasets-test/images/train/  # 128 images
+   train: /home/user/Desktop/test-0727/datasets-test/images/train  # 128 images
+   val: /home/user/Desktop/test-0727/datasets-test/images/val  # 128 images
 
    # 种类数量
    # number of classes
