@@ -175,8 +175,8 @@ categories:
    ![[../../ASLant_Files/2024-07-27-12-52-31.png]]
 3. 也可以通过 6006 端口查看
    ![[../../ASLant_Files/2024-07-27-12-51-56.png]]
-4. 生成的 `.pt` 文件, 在 `runs\train\exp*\weights` 目录下
-
+4. 训练结束后会生成两个 `.pt` 文件, 在 `runs\train\exp*\weights` 目录下
+   ![[../../ASLant_Files/2024-07-27-13-05-44.png]]
 # TensorRT 优化模型
 
 > [!Error] [[模型转换| 使用 TensorRT 优化模型]]

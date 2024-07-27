@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "实习/YoloV5s/模型转换.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "实习/YoloV5s/模型训练.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md",
+                "file": "实习/YoloV5s/模型转换.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md",
+                "file": "实习/YoloV5s/模型转换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md"
+                "file": "实习/YoloV5s/模型转换.md"
               }
             }
           }
@@ -218,13 +218,14 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5626db060d397efc",
+  "active": "012bada195ae21eb",
   "lastOpenFiles": [
-    "ASLant_Files/2024-07-27-12-52-31.png",
-    "ASLant_Files/2024-07-27-12-51-56.png",
+    "实习/YoloV5s/模型训练-Full.md",
     "实习/YoloV5s/模型转换.md",
     "实习/YoloV5s/模型训练.md",
-    "实习/YoloV5s/模型训练-Full.md",
+    "ASLant_Files/2024-07-27-13-05-44.png",
+    "ASLant_Files/2024-07-27-12-52-31.png",
+    "ASLant_Files/2024-07-27-12-51-56.png",
     "ASLant_Files/2024-07-27-11-22-01.png",
     "ASLant_Files/2024-07-27-11-09-49.png",
     "ASLant_Files/2024-07-27-10-37-43.png",
@@ -236,8 +237,6 @@
     "实习/ROS/2024.07.15.md",
     "编程语言/解释型语言/Shell/Wget.md",
     "ASLant_Files/2024-07-26-10-10-04.png",
-    "ASLant_Files/2024-07-26-09-31-54.png",
-    "ASLant_Files/2024-07-26-09-29-17.png",
     "Linux/SSH连接.md",
     "AI深度学习/Anaconda安装.md",
     "杂/支出.md",
