@@ -25,7 +25,7 @@ roslaunch tarkbot_driver_yolo tarkbot_auto_driver.launch
 4. 创建目录,将图片以此格式放入 `train` 和 `val`
    ![[../../ASLant_Files/2024-07-27-10-24-48.png]]
    
-5. 开始保存图片......
+5. 开始收集保存图片......
 
 ## 标记
 
@@ -179,4 +179,14 @@ categories:
    ![[../../ASLant_Files/2024-07-27-13-05-44.png]]
 # TensorRT 优化模型
 
+###### 需要在 ROS 小车中进行, 调用 `Nvidia` 显卡
+
 > [!Error] [[模型转换| 使用 TensorRT 优化模型]]
+
+
+# 使用优化后的模型
+
+> [!NOTE] 在 ROS 小车中使用优化后的模型
+
+1. 将优化后得到的 `.engine` 模型和 `libmyplugins.so` 文件复制到 `\ros_ws\src\tarkbot_demo\tarkbot_yolov5\param\nano4G` 目录下
+2. 修改
