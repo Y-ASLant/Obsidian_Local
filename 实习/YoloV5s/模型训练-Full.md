@@ -26,6 +26,7 @@ roslaunch tarkbot_driver_yolo tarkbot_auto_driver.launch
    ![[../../ASLant_Files/2024-07-27-10-24-48.png]]
    
 5. 开始收集保存图片......
+   ![[../../ASLant_Files/2024-07-27-14-00-36.png]]
 
 ## 标记
 

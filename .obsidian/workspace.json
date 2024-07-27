@@ -20,42 +20,6 @@
             }
           },
           {
-            "id": "012bada195ae21eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实习/YoloV5s/模型转换.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a21e4582f7c1e31a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实习/YoloV5s/模型训练.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5626db060d397efc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2b3e865f324e849a",
             "type": "leaf",
             "state": {
@@ -68,19 +32,19 @@
             }
           },
           {
-            "id": "9c86e8ce747cdedc",
+            "id": "5626db060d397efc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习/Ubuntu.md",
+                "file": "实习/YoloV5s/模型训练-Full.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -166,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实习/YoloV5s/模型转换.md",
+                "file": "实习/YoloV5s/模型训练-Full.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实习/YoloV5s/模型转换.md",
+                "file": "实习/YoloV5s/模型训练-Full.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实习/YoloV5s/模型转换.md"
+                "file": "实习/YoloV5s/模型训练-Full.md"
               }
             }
           }
@@ -243,12 +207,14 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "012bada195ae21eb",
+  "active": "5626db060d397efc",
   "lastOpenFiles": [
-    "实习/YoloV5s/模型训练.md",
     "实习/YoloV5s/模型转换.md",
+    "实习/Xtark/2024.07.16.md",
+    "实习/YoloV5s/模型训练.md",
     "实习/YoloV5s/模型训练-Full.md",
     "实习/Ubuntu.md",
+    "ASLant_Files/2024-07-27-14-00-36.png",
     "ASLant_Files/2024-07-27-13-05-44.png",
     "ASLant_Files/2024-07-27-12-52-31.png",
     "ASLant_Files/2024-07-27-12-51-56.png",
@@ -257,11 +223,9 @@
     "ASLant_Files/2024-07-27-10-37-43.png",
     "ASLant_Files/2024-07-27-10-37-01.png",
     "ASLant_Files/2024-07-27-10-24-48.png",
-    "实习/Xtark/2024.07.16.md",
     "ASLant_Files/2024-07-26-16-16-18.png",
     "实习/ROS/2024.07.15.md",
     "编程语言/解释型语言/Shell/Wget.md",
-    "ASLant_Files/2024-07-26-10-10-04.png",
     "Linux/SSH连接.md",
     "AI深度学习/Anaconda安装.md",
     "杂/支出.md",
