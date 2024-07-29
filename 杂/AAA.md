@@ -18,3 +18,22 @@
 
 
 
+![](https://ycx-images.oss-cn-qingdao.aliyuncs.com//img/2024-05-20-11-51-40.png)
+
+
+原链接
+```web
+https://aslant-api.cn//
+```
+新链接
+```web
+https://ycx-images.oss-cn-qingdao.aliyuncs.com//
+```
+### Wget 使用
+```sh
+wget http://aslant-api.cn/d/ASLant/ASLant/%E9%9F%B3%E4%B9%90/%E5%81%8F%E7%88%B1-%E5%BC%A0%E8%8A%B8%E4%BA%AC.flac?sign=vQ0MMbJaH4_bD_2OMYXIouIzmO1OtS5xWjgJE5A4dA4=:0 -O 偏爱.flac
+```
+### Curl 使用
+```sh
+curl -k -L -o 偏爱.flac http://aslant-api.cn/d/ASLant/ASLant/%E9%9F%B3%E4%B9%90/%E5%81%8F%E7%88%B1-%E5%BC%A0%E8%8A%B8%E4%BA%AC.flac?sign=vQ0MMbJaH4_bD_2OMYXIouIzmO1OtS5xWjgJE5A4dA4=:0
+```

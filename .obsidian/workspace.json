@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "84604303d4282c8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实习/Xtark/2024.07.16.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2b3e865f324e849a",
             "type": "leaf",
             "state": {
@@ -38,6 +26,18 @@
               "type": "markdown",
               "state": {
                 "file": "实习/YoloV5s/模型训练-Full.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1cdd0f7dc06669f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实习/Xtark/2024.07.16.md",
                 "mode": "preview",
                 "source": false
               }
@@ -74,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ccat",
+                "query": "alist",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md",
+                "file": "实习/Xtark/2024.07.16.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md",
+                "file": "实习/Xtark/2024.07.16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md"
+                "file": "实习/Xtark/2024.07.16.md"
               }
             }
           }
@@ -183,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 355.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,12 +206,30 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5626db060d397efc",
+  "active": "1cdd0f7dc06669f9",
   "lastOpenFiles": [
-    "实习/YoloV5s/模型转换.md",
+    "前端/站点首页.md",
     "实习/Xtark/2024.07.16.md",
-    "实习/YoloV5s/模型训练.md",
     "实习/YoloV5s/模型训练-Full.md",
+    "看板/看板1.md",
+    "树莓派/树莓派Kali Linux系统烧录.md",
+    "杂/AAA.md",
+    "Encryption/索引.md",
+    "杂/aslant-api.cn.md",
+    "NLE新大陆/NLE 物联网.md",
+    "Obsidian/笔记样式.md",
+    "Obsidian/Obsidian_Online.md",
+    "杂/README - 副本.md",
+    "杂/README.md",
+    "ASLant_Files/be296990492862d57d2bed76943a4ce2_MD5.jpg",
+    "ASLant_Files/2024-07-28-15-01-55.png",
+    "ASLant_Files/2024-07-28-15-00-33.png",
+    "杂/index.md",
+    "杂/index - 副本.md",
+    "实习/YoloV5s/模型转换.md",
+    "Win/Windows软件.md",
+    "杂/Test.md",
+    "实习/YoloV5s/模型训练.md",
     "实习/Ubuntu.md",
     "ASLant_Files/2024-07-27-14-00-36.png",
     "ASLant_Files/2024-07-27-13-05-44.png",
@@ -221,31 +238,14 @@
     "ASLant_Files/2024-07-27-11-22-01.png",
     "ASLant_Files/2024-07-27-11-09-49.png",
     "ASLant_Files/2024-07-27-10-37-43.png",
-    "ASLant_Files/2024-07-27-10-37-01.png",
-    "ASLant_Files/2024-07-27-10-24-48.png",
-    "ASLant_Files/2024-07-26-16-16-18.png",
     "实习/ROS/2024.07.15.md",
     "编程语言/解释型语言/Shell/Wget.md",
     "Linux/SSH连接.md",
     "AI深度学习/Anaconda安装.md",
     "杂/支出.md",
     "杂/未命名看板.md",
-    "实习/Xtark/2024.07.17.md",
-    "Linux/WSL2/WSL.md",
-    "Other/CFW更换Mihomo内核.md",
-    "编程语言/解释型语言/Python/未命名.md",
-    "Encryption/Clash Node.md",
-    "Win/索引.md",
-    "Linux/Debian系/Clash折腾笔记.md",
-    "Win/Windows软件.md",
-    "Linux/Debian系/软件安装.md",
-    "Linux/Linux 常用命令.md",
-    "Linux/WSL2/WSL2中使用GUI.md",
     "实习/YoloV5s",
-    "实习/ROS/官方安装教程.md",
-    "实习/ROS/ROS环境安装.md",
     "Linux/Debian系",
-    "Android开发/JDK、Gradle对应关系.md",
     "实习/Xtark",
     "AI深度学习",
     "实习/ROS",

@@ -10,19 +10,20 @@ curl -k -L -o yolov5-5.0.tar https://aslant.top/Cloud/E5/yolo/yolov5-5.0.tar
 tar -xvf yolov5-5.0.tar
 ```
 # 构建数据集
+### 数据采集
 1. 连接小车, 密码 `123456`
    ```sh
-ssh user@192.168.110.131
-	```
-2. 初始化小车所有节点
+   ssh user@192.168.110.131
+   ```
+1. 初始化小车所有节点
    ```sh
-roslaunch tarkbot_driver_yolo tarkbot_auto_driver.launch
-	```
-3. 打开可视化工具
+   roslaunch tarkbot_driver_yolo tarkbot_auto_driver.launch
+   ```
+1. 打开可视化工具
    ```sh
    rosrun rqt_image_view rqt_image_view
    ```
-4. 创建目录,将图片以此格式放入 `train` 和 `val`
+1. 创建目录,将图片以此格式放入 `train` 和 `val`
    ![[../../ASLant_Files/2024-07-27-10-24-48.png]]
    
 5. 开始收集保存图片......
@@ -190,4 +191,13 @@ categories:
 > [!NOTE] 在 ROS 小车中使用优化后的模型
 
 1. 将优化后得到的 `.engine` 模型和 `libmyplugins.so` 文件复制到 `\ros_ws\src\tarkbot_demo\tarkbot_yolov5\param\nano4G` 目录下
-2. 修改
+2. 修改 `\ros_ws\src\tarkbot_demo\tarkbot_yolov5\param\` 下 `traffic.yaml` 代码为自己的模型以及自己的模型种类
+   ```yaml
+   PLUGIN_LIBRARY: libmyplugins.so # 插件库的文件名
+   engine_file_path: yolov5s.engine # 深度学习模型的引擎文件路径
+   CONF_THRESH: 0.5
+   IOU_THRESHOLD: 0.4
+   categories:     ["Go_straight","Turn_right","whistle","Sidewalk","Limiting_velocity","Shutdown","School_decelerate","Parking_lotB","Parking_lotA","Green_light","Red_light"]
+   ```
+3. 在 `/home/xtark/tarkbot/ros_ws/src/tarkbot_demo/tarkbot_driver_yolo/scripts/` 下修改逻辑代码文件 `mec_driver_way.py` 和 `mec_tarkbot_auto_run.py` 
+   
