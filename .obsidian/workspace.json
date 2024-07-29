@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md",
+                "file": "实习/YoloV5s/模型训练-Full.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md",
+                "file": "实习/YoloV5s/模型训练-Full.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实习/Xtark/2024.07.16.md"
+                "file": "实习/YoloV5s/模型训练-Full.md"
               }
             }
           }
@@ -206,11 +206,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1cdd0f7dc06669f9",
+  "active": "5626db060d397efc",
   "lastOpenFiles": [
-    "前端/站点首页.md",
-    "实习/Xtark/2024.07.16.md",
+    "实习/YoloV5s/模型转换.md",
     "实习/YoloV5s/模型训练-Full.md",
+    "实习/Xtark/2024.07.16.md",
+    "前端/站点首页.md",
     "看板/看板1.md",
     "树莓派/树莓派Kali Linux系统烧录.md",
     "杂/AAA.md",
@@ -226,7 +227,6 @@
     "ASLant_Files/2024-07-28-15-00-33.png",
     "杂/index.md",
     "杂/index - 副本.md",
-    "实习/YoloV5s/模型转换.md",
     "Win/Windows软件.md",
     "杂/Test.md",
     "实习/YoloV5s/模型训练.md",
