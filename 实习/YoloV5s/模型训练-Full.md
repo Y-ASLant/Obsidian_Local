@@ -5,6 +5,10 @@
 ```sh
 curl -k -L -o yolov5-5.0.tar https://aslant.top/Cloud/E5/yolo/yolov5-5.0.tar
 ```
+**或**
+```sh
+curl -kLo yolov5-5.0.tar https://aslant.top/Cloud/E5/yolo/yolov5-5.0.tar
+```
 
 ```sh
 tar -xvf yolov5-5.0.tar
@@ -15,18 +19,30 @@ tar -xvf yolov5-5.0.tar
    ```sh
    ssh user@192.168.110.131
    ```
-1. 初始化小车所有节点
+2. 初始化小车所有节点
    ```sh
    roslaunch tarkbot_driver_yolo tarkbot_auto_driver.launch
    ```
-1. 打开可视化工具
+3. 打开可视化工具
    ```sh
    rosrun rqt_image_view rqt_image_view
    ```
-1. 创建目录,将图片以此格式放入 `train` 和 `val`
+4. 创建目录,将图片以此格式放入 `train` 和 `val`
    ![[../../ASLant_Files/2024-07-27-10-24-48.png]]
    
 5. 开始收集保存图片......
+6. 文件保存文件夹
+   ```sh
+   images/train 下放训练集的图片，总图片的70%
+   images/val 下放验证集的图片，总图片的15%
+   images/test 下放测试集的图片，总图片的15%
+   ```
+   
+   ```sh
+   labels/train 下放训练集的标签，总标签的70%
+   labels/val 下放验证集的标签，总标签的15%
+   labels/test 不放东西
+   ```
    ![[../../ASLant_Files/2024-07-27-14-00-36.png]]
 
 ## 标记
@@ -829,7 +845,7 @@ categories:
 # 小车运动
 #### 1. ssh 连接小车
    ```sh
-   ssh user@小车IP地址
+   ssh user@192.168.110.131
    ```
 #### 2. 初始化小车
    ```sh
