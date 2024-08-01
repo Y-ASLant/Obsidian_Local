@@ -8,43 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2b3e865f324e849a",
+            "id": "11c8beeb544510ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习/YoloV5s/模型转换.md",
-                "mode": "preview",
+                "file": "实习/YoloV5s/TensorRT 模型转换.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5626db060d397efc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1cdd0f7dc06669f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实习/Xtark/2024.07.16.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e194ed6fe996706",
+            "id": "46f4b3ab3d00f420",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,9 +30,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f028fbdaf7723a36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实习/YoloV5s/模型训练-Full.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "alist",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -142,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md",
+                "file": "实习/YoloV5s/TensorRT 模型转换.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md",
+                "file": "实习/YoloV5s/TensorRT 模型转换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md"
+                "file": "实习/YoloV5s/TensorRT 模型转换.md"
               }
             }
           }
@@ -218,14 +205,24 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5626db060d397efc",
+  "active": "11c8beeb544510ff",
   "lastOpenFiles": [
-    "实习/Xtark/2024.07.16.md",
-    "Win/索引.md",
-    "实习/Ubuntu.md",
+    "实习/YoloV5s/模型训练-Full - 副本.md",
+    "实习/YoloV5s/TensorRT 模型转换.md",
     "实习/YoloV5s/模型训练-Full.md",
-    "实习/YoloV5s/模型转换.md",
-    "实习/未命名.md",
+    "Win/索引.md",
+    "编程语言/解释型语言/Python/安装Python环境.md",
+    "杂/Git提交流程.md",
+    "实习/YoloV5s/模型训练.md",
+    "编程语言/解释型语言/Python/html内容批量更改.md",
+    "README.md",
+    "Obsidian/Obsidian_Online.md",
+    "Win/Windows软件.md",
+    "实习/Xtark/2024.07.16.md",
+    "MySQL/MySQL.md",
+    "MySQL/SQL Server命令.md",
+    "实习/字符画.md",
+    "实习/Ubuntu.md",
     "实习/ROS/2024.07.15.md",
     "前端/站点首页.md",
     "看板/看板1.md",
@@ -235,17 +232,10 @@
     "杂/aslant-api.cn.md",
     "NLE新大陆/NLE 物联网.md",
     "Obsidian/笔记样式.md",
-    "Obsidian/Obsidian_Online.md",
     "杂/README - 副本.md",
-    "杂/README.md",
     "ASLant_Files/be296990492862d57d2bed76943a4ce2_MD5.jpg",
     "ASLant_Files/2024-07-28-15-01-55.png",
     "ASLant_Files/2024-07-28-15-00-33.png",
-    "杂/index.md",
-    "杂/index - 副本.md",
-    "Win/Windows软件.md",
-    "杂/Test.md",
-    "实习/YoloV5s/模型训练.md",
     "ASLant_Files/2024-07-27-14-00-36.png",
     "ASLant_Files/2024-07-27-13-05-44.png",
     "ASLant_Files/2024-07-27-12-52-31.png",
@@ -253,9 +243,6 @@
     "ASLant_Files/2024-07-27-11-22-01.png",
     "ASLant_Files/2024-07-27-11-09-49.png",
     "ASLant_Files/2024-07-27-10-37-43.png",
-    "编程语言/解释型语言/Shell/Wget.md",
-    "Linux/SSH连接.md",
-    "AI深度学习/Anaconda安装.md",
     "实习/YoloV5s",
     "Linux/Debian系",
     "实习/Xtark",

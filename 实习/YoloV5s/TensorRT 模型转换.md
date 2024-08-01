@@ -1,14 +1,14 @@
 ### 前期准备
 > [!warning] 已经训练好的 `.pt` 模型 x 1
+### 修改 `yololayer.h` 中的 `CLASS_NUM`
+
+> [!NOTE] 根据数据集采集的数量修改
 
 ### `.pt` 转 `.wts`文件
 
 ```sh
 python3 gen_wts.py -w best.pt -o best.wts
 ```
-### 修改 `yololayer.h` 中的 `CLASS_NUM`
-
-> [!NOTE] 根据数据集采集的数量修改
 
 ### 生成构建文件
 > 新建 `build` 文件夹, 将生成的 `.wts` 文件放入 `build` 文件夹中

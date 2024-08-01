@@ -1,3 +1,16 @@
+# InFo
+> 仅在本实验中使用以下 IP
+
+> [!important] AI-Box
+> User：user
+> IP：192.168.110.105
+> Password：123456
+
+> [!info] ROS 小车
+> User：user  
+> IP：192.168.110.131
+> Password：123456
+
 # 解压 yolov5_5.0 压缩包
 
 > [!NOTE] 环境已装好，解压即可
@@ -44,9 +57,14 @@ tar -xvf yolov5-5.0.tar
    labels/test 不放东西
    ```
    ![[../../ASLant_Files/2024-07-27-14-00-36.png]]
+7. 将分类好的图片发送到 AI-Box 上
+   ```sh
+   scp -r datasets/ user@192.168.110.105:~/
+   ```
 
-## 标记
+## 数据标注
 
+> [!error] 在 AI-Box上进行标注
 ### 安装工具
 
 ```python
@@ -199,7 +217,7 @@ categories:
 
 ###### 需要在 ROS 小车中进行, 调用 `Nvidia` 显卡
 
-> [!Error] [[模型转换| 使用 TensorRT 优化模型]]
+> [!Error] [[TensorRT 模型转换| 使用 TensorRT 优化模型]]
 
 
 # 使用优化后的模型
