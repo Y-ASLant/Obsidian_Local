@@ -75,14 +75,17 @@ pip install labelImg
    ```sh
    labelImg
    ```
+   或
+   ```sh
+   labelme
+   ```
 2. 选择图片位置
    ![[../../ASLant_Files/2024-07-27-10-37-01.png]]
-
 3. 更改保存位置
    ![[../../ASLant_Files/2024-07-27-10-37-43.png]]
 4. 注意格式为 `yolo`, 在顶部 `view` 处勾选自动保存
-5. 开始标注
-6. 所需种类
+5. 开始标注...
+6. 所需种类举例
    ```yaml
 categories:
    [
@@ -103,7 +106,7 @@ categories:
 ## 更改配置文件
 1. 在 `data` 目录下找到 `coco128.yaml` ,复制一份, 改名为 `My-coco128.yaml`
    ![[../../ASLant_Files/2024-07-27-11-09-49.png]]
-2. 种类数量以及种类名称，以标注后为准 ![[../../ASLant_Files/2024-07-27-11-22-01.png]]
+2. 种类数量以及种类名称，**以标注后为准** ![[../../ASLant_Files/2024-07-27-11-22-01.png]]
 3. 修改 `My-coco128.yaml` 内容
    ```yaml
    # COCO 2017 dataset http://cocodataset.org - first 128 training images
@@ -198,7 +201,7 @@ categories:
        parser.add_argument('--hyp', type=str, default='./data/hyp.scratch.yaml', help='hyperparameters path')
        # 训练轮数
        parser.add_argument('--epochs', type=int, default=500)
-       parser.add_argument('--batch-size', type=int, default=1, help='total batch size for all GPUs')
+       parser.add_argument('--batch-size', type=int, default=8, help='total batch size for all GPUs')
        parser.add_argument('--img-size', nargs='+', type=int, default=[640, 640], help='[train, test] image sizes')
    ```
 
@@ -236,6 +239,188 @@ categories:
 
 3. 在 `/home/xtark/tarkbot/ros_ws/src/tarkbot_demo/tarkbot_driver_yolo/scripts/` 下修改逻辑代码文件 `mec_driver_way.py` 和 `mec_tarkbot_auto_run.py` 
    
+> [!check]- mec_tarkbot_auto_run.py
+> 
+> ```python
+> #!/usr/bin/env python
+> # coding=utf-8
+> 
+> import rospy
+> from sensor_msgs.msg import Image
+> import cv2, cv_bridge
+> import numpy
+> from time import sleep
+> from geometry_msgs.msg import Twist
+> from std_msgs.msg import Int8
+> from tarkbot_driver_yolo.msg import ControlWay
+> 
+> last_erro=0
+> 
+> mask_x_left = 1.0000
+> mask_x_right = 1.0000
+> mask_y_top = 1.0000
+> mask_y_bot = 1.0000
+> center_target = 0.5
+> vel_x = 0.0000
+> vel_y_P = 0.0000
+> vel_y_D = 0.0000
+> vel_z_P = 0.0000
+> vel_z_D = 0.0000
+> state = 0
+> 
+> def nothing(s):
+>     pass
+> hue_black = (0,0,0,180,255,46)# black
+> hue_red = (0,50,60,14,255,255)# red
+> hue_blue = (100,43,46,124,255,255)# blue
+> hue_green= (35,43,46,77,255,255)# green
+> hue_yellow = (10,70,50,40,255,255)# yellow
+> 
+> 
+> 
+> class Follower:
+>     def __init__(self):
+>         self.bridge = cv_bridge.CvBridge()
+> 
+>         self.image_sub = rospy.Subscriber("/image_raw", Image, self.image_callback)  #订阅usb摄像头
+>         self.driver_mode_sub = rospy.Subscriber("/driver_mode", ControlWay, self.driver_mode_callback)  #订阅驾驶模式
+>         self.cmd_vel_pub = rospy.Publisher("/cmd_vel", Twist, queue_size=1)  #速度话题
+>         self.start_flag_pub = rospy.Publisher("/start_flag", Int8, queue_size=1)  #发布启动标志
+>         self.go_outside_pub = rospy.Publisher("/outside_flag", Int8, queue_size=1)  #发布出圈标志
+> 
+>         self.twist = Twist()
+>         self.flag = Int8()
+>         self.outside = Int8()
+>         self.flag.data = 1
+>         self.outside.data = 0
+> 
+>     def image_callback(self, msg):
+>         global last_erro
+>         global mask_x_left
+>         global mask_x_right
+>         global mask_y_top
+>         global mask_y_bot
+>         global center_target
+>         global vel_x
+>         global vel_y_P
+>         global vel_y_D
+>         global vel_z_P
+>         global vel_z_D
+>         global state
+> 		
+>         image1 = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
+>         image = cv2.resize(image1, (320,240), interpolation=cv2.INTER_AREA)
+>         hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+> 
+>         
+>         lowerbH=hue_yellow[0]
+>         lowerbS=hue_yellow[1]
+>         lowerbV=hue_yellow[2]
+>         upperbH=hue_yellow[3]
+>         upperbS=hue_yellow[4]
+>         upperbV=hue_yellow[5]
+> 
+>         mask1=cv2.inRange(hsv,(lowerbH,lowerbS,lowerbV),(upperbH,upperbS,upperbV))
+>         mask2=cv2.inRange(hsv,(lowerbH+165,lowerbS,lowerbV),(upperbH+170,upperbS,upperbV))
+>         mask = cv2.bitwise_or(mask1, mask2)
+> 
+>         h, w, d = image.shape       
+>         search_top = h*mask_y_top
+>         search_bot = h*mask_y_bot
+>         mask[0:int(search_top), 0:w] = 0
+>         mask[int(search_bot):h, 0:w] = 0
+>         mask[0:h, 0:int(mask_x_left*w)] = 0
+>         mask[0:h, int(mask_x_right*w):w] = 0
+>         
+>         # 计算mask图像的重心，即几何中心
+>         M = cv2.moments(mask)
+>         if M['m00'] > 0:
+>             cx = int(M['m10']/M['m00'])
+>             cy = int(M['m01']/M['m00'])
+>             cv2.circle(image, (cx, cy), 10, (255, 0, 255), -1)
+> 
+>             if cv2.circle:
+>             # 计算图像中心线和目标指示线中心的距离
+>                 erro = cx - w*center_target
+>                 d_erro=erro-last_erro
+>                 
+>                 #设置前进速度
+>                 self.twist.linear.x = vel_x
+> 
+>                 if erro!=0 and state != 0:
+> 
+>                     # 计算PID转向速度
+>                     self.twist.angular.z = -float(erro)*vel_z_P-float(d_erro)*vel_z_D
+> 
+>                     # # 出内道前不转弯
+>                     # if cx < 40 and cy>170 and state == 4:
+>                     #     self.twist.angular.z = 0
+> 
+>                     # 发布内道到头，准备出圈话题
+>                     if cx>95 and cx<100 and cy>160 and cy<175 and state == 4:
+>                         self.outside.data = 1
+>                         self.go_outside_pub.publish(self.outside)
+> 
+>                 elif erro == 0 and state != 0:
+>                     self.twist.angular.z = 0
+>                     self.twist.linear.y = 0 
+> 
+>                 last_erro=erro
+>                 #rospy.loginfo("Point is cx%d "%cx)  
+>                 #rospy.loginfo("Point is cy%d "%cy)
+>                 # rospy.loginfo("Point outside is %d"%self.outside.data) 
+>                 # rospy.loginfo("point state_last is %d"%state_last)
+>                 # rospy.loginfo("point state is %d"%state)
+>                 # rospy.loginfo("Point HSV is %s"%hsv[int(hsv.shape[0]/2),int(hsv.shape[1]/2)]) 
+>         else:
+>             self.twist.angular.z = 0
+>         
+>         if state > 0:
+> 
+>             #发布速度控制话题
+>             self.cmd_vel_pub.publish(self.twist)
+>             
+>             if state == 1:  # 外部车道行驶
+>                 cv2.putText(mask, "out_way", (0,30),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255),1)
+>             elif state == 4:  #内部车道行驶
+>                 cv2.putText(mask, "in_way", (0,30),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255),1)
+>         else :
+>             cv2.putText(mask, "no_line_init", (0,30),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255),1)
+> 
+>         cv2.imshow("watch_line", mask)
+>         cv2.waitKey(1)
+>         self.start_flag_pub.publish(self.flag)
+> 
+>     def driver_mode_callback(self, msg): 
+>         global mask_x_left
+>         global mask_x_right
+>         global mask_y_top
+>         global mask_y_bot
+>         global center_target
+>         global vel_x
+>         global vel_y_P
+>         global vel_y_D
+>         global vel_z_P
+>         global vel_z_D
+>         global state
+>         mask_x_left = msg.mask_x_left
+>         mask_x_right = msg.mask_x_right
+>         mask_y_top = msg.mask_y_top
+>         mask_y_bot = msg.mask_y_bot
+>         center_target = msg.center_target
+>         vel_x = msg.vel_x
+>         vel_y_P = msg.vel_y_P
+>         vel_y_D = msg.vel_y_D
+>         vel_z_P = msg.vel_z_P
+>         vel_z_D = msg.vel_z_D
+>         state = msg.en
+> 
+> rospy.init_node("opencv")
+> follower = Follower()
+> rospy.spin()
+> 	```
+> 
+
    > [!tip]- mec_driver_way.py
 >    ```python
 >    #!/usr/bin/env python
@@ -677,188 +862,6 @@ categories:
 >        except rospy.ROSInterruptException:
 >            pass
 >    ```
-
-> [!check]- mec_tarkbot_auto_run.py
-> 
-> ```python
-> #!/usr/bin/env python
-> # coding=utf-8
-> 
-> import rospy
-> from sensor_msgs.msg import Image
-> import cv2, cv_bridge
-> import numpy
-> from time import sleep
-> from geometry_msgs.msg import Twist
-> from std_msgs.msg import Int8
-> from tarkbot_driver_yolo.msg import ControlWay
-> 
-> last_erro=0
-> 
-> mask_x_left = 1.0000
-> mask_x_right = 1.0000
-> mask_y_top = 1.0000
-> mask_y_bot = 1.0000
-> center_target = 0.5
-> vel_x = 0.0000
-> vel_y_P = 0.0000
-> vel_y_D = 0.0000
-> vel_z_P = 0.0000
-> vel_z_D = 0.0000
-> state = 0
-> 
-> def nothing(s):
->     pass
-> hue_black = (0,0,0,180,255,46)# black
-> hue_red = (0,50,60,14,255,255)# red
-> hue_blue = (100,43,46,124,255,255)# blue
-> hue_green= (35,43,46,77,255,255)# green
-> hue_yellow = (10,70,50,40,255,255)# yellow
-> 
-> 
-> 
-> class Follower:
->     def __init__(self):
->         self.bridge = cv_bridge.CvBridge()
-> 
->         self.image_sub = rospy.Subscriber("/image_raw", Image, self.image_callback)  #订阅usb摄像头
->         self.driver_mode_sub = rospy.Subscriber("/driver_mode", ControlWay, self.driver_mode_callback)  #订阅驾驶模式
->         self.cmd_vel_pub = rospy.Publisher("/cmd_vel", Twist, queue_size=1)  #速度话题
->         self.start_flag_pub = rospy.Publisher("/start_flag", Int8, queue_size=1)  #发布启动标志
->         self.go_outside_pub = rospy.Publisher("/outside_flag", Int8, queue_size=1)  #发布出圈标志
-> 
->         self.twist = Twist()
->         self.flag = Int8()
->         self.outside = Int8()
->         self.flag.data = 1
->         self.outside.data = 0
-> 
->     def image_callback(self, msg):
->         global last_erro
->         global mask_x_left
->         global mask_x_right
->         global mask_y_top
->         global mask_y_bot
->         global center_target
->         global vel_x
->         global vel_y_P
->         global vel_y_D
->         global vel_z_P
->         global vel_z_D
->         global state
-> 		
->         image1 = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
->         image = cv2.resize(image1, (320,240), interpolation=cv2.INTER_AREA)
->         hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
-> 
->         
->         lowerbH=hue_yellow[0]
->         lowerbS=hue_yellow[1]
->         lowerbV=hue_yellow[2]
->         upperbH=hue_yellow[3]
->         upperbS=hue_yellow[4]
->         upperbV=hue_yellow[5]
-> 
->         mask1=cv2.inRange(hsv,(lowerbH,lowerbS,lowerbV),(upperbH,upperbS,upperbV))
->         mask2=cv2.inRange(hsv,(lowerbH+165,lowerbS,lowerbV),(upperbH+170,upperbS,upperbV))
->         mask = cv2.bitwise_or(mask1, mask2)
-> 
->         h, w, d = image.shape       
->         search_top = h*mask_y_top
->         search_bot = h*mask_y_bot
->         mask[0:int(search_top), 0:w] = 0
->         mask[int(search_bot):h, 0:w] = 0
->         mask[0:h, 0:int(mask_x_left*w)] = 0
->         mask[0:h, int(mask_x_right*w):w] = 0
->         
->         # 计算mask图像的重心，即几何中心
->         M = cv2.moments(mask)
->         if M['m00'] > 0:
->             cx = int(M['m10']/M['m00'])
->             cy = int(M['m01']/M['m00'])
->             cv2.circle(image, (cx, cy), 10, (255, 0, 255), -1)
-> 
->             if cv2.circle:
->             # 计算图像中心线和目标指示线中心的距离
->                 erro = cx - w*center_target
->                 d_erro=erro-last_erro
->                 
->                 #设置前进速度
->                 self.twist.linear.x = vel_x
-> 
->                 if erro!=0 and state != 0:
-> 
->                     # 计算PID转向速度
->                     self.twist.angular.z = -float(erro)*vel_z_P-float(d_erro)*vel_z_D
-> 
->                     # # 出内道前不转弯
->                     # if cx < 40 and cy>170 and state == 4:
->                     #     self.twist.angular.z = 0
-> 
->                     # 发布内道到头，准备出圈话题
->                     if cx>95 and cx<100 and cy>160 and cy<175 and state == 4:
->                         self.outside.data = 1
->                         self.go_outside_pub.publish(self.outside)
-> 
->                 elif erro == 0 and state != 0:
->                     self.twist.angular.z = 0
->                     self.twist.linear.y = 0 
-> 
->                 last_erro=erro
->                 #rospy.loginfo("Point is cx%d "%cx)  
->                 #rospy.loginfo("Point is cy%d "%cy)
->                 # rospy.loginfo("Point outside is %d"%self.outside.data) 
->                 # rospy.loginfo("point state_last is %d"%state_last)
->                 # rospy.loginfo("point state is %d"%state)
->                 # rospy.loginfo("Point HSV is %s"%hsv[int(hsv.shape[0]/2),int(hsv.shape[1]/2)]) 
->         else:
->             self.twist.angular.z = 0
->         
->         if state > 0:
-> 
->             #发布速度控制话题
->             self.cmd_vel_pub.publish(self.twist)
->             
->             if state == 1:  # 外部车道行驶
->                 cv2.putText(mask, "out_way", (0,30),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255),1)
->             elif state == 4:  #内部车道行驶
->                 cv2.putText(mask, "in_way", (0,30),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255),1)
->         else :
->             cv2.putText(mask, "no_line_init", (0,30),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255),1)
-> 
->         cv2.imshow("watch_line", mask)
->         cv2.waitKey(1)
->         self.start_flag_pub.publish(self.flag)
-> 
->     def driver_mode_callback(self, msg): 
->         global mask_x_left
->         global mask_x_right
->         global mask_y_top
->         global mask_y_bot
->         global center_target
->         global vel_x
->         global vel_y_P
->         global vel_y_D
->         global vel_z_P
->         global vel_z_D
->         global state
->         mask_x_left = msg.mask_x_left
->         mask_x_right = msg.mask_x_right
->         mask_y_top = msg.mask_y_top
->         mask_y_bot = msg.mask_y_bot
->         center_target = msg.center_target
->         vel_x = msg.vel_x
->         vel_y_P = msg.vel_y_P
->         vel_y_D = msg.vel_y_D
->         vel_z_P = msg.vel_z_P
->         vel_z_D = msg.vel_z_D
->         state = msg.en
-> 
-> rospy.init_node("opencv")
-> follower = Follower()
-> rospy.spin()
-> 	```
-> 
 
 # 小车运动
 #### 1. ssh 连接小车

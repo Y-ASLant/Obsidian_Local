@@ -1,1 +1,1 @@
-![](https://telegraph-image-b9w.pages.dev/file/2e181c534a84bf6973012.png)
+# 仅适用于 Windows 和 Android 操作系统
