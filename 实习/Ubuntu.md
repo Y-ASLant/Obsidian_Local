@@ -25,3 +25,11 @@ gsettings set org.gnome.desktop.background picture-uri 'file:///home/xtark/Pictu
 11. **`Ctrl` + `Y`**：粘贴最近使用`Ctrl` + `U`, `Ctrl` + `K`, 或 `Delete`删除的文本。
 12. **`Ctrl` + `L`**：清屏，相当于输入`clear`命令。
 13. **`Ctrl` + `R`**：搜索命令历史。
+
+# 显示当前壁纸所在路径
+```sh
+gsettings get org.gnome.desktop.background picture-uri
+```
+
+
+

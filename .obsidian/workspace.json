@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b429be99367f00d6",
+        "id": "27da0232b96dcb50",
         "type": "tabs",
         "children": [
           {
@@ -13,32 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习/YoloV5s/TensorRT 模型转换.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6313816923d40ebb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "编程语言/解释型语言/Shell/清理.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a8a0246163d0478",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "实习/YoloV5s/模型训练-Full.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f52e6d3f33bef928",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/🔌 知识库插件列表.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "968877fa078c2095",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/🔌 知识库插件列表.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -74,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "curl",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md",
+                "file": "Obsidian/🔌 知识库插件列表.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md",
+                "file": "Obsidian/🔌 知识库插件列表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实习/YoloV5s/模型训练-Full.md"
+                "file": "Obsidian/🔌 知识库插件列表.md"
               }
             }
           }
@@ -206,15 +206,26 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "3a8a0246163d0478",
+  "active": "968877fa078c2095",
   "lastOpenFiles": [
-    "编程语言/解释型语言/Shell/清理.md",
+    "索引.md",
+    "Obsidian/未命名.md",
     "实习/YoloV5s/模型训练-Full.md",
-    "编程语言/解释型语言/Shell/clash-verge-rev_Download.md",
+    "Obsidian/笔记样式.md",
+    "Obsidian/🔌 知识库插件列表.md",
+    "Linux/使用dd命令拷贝镜像.md",
     "实习/YoloV5s/TensorRT 模型转换.md",
+    "实习/Ubuntu.md",
+    "实习/Xtark/2024.07.16.md",
+    "实习/ROS/官方安装教程.md",
+    "编程语言/解释型语言/Shell/清理.md",
+    "实习/YoloV5s/模型训练-Full - 副本.md",
+    "实习/未命名.md",
+    "实习/YoloV5s/模型训练.md",
+    "实习/ROS/2024.07.15.md",
+    "编程语言/解释型语言/Shell/clash-verge-rev_Download.md",
     "编程语言/解释型语言/Shell/Flclash_Download.md",
     "杂/未命名.md",
-    "实习/YoloV5s/模型训练-Full - 副本.md",
     "杂/README.md",
     "杂/README - 副本.md",
     "杂/Git提交流程.md",
@@ -223,17 +234,6 @@
     "杂/AAA.md",
     "Win/索引.md",
     "编程语言/解释型语言/Python/安装Python环境.md",
-    "实习/YoloV5s/模型训练.md",
-    "编程语言/解释型语言/Python/html内容批量更改.md",
-    "README.md",
-    "Obsidian/Obsidian_Online.md",
-    "Win/Windows软件.md",
-    "实习/Xtark/2024.07.16.md",
-    "MySQL/MySQL.md",
-    "MySQL/SQL Server命令.md",
-    "实习/字符画.md",
-    "实习/Ubuntu.md",
-    "实习/ROS/2024.07.15.md",
     "ASLant_Files/be296990492862d57d2bed76943a4ce2_MD5.jpg",
     "ASLant_Files/2024-07-28-15-01-55.png",
     "ASLant_Files/2024-07-28-15-00-33.png",
