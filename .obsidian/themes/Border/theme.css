@@ -8383,6 +8383,14 @@ body {
 body.seamless-embeds {
     --embed-border-left: none;
 }
+.rounded-video {
+    border-radius: 5px;
+}
+.markdown-rendered video {
+    max-width: 100%;
+    outline: none;
+    border-radius: 5px!important;
+}
 
 .markdown-embed {
     border-radius: var(--embed-border-radius);
@@ -8397,6 +8405,7 @@ body.seamless-embeds {
     display: block;
     margin-left: auto !important;
     margin-right: auto !important;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .img-center-align .print :is(.markdown-preview-view, .markdown-rendered) img:is([class=""], .image-ready-resize, .image-ready-click-view),

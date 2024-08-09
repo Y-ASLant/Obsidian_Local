@@ -20,31 +20,19 @@
             }
           },
           {
-            "id": "f52e6d3f33bef928",
+            "id": "fe411c57b5541889",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/🔌 知识库插件列表.md",
+                "file": "索引.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "968877fa078c2095",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/🔌 知识库插件列表.md",
-                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/🔌 知识库插件列表.md",
+                "file": "索引.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/🔌 知识库插件列表.md",
+                "file": "索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/🔌 知识库插件列表.md"
+                "file": "索引.md"
               }
             }
           }
@@ -206,13 +194,18 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "968877fa078c2095",
+  "active": "fe411c57b5541889",
   "lastOpenFiles": [
-    "索引.md",
-    "Obsidian/未命名.md",
-    "实习/YoloV5s/模型训练-Full.md",
     "Obsidian/笔记样式.md",
+    "视频课程/庆余年.md",
+    "视频课程/8K HDR.md",
+    "实习/YoloV5s/模型训练-Full.md",
+    "前端/屏蔽浏览器左下角链接.md",
+    "前端/点击特效.md",
+    "前端/加载动画.md",
+    "索引.md",
     "Obsidian/🔌 知识库插件列表.md",
+    "Obsidian/未命名.md",
     "Linux/使用dd命令拷贝镜像.md",
     "实习/YoloV5s/TensorRT 模型转换.md",
     "实习/Ubuntu.md",
@@ -229,11 +222,6 @@
     "杂/README.md",
     "杂/README - 副本.md",
     "杂/Git提交流程.md",
-    "杂/Cloudflare.md",
-    "杂/CET4.md",
-    "杂/AAA.md",
-    "Win/索引.md",
-    "编程语言/解释型语言/Python/安装Python环境.md",
     "ASLant_Files/be296990492862d57d2bed76943a4ce2_MD5.jpg",
     "ASLant_Files/2024-07-28-15-01-55.png",
     "ASLant_Files/2024-07-28-15-00-33.png",
